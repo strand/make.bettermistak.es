@@ -4,12 +4,31 @@
   <title>My Octopress Blog</title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2011-10-02T17:45:19-07:00</updated>
+  <updated>2011-10-02T18:40:29-07:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name>Your Name</name>
     
   </author>
 
+  
+  <entry>
+    <title>First Post</title>
+    <link href="http://yoursite.com/blog/2011/10/02/first-post/"/>
+    <updated>2011-10-02T18:16:00-07:00</updated>
+    <id>http://yoursite.com/blog/2011/10/02/first-post</id>
+    <content type="html">&lt;p&gt;Hello, internet.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I&amp;#8217;m generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry.&lt;/p&gt;
+
+&lt;p&gt;Below is a summary, notes to self, about how I got this thing up and running.&lt;/p&gt;
+
+&lt;p&gt;Today I successfully launched &lt;a href=&quot;http://make.bettermistak.es&quot;&gt;make.bettermistak.es&lt;/a&gt;. I followed the &lt;a href=&quot;http://octopress.org/docs/setup/&quot;&gt;setup guide&lt;/a&gt; for a fresh octopress install, then used the &lt;a href=&quot;http://octopress.org/docs/deploying/heroku/&quot;&gt;deploying to heroku guide&lt;/a&gt; to get it on to a host. I then followed heroku&amp;#8217;s &lt;a href=&quot;http://devcenter.heroku.com/articles/custom-domains&quot;&gt;custom domain guide&lt;/a&gt; to setup my main domain.&lt;/p&gt;
+
+&lt;p&gt;TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use &lt;a href=&quot;http://devcenter.heroku.com/articles/custom-domains#redirecting_traffic_to_a_specific_domain&quot;&gt;redirecting traffic to a specific domain&lt;/a&gt; to do so.&lt;/p&gt;
+
+&lt;p&gt;Then, after composing this post, I ran &lt;strong&gt;rake generate&lt;/strong&gt;, &lt;strong&gt;rake post&lt;/strong&gt;, &lt;strong&gt;rake preview&lt;/strong&gt;, as outlined on the &lt;a href=&quot;http://octopress.org/docs/blogging/&quot;&gt;blogging guide&lt;/a&gt;, to make the markdown into HTML. After that &lt;strong&gt;git add .&lt;/strong&gt;, &lt;strong&gt;git commit -m &amp;#8216;first post!&amp;#8217;&lt;/strong&gt;, and &lt;strong&gt;git push heroku master&lt;/strong&gt; to upload it to the web.&lt;/p&gt;
+</content>
+  </entry>
   
 </feed>

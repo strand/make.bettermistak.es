@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="                      Blog Archives                    Recent Posts          ">
+  <meta name="description" content="Hello, internet.I&#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -61,6 +61,50 @@
       <div class="blog-index">
   
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/10/02/first-post/">First Post</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-10-02T18:16:00-07:00" pubdate  data-updated="true" >Oct 2<span>nd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hello, internet.</p>
+
+<p>I&#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I&#8217;m generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry.</p>
+
+<p>Below is a summary, notes to self, about how I got this thing up and running.</p>
+
+<p>Today I successfully launched <a href="http://make.bettermistak.es">make.bettermistak.es</a>. I followed the <a href="http://octopress.org/docs/setup/">setup guide</a> for a fresh octopress install, then used the <a href="http://octopress.org/docs/deploying/heroku/">deploying to heroku guide</a> to get it on to a host. I then followed heroku&#8217;s <a href="http://devcenter.heroku.com/articles/custom-domains">custom domain guide</a> to setup my main domain.</p>
+
+<p>TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use <a href="http://devcenter.heroku.com/articles/custom-domains#redirecting_traffic_to_a_specific_domain">redirecting traffic to a specific domain</a> to do so.</p>
+
+<p>Then, after composing this post, I ran <strong>rake generate</strong>, <strong>rake post</strong>, <strong>rake preview</strong>, as outlined on the <a href="http://octopress.org/docs/blogging/">blogging guide</a>, to make the markdown into HTML. After that <strong>git add .</strong>, <strong>git commit -m &#8216;first post!&#8217;</strong>, and <strong>git push heroku master</strong> to upload it to the web.</p>
+</div>
+  
+  
+
+
+    </article>
+  
   <nav class="pagination">
     <div>
       
@@ -74,6 +118,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/10/02/first-post/">First Post</a>
+      </li>
     
   </ul>
 </section>
