@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>My Octopress Blog</title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2011-10-02T18:45:38-07:00</updated>
-  <id>http://yoursite.com/</id>
+  <title>make better mistakes</title>
+  <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
+  <link href="http://make.bettermistak.es/"/>
+  <updated>2011-10-02T20:04:33-07:00</updated>
+  <id>http://make.bettermistak.es/</id>
   <author>
-    <name>Your Name</name>
+    <name>Strand</name>
+    
+      <email>strand@bettermistak.es</email>
     
   </author>
 
   
   <entry>
     <title>First Post</title>
-    <link href="http://yoursite.com/blog/2011/10/02/first-post/"/>
+    <link href="http://make.bettermistak.es/blog/2011/10/02/first-post/"/>
     <updated>2011-10-02T18:16:00-07:00</updated>
-    <id>http://yoursite.com/blog/2011/10/02/first-post</id>
+    <id>http://make.bettermistak.es/blog/2011/10/02/first-post</id>
     <content type="html">&lt;p&gt;Hello, internet.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I&amp;#8217;m generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry.&lt;/p&gt;
