@@ -16,7 +16,7 @@ Today I successfully launched [make.bettermistak.es][1]. I followed the [setup g
 
 TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use [redirecting traffic to a specific domain][5] to do so.
 
-Then, after composing this post, I ran **rake generate**, **rake post**, **rake preview**, as outlined on the [blogging guide][6], to make the markdown into HTML. After that **git add .**, **git commit -m 'first post!'**, and **git push heroku master** to upload it to the web.
+Then, after composing this post, I ran **rake generate**, mentioned in the [blogging guide][6], to make the markdown into HTML. After that **git add .**, **git commit -m 'first post!'**, and **git push heroku master** to upload it to the web.
 
 [1]:	http://make.bettermistak.es
 [2]:	http://octopress.org/docs/setup/
