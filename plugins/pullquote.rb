@@ -1,10 +1,11 @@
 #
 # Author: Brandon Mathis
 # Based on the sematic pullquote technique by Maykel Loomans at http://miekd.com/articles/pull-quotes-with-html5-and-css/
+# TODO: figure out how to correct typos in the Octopress source.
 #
 # Outputs a span with a data-pullquote attribute set from the marked pullquote. Example:
 #
-#   {% pullquote %}
+#   {% pullquote %} #TODO investigate pullquote-left functionality.
 #     When writing longform posts, I find it helpful to include pullquotes, which help those scanning a post discern whether or not a post is helpful.
 #     It is important to note, {" pullquotes are merely visual in presentation and should not appear twice in the text. "} That is why it is prefered
 #     to use a CSS only technique for styling pullquotes.

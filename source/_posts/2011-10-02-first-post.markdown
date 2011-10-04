@@ -14,7 +14,7 @@ Below is a summary, notes to self, about how I got this thing up and running.
 
 Today I successfully launched [make.bettermistak.es][1]. I followed the [setup guide][2] for a fresh octopress install, then used the [deploying to heroku guide][3] to get it on to a host. I then followed heroku's [custom domain guide][4] to setup my main domain.
 
-TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use [redirecting traffic to a specific domain][5] to do so.
+TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use [redirecting traffic to a specific domain][5] to do so. # TODO: Move todo to a non-content location so it is not copied three times.
 
 Then, after composing this post, I ran **rake generate**, mentioned in the [blogging guide][6], to make the markdown into HTML. After that **git add .**, **git commit -m 'first post!'**, and **git push heroku master** to upload it to the web.
 

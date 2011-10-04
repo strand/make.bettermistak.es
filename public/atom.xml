@@ -4,7 +4,7 @@
   <title>make better mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-10-02T20:04:33-07:00</updated>
+  <updated>2011-10-03T21:30:02-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -27,7 +27,7 @@
 
 &lt;p&gt;Today I successfully launched &lt;a href=&quot;http://make.bettermistak.es&quot;&gt;make.bettermistak.es&lt;/a&gt;. I followed the &lt;a href=&quot;http://octopress.org/docs/setup/&quot;&gt;setup guide&lt;/a&gt; for a fresh octopress install, then used the &lt;a href=&quot;http://octopress.org/docs/deploying/heroku/&quot;&gt;deploying to heroku guide&lt;/a&gt; to get it on to a host. I then followed heroku&amp;#8217;s &lt;a href=&quot;http://devcenter.heroku.com/articles/custom-domains&quot;&gt;custom domain guide&lt;/a&gt; to setup my main domain.&lt;/p&gt;
 
-&lt;p&gt;TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use &lt;a href=&quot;http://devcenter.heroku.com/articles/custom-domains#redirecting_traffic_to_a_specific_domain&quot;&gt;redirecting traffic to a specific domain&lt;/a&gt; to do so.&lt;/p&gt;
+&lt;p&gt;TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use &lt;a href=&quot;http://devcenter.heroku.com/articles/custom-domains#redirecting_traffic_to_a_specific_domain&quot;&gt;redirecting traffic to a specific domain&lt;/a&gt; to do so. # TODO: Move todo to a non-content location so it is not copied three times.&lt;/p&gt;
 
 &lt;p&gt;Then, after composing this post, I ran &lt;strong&gt;rake generate&lt;/strong&gt;, mentioned in the &lt;a href=&quot;http://octopress.org/docs/blogging/&quot;&gt;blogging guide&lt;/a&gt;, to make the markdown into HTML. After that &lt;strong&gt;git add .&lt;/strong&gt;, &lt;strong&gt;git commit -m &amp;#8216;first post!&amp;#8217;&lt;/strong&gt;, and &lt;strong&gt;git push heroku master&lt;/strong&gt; to upload it to the web.&lt;/p&gt;
 </content>
