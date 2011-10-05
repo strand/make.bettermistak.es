@@ -18,6 +18,35 @@
 #     </span>
 #   </p>
 #
+=begin
+
+TODO# Fix plugin so it can identify left aligned pullquotes.
+module Jekyll
+
+  class PullquoteTag < Liquid::Block
+    
+    def initialize(tag_name, markup, tokens)
+      markup =~ /align:left/i ? @align = "left" : @align = "right"
+      puts @align
+      super
+    end
+
+    def render(context)
+      output = super
+      if output.join =~ /\{"\s*(.+)\s*"\}/
+        @quote = $1
+        "<span class='has-pullquote' data-pullquote='#{@quote}'>#{output.join.gsub(/\{"\s*|\s*"\}/, '')}</span>"
+      else
+        return "Surround your pullquote like this {\" text to be quoted \"}"
+      end
+    end
+    
+  end
+  
+end
+
+Liquid::Template.register_tag('pullquote', Jekyll::PullquoteTag)
+=end
 
 module Jekyll
 
