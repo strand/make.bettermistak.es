@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>make better mistakes</title>
+  <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-10-05T09:08:14-07:00</updated>
+  <updated>2011-10-09T16:40:29-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,35 @@
     
   </author>
 
+  
+  <entry>
+    <title>Resources</title>
+    <link href="http://make.bettermistak.es/blog/2011/10/09/resources/"/>
+    <updated>2011-10-09T16:37:00-07:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/10/09/resources</id>
+    <content type="html">&lt;p&gt;I believe my attention, time, and money are the most valuable resources I have. Actually, I think it all comes down to my attention, what I choose to pay attention to and care about, but my time and money are the commonly traded commodities that let me pay more attention to things.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m feeling really low resource these days. I&amp;#8217;ve got a full life. I started a new job three months ago. I&amp;#8217;m building a domestic life with my partner and cohabitator. I also try to make time to socialize. And somehow, coding and writing get thrown under the bus because at the end of the day I&amp;#8217;d rather poke the internet while watching TNG with my partner then try to build something new while working with stress and tension. Of course, researchers have found that for the sort of creative work I do, one can only create quality solutions if they are well rested.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve got a backlog of stuff in its first draft. I&amp;#8217;m feeling time-crunched. The fact that I&amp;#8217;ve got a backlog of things to edit or code on tells me one thing: I need to kill my darlings.&lt;/p&gt;
+
+&lt;p&gt;My attention is in low supply.&lt;/p&gt;
+
+&lt;p&gt;Which leaves me in an uncomfortable crunch. I&amp;#8217;m making a more cogent effort to budget time. I&amp;#8217;ve scheduled office hours: five hours on both Saturday and Sunday, and an hour and a half on weeknights. I&amp;#8217;ll check in next week with my progress. My metric of progress, the number of twenty minute tasks I can work on in a week.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m feeling engaged again with my coding efforts. There are a number of interesting projects others are working on on my radar. The one I&amp;#8217;m going to attack first is making improvements to Octopress plugins. The whole Jekyll framework is a new pond to play in, so I don&amp;#8217;t know what I don&amp;#8217;t know yet.&lt;/p&gt;
+
+&lt;p&gt;I will also be helping my partner establish her own Octopress blog. She maintains a blog for her poetry, and in our conversations about starting a new blog (one which would house rants and political essays) she has sounded genuinely interested to learn about the system I use. This is going to be a great learning experience for the both of us, I&amp;#8217;ll get to show her how the command line works, what markdown is, and how to work within a project framework as a writer. That&amp;#8217;s really cool and it will allow her to touch on a bunch of tech that she hasn&amp;#8217;t been exposed to. The coolest thing about it is I can see her transitioning as someone who is tech averse due to her family being on the wrong side of the digital divide to someone who is tech critical because this stuff ain&amp;#8217;t always as friendly to newcomers as it needs to be.&lt;/p&gt;
+
+&lt;p&gt;I guess the other project that&amp;#8217;s already been happening, accidentally, is I have formed a cohort online. I&amp;#8217;ve been running into a lot of friendly folks on Twitter, and I feel more comfortable voicing my questions today than I did even a month ago. Tech can be a weird place, you&amp;#8217;ve got evangelists of course, but sometimes the true believers shun you for ignorance rather than welcome you for your fresh perspective. I&amp;#8217;m finding a community that isn&amp;#8217;t mean-spirited, and that&amp;#8217;s really helpful. Also, sometimes they share pictures of their cats.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m hoping to start coursework at UW in the Winter and Spring. I found out about a &lt;a href=&quot;http://www.pce.uw.edu/prog.aspx?id=7432&quot;&gt;certificate in Ruby on Rails&lt;/a&gt; through my friend &lt;a href=&quot;http://twitter.com/#!/nellshamrell&quot;&gt;@nellshamrell&lt;/a&gt;. I found out too late to get in the Autumn quarter, but hopefully I can get into later classes. Even if I don&amp;#8217;t, I think I&amp;#8217;ll be iterating and learning as quickly as possible.&lt;/p&gt;
+
+&lt;p&gt;Fail Faster,&lt;/p&gt;
+
+&lt;p&gt;Strand&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>First Post</title>
