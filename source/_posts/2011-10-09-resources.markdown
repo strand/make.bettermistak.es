@@ -5,7 +5,7 @@ date: 2011-10-09 16:37
 comments: true
 categories: 
 ---
-I believe attention, time, and money are the most valuable resources I have. Actually, I think it all comes down to my attention, what I choose to pay attention to and care about, but my time and money are the commonly traded commodities that let me pay more attention to things.
+I believe my attention, time, and money are the most valuable resources I have. Actually, I think it all comes down to my attention, what I choose to pay attention to and care about, but my time and money are the commonly traded commodities that let me pay more attention to things.
 
 
 I'm feeling really low resource these days. I've got a full life. I started a new job three months ago. I'm building a domestic life with my partner and cohabitator. I also try to make time to socialize. And somehow, coding and writing get thrown under the bus because at the end of the day I'd rather poke the internet while watching TNG with my partner then try to build something new while working with stress and tension. Of course, researchers have found that for the sort of creative work I do, one can only create quality solutions if they are well rested.

@@ -37,7 +37,8 @@ h1 {
 #{headings()}{
   @extend .heading;
   text-rendering: optimizelegibility;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
   font-weight: bold;
 }
 h2, section h1 {
@@ -55,7 +56,9 @@ h5, section h4, section section h3 {
 h6, section h5, section section h4, section section section h3 {
   font-size: .8em;
 }
-p, blockquote, ul, ol {  margin-bottom: 1.5em; }
+p, blockquote, ul, ol { 
+//  margin-bottom: 1.5em; 
+}
 
 ul { list-style-type: disc;
   ul { list-style-type: circle;
@@ -135,16 +138,31 @@ blockquote {
   top: 7px;
   font-size: 1.4em;
   line-height: 1.45em;
-
-
-  a-line: {
-    left: {
-      float: left; margin: .5em 1.5em 1em 0;
-    }
-  }
 }
 
+/* Pullquoteleft */
 
+.has-pullquoteleft:before {
+  /* Reset metrics. */
+  padding: 0;
+  border: none;
+
+  /* Content */
+  content: attr(data-pullquote);
+
+  /* Pull out to the right, modular scale based margins. */
+  float: left;
+  width: 45%;
+  margin: .5em 1.5em 1em 0;
+
+  /* Baseline correction */
+  position: relative;
+  top: 7px;
+  font-size: 1.4em;
+  line-height: 1.45em;
+}
+
+/* EndPullquoteleft */
 /* @extend this to force long lines of continuous text to wrap */
 .force-wrap {
   white-space: -moz-pre-wrap;
