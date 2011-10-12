@@ -120,7 +120,7 @@ blockquote {
   } */
 }
 
-.has-pullquote:before {
+.has-pullquote:before, .has-pullquoteleft:before {
   /* Reset metrics. */
   padding: 0;
   border: none;
@@ -140,29 +140,13 @@ blockquote {
   line-height: 1.45em;
 }
 
-/* Pullquoteleft */
-
 .has-pullquoteleft:before {
-  /* Reset metrics. */
-  padding: 0;
-  border: none;
 
-  /* Content */
-  content: attr(data-pullquote);
-
-  /* Pull out to the right, modular scale based margins. */
+  /* Make left pullquotes align properly. */
   float: left;
-  width: 45%;
   margin: .5em 1.5em 1em 0;
 
-  /* Baseline correction */
-  position: relative;
-  top: 7px;
-  font-size: 1.4em;
-  line-height: 1.45em;
 }
-
-/* EndPullquoteleft */
 /* @extend this to force long lines of continuous text to wrap */
 .force-wrap {
   white-space: -moz-pre-wrap;
