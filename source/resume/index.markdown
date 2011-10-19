@@ -24,11 +24,11 @@ I like the following tools: bash, CSS, HTML, Javascript, Markdown, Rails, and Ru
 
 **Production Specialist,** Microsoft contracting through Aquent, July 2011 – Present  
 
-* Communicate with customers and vendors about ongoing projects.
-* Edit XML content using internal tools.
-* Query databases using internal tools.
-* Run shell commands and scripts to prepare content for localization handoffs.
-* Investigate details and troubleshoot problems to resolve tickets.
+* Communicated with customers and vendors about ongoing projects.
+* Edited XML content using internal tools.
+* Queried databases using internal tools.
+* Ran shell commands and scripts to prepare content for localization handoffs.
+* Investigated details and troubleshot problems to resolve tickets.
 
 **Consultant,** _Content Migration Project,_ Aquent Studios, March 2011 – May 2011
 

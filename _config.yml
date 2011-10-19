@@ -57,7 +57,7 @@ github_skip_forks: true
 # Twitter
 twitter_user: strabd
 twitter_tweet_count: 6
-twitter_show_replies: true
+twitter_show_replies: fals\
 twitter_follow_button: true
 twitter_show_follower_count: false
 twitter_tweet_button: true

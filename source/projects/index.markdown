@@ -12,15 +12,19 @@ footer: true
 * Regular posts **need to be scheduled.**
 
 ## Octopress ##
-* Pullquote plugin: implemented a left-aligning pullquote. **Status: [Pull Request][1] in review.**
-* Blockquote plugin: **make seperate pull request.** Use the [branching guide][5], then work on the new branch.
+* Close and resubmit pull requests
+** Pullquote plugin: implemented a left-aligning pullquote. **Status: [Pull Request][1] in review.**
+** Blockquote plugin: made seperate [pull request][10]. Used the [branching guide][5], then work on the new branch.
+* Sub-menu navigation (dropdown)? No idea how to implement or if the community would find it useful.
 
 ## Review Resources ##
 **Review** the resources listed below, an hour or two a day.
 
 ### Resources ###
-* Learning Rails 3
-* Rails Recipes
+* [Learning Rails 3][9]
+* [Rails Recipes: Rails 3][8] - Skimmed over section headings, need a decent refresher before using most material.
+* [Javascript the Good Parts][7]
+* [bash Cookbook][6]
 
 ## Possible projects ##
 ### Rubini.us ??? ###
@@ -53,3 +57,8 @@ better oauth support for node.js. Really, anything that they have in Ruby, but n
 [2]:	http://rubyspec.org/
 [3]:	http://rubini.us/doc/en/
 [5]:	http://book.git-scm.com/3_basic_branching_and_merging.html
+[6]:	http://shop.oreilly.com/product/9780596526788.do
+[7]:	http://shop.oreilly.com/product/9780596517748.do
+[8]:	http://pragprog.com/book/rr2/rails-recipes
+[9]:	http://shop.oreilly.com/product/0636920021322.do
+[10]:	https://github.com/imathis/octopress/pull/220
