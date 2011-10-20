@@ -8,7 +8,7 @@ categories:
 Contracts end. Sometimes they end a little more abruptly then one might like.
 
 I was working as a production specialist at Microsoft until recently. Nine days ago, at a Monday morning one-on-one, my manager asked me if I wanted to be doing the work. I don't make a habit of lying, and I had to say "not really." In the conversation that unfolded we determined what I would do to wrap up my work that day.
-
+<!-- more -->
 I had been contracting there for three months, and regrettably I wasn't a good fit for their culture.
 
 Unfortunately, that pulled the plug on my household's primary source of income. We have some savings, but my partner has been struggling in underemployment for the past year. Realistically, it will be months till I find another job. It could be longer.

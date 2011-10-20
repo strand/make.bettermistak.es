@@ -9,7 +9,7 @@ categories:
 Hello, internet. 
 
 I'm just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I'm generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry. 
-
+<!-- more -->
 Below is a summary, notes to self, about how I got this thing up and running.
 
 Today I successfully launched [make.bettermistak.es][1]. I followed the [setup guide][2] for a fresh octopress install, then used the [deploying to heroku guide][3] to get it on to a host. I then followed heroku's [custom domain guide][4] to setup my main domain.

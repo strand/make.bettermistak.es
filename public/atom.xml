@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-10-19T10:42:02-07:00</updated>
+  <updated>2011-10-20T01:28:31-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -22,6 +22,9 @@
     <content type="html">&lt;p&gt;Contracts end. Sometimes they end a little more abruptly then one might like.&lt;/p&gt;
 
 &lt;p&gt;I was working as a production specialist at Microsoft until recently. Nine days ago, at a Monday morning one-on-one, my manager asked me if I wanted to be doing the work. I don&amp;#8217;t make a habit of lying, and I had to say &amp;#8220;not really.&amp;#8221; In the conversation that unfolded we determined what I would do to wrap up my work that day.&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
 
 &lt;p&gt;I had been contracting there for three months, and regrettably I wasn&amp;#8217;t a good fit for their culture.&lt;/p&gt;
 
@@ -43,6 +46,9 @@
     <content type="html">&lt;p&gt;I believe my attention, time, and money are the most valuable resources I have. Actually, I think it all comes down to my attention, what I choose to pay attention to and care about, but my time and money are the commonly traded commodities that let me pay more attention to things.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m feeling really low resource these days. I&amp;#8217;ve got a full life. I started a new job three months ago. I&amp;#8217;m building a domestic life with my partner and cohabitator. I also try to make time to socialize. And somehow, coding and writing get thrown under the bus because at the end of the day I&amp;#8217;d rather poke the internet while watching TNG with my partner then try to build something new while working with stress and tension. Of course, researchers have found that for the sort of creative work I do, one can only create quality solutions if they are well rested.&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
 
 &lt;p&gt;I&amp;#8217;ve got a backlog of stuff in its first draft. I&amp;#8217;m feeling time-crunched. The fact that I&amp;#8217;ve got a backlog of things to edit or code on tells me one thing: I need to kill my darlings.&lt;/p&gt;
 
@@ -72,6 +78,9 @@
     <content type="html">&lt;p&gt;Hello, internet.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I&amp;#8217;m generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry.&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
 
 &lt;p&gt;Below is a summary, notes to self, about how I got this thing up and running.&lt;/p&gt;
 
