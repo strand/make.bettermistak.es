@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-10-20T01:28:31-07:00</updated>
+  <updated>2011-10-21T12:59:12-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -15,13 +15,61 @@
 
   
   <entry>
+    <title>My First Three Pull Requests</title>
+    <link href="http://make.bettermistak.es/blog/2011/10/21/my-first-three-pull-requests/"/>
+    <updated>2011-10-21T11:37:00-07:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/10/21/my-first-three-pull-requests</id>
+    <content type="html">&lt;p&gt;In the last couple of weeks I&amp;#8217;ve made a few pull requests on Octopress, which is the blogging platform this blog uses. The primary reason I was making the pull requests, oddly enough, was to get a sense of how the process of making changes and improvements on github works. One of the things I picked up from it was a better understanding of the use and nuance of git.&lt;/p&gt;
+
+&lt;p&gt;The three pull requests I made were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/imathis/octopress/pull/215&quot;&gt;Pullquote left&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/imathis/octopress/pull/220&quot;&gt;Blockquote improvement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/imathis/octopress/pull/233&quot;&gt;Alternate read more link text&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;The first request got approved, the second is languishing with no current action, and the third got quickly requested, with an excellent conversation.&lt;/p&gt;
+
+&lt;!&#8211;more&#8211;&gt;
+
+
+&lt;p&gt;My improvements to Octopress focused on making minor changes to presentational issues. I got to play around with other people&amp;#8217;s Ruby code, learn how Jekyll&amp;#8217;s Liquid tagging system works, learn a little bit about SASS and regular expressions, and discuss the particulars of code with project leads.&lt;/p&gt;
+
+&lt;p&gt;The pullquote left improvement made the existing pullquote plugin accept an argument of &amp;#8220;left&amp;#8221; which formats that pullquote on the left side instead of the default of right. I wrote a rudimentary regular expression to match it and modified the existing &amp;#8220;has-pullquote&amp;#8221; class to create the &amp;#8220;pullquote-right&amp;#8221; and &amp;#8220;pullquote-left&amp;#8221; classes which are used by the SASS to format the text properly. &lt;span class=&#8217;pullquote-right&#8217; data-pullquote=&#8217;A possible future improvement is implementing automated alternating pullquote functionality&#8217;&gt; A possible future improvement is implementing automated alternating pullquote functionality &lt;/span&gt; so that posts with multiple pullquotes switch off between left and right.&lt;/p&gt;
+
+&lt;p&gt;My next improvement was a change in the implementation of blockquotes. Octopress has three ways in which the Markdown will translate into blockquotes, and I believe there is a semantic difference in how blockquotes are used which should lead to two related but varied styles of presentation. Blockquotes can be created using a blockquote tag, using Markdown&amp;#8217;s &amp;#8216;&gt;&amp;#8217; which emulates email threading, or by using the liquid tag blockquote which invokes &lt;a href=&quot;http://octopress.org/docs/plugins/blockquote/&quot;&gt;Octopress&amp;#8217; blockquote plugin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately this request is hard to read, because I accidentally made the changes on the same branch and so my pull request accidentally merged changes from the earlier pullquote request. I believe this is part of the reason it&amp;#8217;s received little attention. Additionally, &lt;span class=&#8217;pullquote-left&#8217; data-pullquote=&#8217;I did a poor job of initially explaining why the difference between how the blockquote plugin is invoked&#8217;&gt; I did a poor job of initially explaining why the difference between how the blockquote plugin is invoked &lt;/span&gt;, which made arguing that the different versions should be styled differently difficult.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here&amp;#8217;s the basic problem:&lt;/strong&gt; when someone calls the blockquote plugin using the liquid tag, it adds styling which is entirely appropriate for quoting someone. Specifically, it makes the text larger, by a factor of twenty percent. This formatting applies the same when you&amp;#8217;re using Markdown&amp;#8217;s right caret to make blockquotes, but this is a different kind of blockquote. Specifically, this blockquote is likely to be nested, and the liquid tag shouldn&amp;#8217;t ever be nested. When blockquote styling is nested it scales up. A first level blockquote is 120% of normal text size, second level is 144%, third level is 173%, and fourth level is 207%.&lt;/p&gt;
+
+&lt;p&gt;Anyhow, it&amp;#8217;s an edge case that people will be invoking nested blockquotes, but it&amp;#8217;s certainly a fixable edge case.&lt;/p&gt;
+
+&lt;p&gt;The last pull request I made started as an attempt to start building my own plugin. And after a few hours of working on it I discovered that what I was working on duplicated existing functionality. I wanted to implement a &amp;#8220;read more&amp;#8221; plugin, which would either create a link to the permalink of an article on the blog&amp;#8217;s index, or alternately, use javascript to hide content past the read more link until the reader clicked on it.&lt;/p&gt;
+
+&lt;p&gt;Two decent implementations of this idea are &lt;a href=&quot;http://codex.wordpress.org/Customizing_the_Read_More&quot;&gt;WordPress&amp;#8217; read more&lt;/a&gt; and the Slog&amp;#8217;s continue reading. WordPress&amp;#8217; implementation was the one I was most familiar with, and I wanted to do something similar, except I thought that using the liquid tag instead of an html comment might leave devs with future flexibility. After I had spent a couple of hours working to figure out the details of this sort of implementation, I realized that this functionality already existed in &lt;a href=&quot;https://github.com/imathis/octopress/blob/master/plugins/octopress_filters.rb&quot;&gt;Octopress&amp;#8217; octopress_filters&lt;/a&gt; plugin, though it used a standard html comment. So I switched gears and thought about how I could improve the existing filter.&lt;/p&gt;
+
+&lt;p&gt;As written, this filter lacked a feature which I knew existed in the WordPress version it was modeled after. You couldn&amp;#8217;t change the read more text inline, and so what this says to entice the reader to click through remains the same site-wide. &lt;span class=&#8217;pullquote-right&#8217; data-pullquote=&#8217;I learned from my previous experience and created a separate branch&#8217;&gt; I learned from my previous experience and created a separate branch &lt;/span&gt; so that my pull request would only have changes made related to this improvement.&lt;/p&gt;
+
+&lt;p&gt;I altered the existing regular expressions in post_filters so that they would be slightly more liberal in what they accepted as a read more comment, so that it would include ones which had the alternate text in the tag itself. Then I implemented some conditional logic within the article template using Liquid tagging, so that when the more tag contained alternate link text, that text would be pulled out by the post_filters plugin, then displayed on posts in the blog index. I made a request and within an hour &lt;a href=&quot;https://github.com/imathis/&quot;&gt;@imathis&lt;/a&gt;, Octopress&amp;#8217; creator and maintainer had rejected the request.&lt;/p&gt;
+
+&lt;p&gt;I could be disappointed that my request was squarely rejected, but I learned a lot in the process of trying to change the code, and the post-mortem discussion is really valuable in that it lets me see what type of change is wanted on this project.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t know if I&amp;#8217;m going to continue trying to improve Octopress, though it might be nice to create a decent footnote plugin for it.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Contracts and Tethers</title>
     <link href="http://make.bettermistak.es/blog/2011/10/19/contracts-and-tethers/"/>
     <updated>2011-10-19T10:38:00-07:00</updated>
     <id>http://make.bettermistak.es/blog/2011/10/19/contracts-and-tethers</id>
     <content type="html">&lt;p&gt;Contracts end. Sometimes they end a little more abruptly then one might like.&lt;/p&gt;
 
-&lt;p&gt;I was working as a production specialist at Microsoft until recently. Nine days ago, at a Monday morning one-on-one, my manager asked me if I wanted to be doing the work. I don&amp;#8217;t make a habit of lying, and I had to say &amp;#8220;not really.&amp;#8221; In the conversation that unfolded we determined what I would do to wrap up my work that day.&lt;/p&gt;
+&lt;p&gt;I was working as a production specialist at Microsoft until recently. Nine days ago, at a Monday
+ morning one-on-one, my manager asked me if I wanted to be doing the work. I don&amp;#8217;t make a habit of lying, and I had to say &amp;#8220;not really.&amp;#8221; In the conversation that unfolded we determined what I would do to wrap up my work that day.&lt;/p&gt;
 
 &lt;!&#8211; more &#8211;&gt;
 
