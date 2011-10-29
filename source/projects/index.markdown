@@ -25,10 +25,18 @@ footer: true
 * [Rails Recipes: Rails 3][8] - Skimmed over section headings, need a decent refresher before using most material.
 * [Javascript the Good Parts][7]
 * [bash Cookbook][6]
+* [Programming Ruby][12]
+* [Seven Languages in Seven Weeks][13]
+* [Agile Web Development with Rails][14]
+* [Patterns of Enterprise Application Architecture][15] - recommended by @steveklabnik, do not yet own a copy.
+
+#### Specific topics ####
+
+* "[Cryptic variables][11]" in Ruby (like dollar zero).
 
 ## Possible projects ##
 ### Rubini.us ??? ###
-[Rubini.us][4] / [RubySpec][2] improvement ([docs?][3]) — Requires install of rubini.us. Is RubySpec directly related?
+[Rubini.us][4] / [RubySpec][2] improvement ([docs?][3]) — Requires install of rubini.us. Is RubySpec directly related? See also: http://www.codelord.net/2011/10/11/submitting-your-first-patch-to-rubinius/
 
 ### Gender/Sexuality Selectors ###
 {% blockquote @lindseybieda https://twitter.com/#!/lindseybieda/status/121955360918601728 %}
@@ -62,3 +70,8 @@ better oauth support for node.js. Really, anything that they have in Ruby, but n
 [8]:	http://pragprog.com/book/rr2/rails-recipes
 [9]:	http://shop.oreilly.com/product/0636920021322.do
 [10]:	https://github.com/imathis/octopress/pull/220
+[11]:	http://jimneath.org/2010/01/04/cryptic-ruby-global-variables-and-their-meanings.html
+[12]:	http://pragprog.com/book/ruby3/programming-ruby-1-9
+[13]:	http://pragprog.com/book/btlang/seven-languages-in-seven-weeks
+[14]:	http://pragprog.com/book/rails4/agile-web-development-with-rails
+[15]:	http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420
