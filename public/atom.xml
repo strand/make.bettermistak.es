@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-10-29T11:48:50-07:00</updated>
+  <updated>2011-11-06T15:06:09-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,37 @@
     
   </author>
 
+  
+  <entry>
+    <title>Music Management With the Swiss Army Chainsaw</title>
+    <link href="http://make.bettermistak.es/blog/2011/11/06/music-management-with-the-swiss-army-chainsaw/"/>
+    <updated>2011-11-06T15:04:00-08:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/11/06/music-management-with-the-swiss-army-chainsaw</id>
+    <content type="html">&lt;p&gt;Last night I was cleaning out my music collection… I know, not the most interesting Saturday night, but over the last decade my collection has gotten a little hairy.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s also grown to the size that pruning it by hand with Finder is nearly impossible.&lt;/p&gt;
+
+&lt;p&gt;Initially, I just wanted to find some files which had been accidentally duplicated. There were folders with a bunch of songs titled &lt;strong&gt;file.mp3&lt;/strong&gt; and &lt;strong&gt;file 1.mp3&lt;/strong&gt;. My first stab at this had me listing files and then filtering them by piping them to grep, and yielded commands that looked like this &lt;strong&gt;ls -Rd | grep -i &amp;#8217; 1.mp3&amp;#8217;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;After some filtering like that for a while I realized that find might be a better tool for the job.&lt;/p&gt;
+
+&lt;p&gt;I looked at find and ran several test  to figure out what I wanted. I came up with &lt;strong&gt;find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type f -iname &amp;#8216;* 1.MP3&amp;#8217; -exec rm -f {} \;&lt;/strong&gt; which finds all the files in my Music Archive which have the case-insensitive suffix of &amp;#8216;1.mp3&amp;#8217;, and when it finds them, it removes them with force, that is, it deletes the files without checking with me first.&lt;/p&gt;
+
+&lt;p&gt;After feeling the immense power of find I couldn&amp;#8217;t stop. I had to delete empty directories with &lt;strong&gt;find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -empty -exec rm -f {} \;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, I got curious, which was my first mistake. Could I come up with something that would find all of the directories with folders with just one file in them? After all, my archive was cluttered up with plenty of one-hit wonders. To figure out how many files a directory has you can run &lt;strong&gt;ls -1 | wc -l&lt;/strong&gt;. Which is to say, list all of the files in the current directory, each on a line, then pipe the results into the word count tool which is set to count the number of lines.&lt;/p&gt;
+
+&lt;p&gt;I experimented with using these commands in the -exec argument on find, but I ran into errors indicating that I needed to have a better understanding of bash fu to solve this problem.&lt;/p&gt;
+
+&lt;p&gt;So I went out for pho. When I got back to my apartment this problem was still tickling my brain, so I went to the bash IRC and asked for some advice.&lt;/p&gt;
+
+&lt;p&gt;With their help, I eventually ran &lt;strong&gt;time find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -exec bash -c &amp;#8216;cd &amp;#8220;$1&amp;#8221;; f=(&lt;em&gt;); (( ${#f[&lt;/em&gt;]} == 1 )) &amp;amp;&amp;amp; [[ -f $f ]] &amp;amp;&amp;amp; echo &amp;#8220;$1&amp;#8221; &gt;&gt; ~/Code/singletons.txt&amp;#8217; _ {} \; &amp;amp;&amp;amp; say &amp;#8220;I&amp;#8217;m done&amp;#8221;&lt;/strong&gt; which listed out all of the singletons in a text file for me. Though I must admit this incantation is voodoo to me. This is likely a problem which a shell script, rather than a one-liner, would be more apt to solve.&lt;/p&gt;
+
+&lt;p&gt;It was plenty fun to play around in the shell, I hope that next time I&amp;#8217;m better able to puzzle out quickly which commands are useful.&lt;/p&gt;
+
+&lt;p&gt;Lessons learned: bash is a great music management tool, if you don&amp;#8217;t mind pruning your collection with the Swiss Army chainsaw, the bash IRC is friendly and active, and appending &amp;#8220;; say &amp;#8216;Imdone&amp;#8217;&amp;#8221; to commands that run more than ten seconds will save your sanity.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>My First Three Pull Requests</title>
