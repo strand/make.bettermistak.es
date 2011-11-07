@@ -90,6 +90,9 @@
 
 <p>Initially, I just wanted to find some files which had been accidentally duplicated. There were folders with a bunch of songs titled <strong>file.mp3</strong> and <strong>file 1.mp3</strong>. My first stab at this had me listing files and then filtering them by piping them to grep, and yielded commands that looked like this <strong>ls -Rd | grep -i &#8217; 1.mp3&#8217;</strong>.</p>
 
+<!--more-->
+
+
 <p>After some filtering like that for a while I realized that find might be a better tool for the job.</p>
 
 <p>I looked at find and ran several test  to figure out what I wanted. I came up with <strong>find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type f -iname &#8216;* 1.MP3&#8217; -exec rm -f {} \;</strong> which finds all the files in my Music Archive which have the case-insensitive suffix of &#8216;1.mp3&#8217;, and when it finds them, it removes them with force, that is, it deletes the files without checking with me first.</p>
@@ -167,6 +170,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/11/06/ez-bake-french-toast/">EZ Bake French Toast</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/11/06/music-management-with-the-swiss-army-chainsaw/">Music Management With the Swiss Army Chainsaw</a>
       </li>
     
@@ -180,10 +187,6 @@
     
       <li class="post">
         <a href="/blog/2011/10/09/resources/">Resources</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/10/02/first-post/">First Post</a>
       </li>
     
   </ul>

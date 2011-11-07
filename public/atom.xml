@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-11-06T15:06:09-08:00</updated>
+  <updated>2011-11-06T16:52:19-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,31 @@
     
   </author>
 
+  
+  <entry>
+    <title>EZ Bake French Toast</title>
+    <link href="http://make.bettermistak.es/blog/2011/11/06/ez-bake-french-toast/"/>
+    <updated>2011-11-06T16:35:00-08:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/11/06/ez-bake-french-toast</id>
+    <content type="html">&lt;p&gt;Today I made some yummy French Toast, and it was way easier then I had expected. My recipe is as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Preheat oven to 400 with a cast iron skillet inside. Whip the following with a fork:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a splash of honey whiskey&lt;/li&gt;
+&lt;li&gt;an egg&lt;/li&gt;
+&lt;li&gt;a pinch of salt&lt;/li&gt;
+&lt;li&gt;a large pinch of sugar&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Dunk two slices of white bread in the mixture, taking care to get as much bread as possible to suck up the egg. Let set for ten or more minutes.&lt;/p&gt;
+
+&lt;p&gt;Place bread in the preheated skillet, and reduce the heat in the oven to 350. Cook ten minutes, flip, and then cook an additional ten minutes.&lt;/p&gt;
+
+&lt;p&gt;Serve with jam or Nutella. If you need syrup, avoid anything doctored with high fructose corn syrup like &lt;em&gt;yersinia pestis&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Music Management With the Swiss Army Chainsaw</title>
@@ -24,6 +49,9 @@
 &lt;p&gt;It&amp;#8217;s also grown to the size that pruning it by hand with Finder is nearly impossible.&lt;/p&gt;
 
 &lt;p&gt;Initially, I just wanted to find some files which had been accidentally duplicated. There were folders with a bunch of songs titled &lt;strong&gt;file.mp3&lt;/strong&gt; and &lt;strong&gt;file 1.mp3&lt;/strong&gt;. My first stab at this had me listing files and then filtering them by piping them to grep, and yielded commands that looked like this &lt;strong&gt;ls -Rd | grep -i &amp;#8217; 1.mp3&amp;#8217;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;!&#8211;more&#8211;&gt;
+
 
 &lt;p&gt;After some filtering like that for a while I realized that find might be a better tool for the job.&lt;/p&gt;
 

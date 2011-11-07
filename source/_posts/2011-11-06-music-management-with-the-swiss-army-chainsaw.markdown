@@ -11,6 +11,8 @@ It's also grown to the size that pruning it by hand with Finder is nearly imposs
 
 Initially, I just wanted to find some files which had been accidentally duplicated. There were folders with a bunch of songs titled **file.mp3** and **file 1.mp3**. My first stab at this had me listing files and then filtering them by piping them to grep, and yielded commands that looked like this **ls -Rd | grep -i ' 1\.mp3'**. 
 
+<!--more-->
+
 After some filtering like that for a while I realized that find might be a better tool for the job.
 
 I looked at find and ran several test  to figure out what I wanted. I came up with **find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type f -iname '* 1.MP3' -exec rm -f {} \;** which finds all the files in my Music Archive which have the case-insensitive suffix of '1.mp3', and when it finds them, it removes them with force, that is, it deletes the files without checking with me first.
