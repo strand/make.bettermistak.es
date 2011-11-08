@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-11-06T16:52:19-08:00</updated>
+  <updated>2011-11-08T13:04:58-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,35 @@
     
   </author>
 
+  
+  <entry>
+    <title>Rails for Zombies Is Fun</title>
+    <link href="http://make.bettermistak.es/blog/2011/11/08/rails-for-zombies-is-fun/"/>
+    <updated>2011-11-08T12:44:00-08:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/11/08/rails-for-zombies-is-fun</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;Note: &lt;a href=&quot;http://zfer.us/eyf1n&quot;&gt;Code School&lt;/a&gt; provides me a referral fee if folks sign up through some links in this post. Even without this fee, I would recommend their service.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t like webinars on the face of it, though perhaps I am judging a book by its cover. My experience with them is that a webinar will be a series of videos where someone captures their screen and drones narration while they perform some sort of boring task in whatever technology they are trying to demonstrate. Which, for me at least, isn&amp;#8217;t a great way to learn something.&lt;/p&gt;
+
+&lt;p&gt;Recently, I tried &lt;a href=&quot;http://railsforzombies.org/&quot;&gt;Rails for Zombies&lt;/a&gt; recently and I  enjoyed it. At first glance, Rails for Zombies appears to be a webinar, but it is really a well produced course. The course is led by Gregg Pollack, and all of the slides used are available as a PDF. After each video there is a level—a short quiz with a series of challenges which tests your knowledge of the material. &lt;span class=&#8217;pullquote-left&#8217; data-pullquote=&#8217;I know I am making progress with these small, well-defined challenges.&#8217;&gt;I know I am making progress with these small, well-defined challenges.&lt;/span&gt; The mix of questions is pretty good, with some being pretty easy to grok, while others require a few minutes of reviewing the material.&lt;/p&gt;
+
+&lt;p&gt;This course is thrown together for free by &lt;a href=&quot;http://zfer.us/eyf1n&quot;&gt;Code School&lt;/a&gt;, which has several courses on Ruby, JQuery, HTML5 and CSS3, as well as the Rails course. Once you&amp;#8217;ve completed the Rails for Zombies course they give you a five dollar credit to &amp;#8220;enroll&amp;#8221; in the school, at a cost of 25$ per month. Which is a bargain if you consider the courses individually are priced at 55$ apiece.&lt;sup id=&quot;refBody1&quot;&gt;&lt;a href=&quot;#refAnchor1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I had such a good time using the free version of Rails for Zombies that I have signed up for Code School and I am working on the second attack Rails for Zombies 2. These courses are a fun and engaging way to learn (or review) the basics of creating webapps in a Rails environment, and I&amp;#8217;m going to see how much I can get done in the next month, then likely freeze my subscription. I like Code School a lot, but they&amp;#8217;re currently only putting out a course a month, and I&amp;#8217;m currently trying to keep my bills at a minimum.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&quot;refAnchor1&quot;&gt;
+&lt;p&gt;I recognize this cost comparison is actually good marketing. Anyone who considers the monthly charge or the single-time fee will sign on for the subscription, and subscription services left uncanceled are more profitable than the purchase of products from time to time. &lt;a href=&quot;#refBody1&quot;  class=&#8217;footnoteBackLink&#8217;  title=&quot;Jump back to footnote 1 in the text.&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+
+
+</content>
+  </entry>
   
   <entry>
     <title>EZ Bake French Toast</title>
