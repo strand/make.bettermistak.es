@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-11-08T13:04:58-08:00</updated>
+  <updated>2011-11-13T20:02:27-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,29 @@
     
   </author>
 
+  
+  <entry>
+    <title>On Optimism</title>
+    <link href="http://make.bettermistak.es/blog/2011/11/13/on-optimism/"/>
+    <updated>2011-11-13T20:00:00-08:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/11/13/on-optimism</id>
+    <content type="html">&lt;p&gt;What traits make us better able to learn new skills? I think there&amp;#8217;s a handful of qualities we can foster to make skill acquisition easier, but optimism may be the most important one.&lt;/p&gt;
+
+&lt;p&gt;Recently I began reading &lt;a href=&quot;http://www.amazon.com/gp/product/1400078393/ref=as_li_tf_tl?ie=UTF8&amp;amp;tag=sibrar-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399369&amp;amp;creativeASIN=1400078393&quot;&gt;Learned Optimism&lt;/a&gt;, which claims that pessimists are significantly likelier to stay depressed than optimists are. I heard about the book after stumbling on a talk by &lt;a href=&quot;http://twitter.com/#!/raganwald&quot;&gt;@raganwald&lt;/a&gt; on &lt;a href=&quot;https://github.com/raganwald/homoiconic/blob/master/2009-05-01/optimism.md&quot;&gt;optimism&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The book is good. I&amp;#8217;m about halfway through it, and have taken tests which determine wether you are an optimist or a pessimist, and wether you are depressed or not, I can tell you that I am a pessimist, but I am not depressed.&lt;/p&gt;
+
+&lt;p&gt;I am especially glad to hear the second half of that. I have had depressions come and go since my teens, and this year has had it&amp;#8217;s ups and downs. If I didn&amp;#8217;t do a good job of maintaining myself, I could easily find myself in another depressive funk which might feel like it could go on forever.&lt;/p&gt;
+
+&lt;p&gt;The pessimist part of the quizzes is accurate, too. I am inclined to look at what can go wrong, and prepare well for when it eventually does. I am anxious, and tend to overthink my problems when I have them. Right now I am worrying if I am taking the right tact in this blog post.&lt;/p&gt;
+
+&lt;p&gt;When we&amp;#8217;re learning something new, it is good to have an optimistic frame of mind. Because, eventually, there will be a setback. My partner, who is less tech-inclined then I am, and when she runs into a problem that she cannot solve on the computer, she throws her hands up and says &amp;#8220;I&amp;#8217;m no good at tech.&amp;#8221; It pains me to see this. And it is a pessimistic approach to technology.&lt;/p&gt;
+
+&lt;p&gt;When bad things happen, like if our programming environment is near impossible to setup, an optimist explains it as being impersonal, specific, and temporary. &amp;#8220;It isn&amp;#8217;t my fault Foo++ 0.9 isn&amp;#8217;t easy to install, but the next version should be easier.&amp;#8221; When good things happen, like creating an app in a new environment, the optimist takes it as personal, general, and permanent. &amp;#8220;I&amp;#8217;m really smart, which is what made putting together my Foo++-based webserver so quick and easy. I&amp;#8217;m going to try building a bigger app next.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Optimism is the attitude we need to foster to better encourage persistent improvement, especially when (inevitably) things don&amp;#8217;t go as planned.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Rails for Zombies Is Fun</title>
