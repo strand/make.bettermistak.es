@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-11-13T20:28:06-08:00</updated>
+  <updated>2011-11-20T16:26:11-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,48 @@
     
   </author>
 
+  
+  <entry>
+    <title>How Do I Keep Secrets While Sharing Code?</title>
+    <link href="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/"/>
+    <updated>2011-11-20T15:46:00-08:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code</id>
+    <content type="html">&lt;p&gt;This week I&amp;#8217;ve been working on a pretty simple Sinatra-based website which uses the &lt;a href=&quot;http://twitter.rubyforge.org/&quot;&gt;twitter gem&lt;/a&gt;. I&amp;#8217;m almost ready to post what I&amp;#8217;ve got so far on github and heroku and see if anyone likes what I&amp;#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:&lt;/p&gt;
+
+&lt;div&gt;&lt;script src=&#8217;https://gist.github.com/1381160.js?file=authenticate.rb&#8217;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;require &#8216;twitter&#8217;
+require &#8216;yaml&#8217;
+
+def authenticate
+  
+  Twitter.configure do |c|
+    config = YAML.load(File.read(&amp;quot;config.yml&amp;quot;))[:twitter]
+    c.consumer_key       = config[:consumer_key]
+    c.consumer_secret    = config[:consumer_secret]
+    c.oauth_token        = config[:oauth_token]
+    c.oauth_token_secret = config[:oauth_token_secret]
+  end
+
+  @client = Twitter::Client.new
+
+end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Correspondingly, below is the YAML which has the secrets, with my secrets stripped out:&lt;/p&gt;
+
+&lt;div&gt;&lt;script src=&#8217;https://gist.github.com/1381160.js?file=config.yml&#8217;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;:twitter:
+    :consumer_key:       CONSUMER_KEY
+    :consumer_secret:    CONSUMER_SECRET
+    :oauth_token:        OAUTH_TOKEN
+    :oauth_token_secret: OAUTH_TOKEN_SECRET&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This is a fine way to obfuscate my secrets, but only if I never include the secret in my repository, which I can do easily enough with .gitignore. But, I only want to exclude this from my viewable source, not from my deployed application, otherwise my app won&amp;#8217;t run. &lt;a href=&quot;http://help.github.com/ignore-files/&quot;&gt;Github&amp;#8217;s help&lt;/a&gt; indicates that &amp;#8220;Local per-repo rules can be added to the &lt;code&gt;.git/info/exclude&lt;/code&gt; file in your repo,&amp;#8221; but doesn&amp;#8217;t indicate how this info needs to be formatted. The guides to .gitignore I have found have all directed me to a broken man page for more information, I think I need the help of a professional.&lt;/p&gt;
+
+&lt;p&gt;So the question is: &lt;strong&gt;how do I make committing this YAML file conditional?&lt;/strong&gt; So I never accidentally upload it to github, but it always shows up on Heroku?&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>On Optimism</title>

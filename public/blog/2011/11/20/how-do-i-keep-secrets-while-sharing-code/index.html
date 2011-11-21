@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - make better_mistakes</title>
+  <title>How Do I Keep Secrets While Sharing Code? - make better_mistakes</title>
   <meta name="author" content="Strand">
 
   
-  <meta name="description" content="        Blog Archive              2011  How Do I Keep Secrets While Sharing Code?Nov 20 2011  On OptimismNov 13 2011  Rails for Zombies Is FunNov 0...">
+  <meta name="description" content="This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the twitter gem. I&#8217;m almost ready to post what I&#8217;...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://make.bettermistak.es/blog/archives/">
+  <link rel="canonical" href="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -59,120 +59,109 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">How Do I Keep Secrets While Sharing Code?</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-11-20T15:46:00-08:00" pubdate  data-updated="true" >Nov 20<span>th</span>, 2011</time>
+        
+      </p>
     
   </header>
+
+
+<div class="entry-content"><p>This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the <a href="http://twitter.rubyforge.org/">twitter gem</a>. I&#8217;m almost ready to post what I&#8217;ve got so far on github and heroku and see if anyone likes what I&#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:</p>
+
+<div><script src='https://gist.github.com/1381160.js?file=authenticate.rb'></script>
+<noscript><pre><code>require 'twitter'
+require 'yaml'
+
+def authenticate
   
-  <div id="blog-archives">
+  Twitter.configure do |c|
+    config = YAML.load(File.read(&quot;config.yml&quot;))[:twitter]
+    c.consumer_key       = config[:consumer_key]
+    c.consumer_secret    = config[:consumer_secret]
+    c.oauth_token        = config[:oauth_token]
+    c.oauth_token_secret = config[:oauth_token_secret]
+  end
+
+  @client = Twitter::Client.new
+
+end</code></pre></noscript></div>
 
 
+<p>Correspondingly, below is the YAML which has the secrets, with my secrets stripped out:</p>
 
-  
-  <h2>2011</h2>
-
-<article>
-  
-<h1><a href="/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/">How Do I Keep Secrets While Sharing Code?</a></h1>
-<time datetime="2011-11-20T15:46:00-08:00" pubdate><span class='month'>Nov</span> <span class='day'>20</span> <span class='year'>2011</span></time>
-
-
-</article>
+<div><script src='https://gist.github.com/1381160.js?file=config.yml'></script>
+<noscript><pre><code>:twitter:
+    :consumer_key:       CONSUMER_KEY
+    :consumer_secret:    CONSUMER_SECRET
+    :oauth_token:        OAUTH_TOKEN
+    :oauth_token_secret: OAUTH_TOKEN_SECRET</code></pre></noscript></div>
 
 
+<p>This is a fine way to obfuscate my secrets, but only if I never include the secret in my repository, which I can do easily enough with .gitignore. But, I only want to exclude this from my viewable source, not from my deployed application, otherwise my app won&#8217;t run. <a href="http://help.github.com/ignore-files/">Github&#8217;s help</a> indicates that &#8220;Local per-repo rules can be added to the <code>.git/info/exclude</code> file in your repo,&#8221; but doesn&#8217;t indicate how this info needs to be formatted. The guides to .gitignore I have found have all directed me to a broken man page for more information, I think I need the help of a professional.</p>
 
-<article>
-  
-<h1><a href="/blog/2011/11/13/on-optimism/">On Optimism</a></h1>
-<time datetime="2011-11-13T20:00:00-08:00" pubdate><span class='month'>Nov</span> <span class='day'>13</span> <span class='year'>2011</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/11/08/rails-for-zombies-is-fun/">Rails for Zombies Is Fun</a></h1>
-<time datetime="2011-11-08T12:44:00-08:00" pubdate><span class='month'>Nov</span> <span class='day'>08</span> <span class='year'>2011</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/11/06/ez-bake-french-toast/">EZ Bake French Toast</a></h1>
-<time datetime="2011-11-06T16:35:00-08:00" pubdate><span class='month'>Nov</span> <span class='day'>06</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/recipe/'>recipe</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/11/06/music-management-with-the-swiss-army-chainsaw/">Music Management With the Swiss Army Chainsaw</a></h1>
-<time datetime="2011-11-06T15:04:00-08:00" pubdate><span class='month'>Nov</span> <span class='day'>06</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/bash/'>bash</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/10/21/my-first-three-pull-requests/">My First Three Pull Requests</a></h1>
-<time datetime="2011-10-21T11:37:00-07:00" pubdate><span class='month'>Oct</span> <span class='day'>21</span> <span class='year'>2011</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/10/19/contracts-and-tethers/">Contracts and Tethers</a></h1>
-<time datetime="2011-10-19T10:38:00-07:00" pubdate><span class='month'>Oct</span> <span class='day'>19</span> <span class='year'>2011</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/10/09/resources/">Resources</a></h1>
-<time datetime="2011-10-09T16:37:00-07:00" pubdate><span class='month'>Oct</span> <span class='day'>09</span> <span class='year'>2011</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/10/02/first-post/">First Post</a></h1>
-<time datetime="2011-10-02T18:16:00-07:00" pubdate><span class='month'>Oct</span> <span class='day'>02</span> <span class='year'>2011</span></time>
-
-
-</article>
-
+<p>So the question is: <strong>how do I make committing this YAML file conditional?</strong> So I never accidentally upload it to github, but it always shows up on Heroku?</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Strand</span></span>
+
+      
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-11-20T15:46:00-08:00" pubdate  data-updated="true" >Nov 20<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/" data-via="strabd" data-counturl="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+</div>
+
+    
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -272,7 +261,10 @@
       var disqus_shortname = 'makebettermistakes';
       
         
-        var disqus_script = 'count.js'
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/';
+        var disqus_url = 'http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/';
+        var disqus_script = 'embed.js'
       
 
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

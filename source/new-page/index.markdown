@@ -8,6 +8,10 @@ footer: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta erat sit amet mauris facilisis eleifend. In a purus ullamcorper justo faucibus mattis ac id lacus. Ut non erat ac nisl venenatis condimentum. Duis fringilla blandit cursus. Morbi erat urna, rhoncus a dapibus blandit, pellentesque non arcu. Donec adipiscing, arcu quis aliquet porta, ligula elit placerat tortor, non scelerisque massa dui sed nisi. Quisque hendrerit ipsum sagittis sapien posuere vel tempor libero iaculis. Mauris quis eros quis odio scelerisque commodo et a est. Fusce condimentum nunc quis nibh tempor a eleifend urna vulputate. Mauris at neque nibh, sollicitudin adipiscing nisl. Donec id velit nibh, in placerat mauris. Fusce id urna diam.
 
+{% gist 1381160 authenticate.rb %}
+
+{% gist 1381160 config.yml %}
+
 {% pullquote %}
 In hac habitasse platea dictumst. In hac habitasse platea dictumst. Pellentesque imperdiet, sapien eget aliquam adipiscing, enim nibh consectetur dolor, et venenatis libero metus ut tortor. Ut ipsum lectus, pretium id vehicula ac, euismod sed odio. Phasellus pretium enim eget nulla egestas eu interdum eros sagittis. {" Mauris varius malesuada nisi nec tincidunt. Duis eu magna id velit laoreet euismod. "} Donec nec mi non orci mattis varius. Fusce ac iaculis mauris. Vestibulum ac eros orci. Etiam viverra consequat laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec posuere sagittis lacus id convallis. Ut sed lorem ligula. Nulla facilisi.
 {% endpullquote %}
