@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-11-26T20:26:53-08:00</updated>
+  <updated>2011-12-15T19:39:13-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,61 @@
     
   </author>
 
+  
+  <entry>
+    <title>Slack</title>
+    <link href="http://make.bettermistak.es/blog/2011/12/15/slack/"/>
+    <updated>2011-12-15T18:23:00-08:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/12/15/slack</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;I&amp;#8217;ve been busy prepping to leave town&lt;/em&gt; is the lie I tell myself to excuse being unproductive in the last month. Our cultural obsession with productivity makes many into tools, but there are days I wouldn&amp;#8217;t mind getting a few things off of my metaphorical to do list.&lt;/p&gt;
+
+&lt;p&gt;Reality is: I get stuck in dumb loops. I check twitter. I play civ5. I marathon DS9 on Netflix way past midnight. I check twitter, reddit, reader, facebook, and twitter. I look for dopamine fixes, and avoid sitting still without my wifi on for distraction. Why? as Tony Schwartz puts it in his excellent talk &lt;a href=&quot;http://the99percent.com/videos/7110/Tony-Schwartz-The-Myths-of-the-Overworked-Creative&quot;&gt;The Myths of the Overworked Creative&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&amp;#8220;Let&amp;#8217;s imagine you are looking at your computer and you are working on a very difficult problem and you know &lt;em&gt;anything that you can do to get away from that problem will be extremely attractive&lt;/em&gt;, because human beings have two core impulses in life: number one, escape pain; number two, move towards pleasure. That&amp;#8217;s where we live. So now, along comes the ping of that email, and that email is saying freedom, I&amp;#8217;m free at last. And you go to that email because it takes you away from the pain of doing something more difficult and more complex, and it promises you a potential pleasure. It rarely delivers.&amp;#8221;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;In the short term, slack is very attractive. Seems obvious on the face of it, almost as obvious as &amp;#8220;cake is delicious.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Still, beating myself up for past mistakes won&amp;#8217;t magically elicit good behavior, and I think part of the problem is a lack of SMART goals. SMART goals are those which are Specific, Measurable, Action-oriented, Reasonable, and Timely.&lt;sup id=&quot;refBody1&quot;&gt;&lt;a href=&quot;#refAnchor1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;So yeah, I need to define better, more actionable goals, I&amp;#8217;ll acknowledge that.&lt;/p&gt;
+
+&lt;p&gt;But I also need to get past a fear that is occupying some space in my head, the fear of incompetence. I am avoiding finding some real challenges because it&amp;#8217;s so much easier to play a game of Civilization, cycle through social networks, watch old television on Netflix, but, as &lt;a href=&quot;http://twitter.com/raganwald&quot;&gt;@raganwald&lt;/a&gt; writes in his blog post &amp;#8221;&lt;a href=&quot;https://github.com/raganwald/homoiconic/blob/master/2009-10-20/high_anxiety.md&quot;&gt;High Anxiety&lt;/a&gt;&amp;#8221;, &amp;#8220;The irony is, competence is not a cure for the fear of incompetence. The courage to play incompetently is a cure for the fear of incompetence.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;If it makes you feel any better, I&amp;#8217;m not the only one who wastes time so phenomenally well. I read an article a few days ago—skimmed really—which said that most young people waste their time online. I&amp;#8217;d dig it up and link to it, but I think it is a waste of our time and attention.&lt;/p&gt;
+
+&lt;p&gt;I guess I should start doing something about this huge surplus of slack. Tomorrow. Well, how about in the new year after I&amp;#8217;ve settled down in Guangzhou. Or, you could attack any of the following potential problems, Strand:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Work through any of the technical books you own.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hack at any Ruby project you can find on github.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://rubykoans.com/&quot;&gt;rubykoans.com&lt;/a&gt;&lt;/strong&gt; — Learn how to develop test driven applications by working through these koans, a series of programs which fail every test built into them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unemployedrubyist.com&lt;/strong&gt; — I&amp;#8217;ve heard that the employment rate in the Ruby community is 100 percent from three seperate rubyists. Well, there is an exception to prove every rule, and this domain wasn&amp;#8217;t taken the last time I checked. Develop a Rails-based site for rubyists who want to let potential employers know that they are available for hire.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;euler.heroku.com&lt;/strong&gt; - Create a Sinatra-based site for rubyists to contribute solutions to Euler problems. Maintain a github repo that mirrors to heroku.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr /&gt;
+&lt;small&gt;
+&lt;ol&gt;
+&lt;li id=&quot;refAnchor1&quot;&gt;
+&lt;p&gt;My Aunt Jan defined SMART goals in an email to my family&amp;#8217;s listserv:
+&lt;blockquote&gt;If goal setting is new to you or something you have not done for a while—go easy at first… seek one or two that REALLY matter to you… and set SMART GOALS: &lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;S is for Specific.&lt;/b&gt; If you set a goal to exercise 3 days a week that is somewhat specific. If you can be more specific you are more likely to achieve the goal… for example you might write I will exercise on Tuesday at the Club; I will walk more than three miles on Thursday; and on Friday I will life weights—three days of exercise—but with a much more defined road map. &lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;M is for Measurable.&lt;/b&gt; Set your own yard stick but make sure you are measuring—with exercise it can be miles, or minutes, or maintaining heart rate. With writing it can be number of words per day. With knitting it can be number of rows; or inches of a scarf—when you write a goal, include the measurement you will use—so you can evaluate success. &lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;A is Action-oriented.&lt;/b&gt; Make sure your goal statement has a visible action in it. &amp;#8216;I will look for work&amp;#8217; has an action that is pretty fuzzy—like wandering around the house looking for your keys when you have forgotten where you put them. &amp;#8220;I will research to find 3 places within 5 miles of the house who are accepting applications.&amp;#8221; This is an ACTION item—you can see yourself doing the work.  &lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;R is Reasonable.&lt;/b&gt; Set Goals you can REASONABLY reach. If you haven&amp;#8217;t been writing for a while, writing for 20 minutes five times this week might be possible—but if you are setting a writing goal, maybe writing three times a week is more like what you can accomplish. If you know how fast you knit—so you can think that knitting 9 rows each day is reasonable but knit a six foot scarf might not be something you can reasonably accomplish in one week.  &lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;T is Timely—&lt;/b&gt;ALL of the goals that you set for this week are things you think you can accomplish this week—and that you will evaluate next Wednesday. Each week you get to decide if you want to continue with a goal; modify a goal; or not continue. &lt;/blockquote&gt;&lt;a href=&quot;#refBody1&quot;  class=&#8217;footnoteBackLink&#8217;  title=&quot;Jump back to footnote 1 in the text.&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/small&gt;
+&lt;/div&gt;
+
+
+
+</content>
+  </entry>
   
   <entry>
     <title>How Do I Keep Secrets While Sharing Code?</title>
