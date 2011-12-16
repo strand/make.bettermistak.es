@@ -11,7 +11,7 @@ _I've been busy prepping to leave town_ is the lie I tell myself to excuse being
 Reality is: I get stuck in dumb loops. I check twitter. I play civ5. I marathon DS9 on Netflix way past midnight. I check twitter, reddit, reader, facebook, and twitter. I look for dopamine fixes, and avoid sitting still without my wifi on for distraction. Why? as Tony Schwartz puts it in his excellent talk [The Myths of the Overworked Creative][1]
 
 >"Let's imagine you are looking at your computer and you are working on a very difficult problem and you know _anything that you can do to get away from that problem will be extremely attractive_, because human beings have two core impulses in life: number one, escape pain; number two, move towards pleasure. That's where we live. So now, along comes the ping of that email, and that email is saying freedom, I'm free at last. And you go to that email because it takes you away from the pain of doing something more difficult and more complex, and it promises you a potential pleasure. It rarely delivers."
-
+<!--more-->
 In the short term, slack is very attractive. Seems obvious on the face of it, almost as obvious as "cake is delicious."
 
 Still, beating myself up for past mistakes won't magically elicit good behavior, and I think part of the problem is a lack of SMART goals. SMART goals are those which are Specific, Measurable, Action-oriented, Reasonable, and Timely.<sup id="refBody1"><a href="#refAnchor1">1</a></sup>
