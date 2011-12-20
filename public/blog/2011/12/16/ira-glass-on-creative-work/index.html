@@ -6,11 +6,11 @@
 <head>
   <meta name="google-site-verification" content="dRiLXR9yjts1z5b9OZk9I-xjVqK76Jg9xybDTSKo59w" />
   <meta charset="utf-8">
-  <title>How Do I Keep Secrets While Sharing Code? - make better_mistakes</title>
+  <title>Ira Glass on Creative Work - make better_mistakes</title>
   <meta name="author" content="Strand">
 
   
-  <meta name="description" content="This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the twitter gem. I&#8217;m almost ready to post what I&#8217;...">
+  <meta name="description" content="—Ira Glass on Storytelling">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/">
+  <link rel="canonical" href="http://make.bettermistak.es/blog/2011/12/16/ira-glass-on-creative-work/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -64,7 +64,7 @@
   
   <header>
     
-      <h1 class="entry-title">How Do I Keep Secrets While Sharing Code?</h1>
+      <h1 class="entry-title">Ira Glass on Creative Work</h1>
     
     
       <p class="meta">
@@ -78,47 +78,16 @@
 
 
 
-<time datetime="2011-11-20T15:46:00-08:00" pubdate  data-updated="true" >Nov 20<span>th</span>, 2011</time>
+<time datetime="2011-12-16T17:24:00-08:00" pubdate  data-updated="true" >Dec 16<span>th</span>, 2011</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the <a href="http://twitter.rubyforge.org/">twitter gem</a>. I&#8217;m almost ready to post what I&#8217;ve got so far on github and heroku and see if anyone likes what I&#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:</p>
+<div class="entry-content"><p><img src="/images/iraglassquote.jpg" title="&#34;Nobody tells this to people who are beginners, I wish someone told me. All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you. A lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.&#34;" alt="&#34;Nobody tells this to people who are beginners, I wish someone told me. All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you. A lot of people never get past this phase, they quit. Most people I know who do interesting, creative work went through years of this. We know our work doesn’t have this special thing that we want it to have. We all go through this. And if you are just starting out or you are still in this phase, you gotta know its normal and the most important thing you can do is do a lot of work. Put yourself on a deadline so that every week you will finish one story. It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions. And I took longer to figure out how to do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take awhile. You’ve just gotta fight your way through.&#34;"></p>
 
-<div><script src='https://gist.github.com/1381160.js?file=authenticate.rb'></script>
-<noscript><pre><code>require 'twitter'
-require 'yaml'
-
-def authenticate
-  
-  Twitter.configure do |c|
-    config = YAML.load(File.read(&quot;config.yml&quot;))[:twitter]
-    c.consumer_key       = config[:consumer_key]
-    c.consumer_secret    = config[:consumer_secret]
-    c.oauth_token        = config[:oauth_token]
-    c.oauth_token_secret = config[:oauth_token_secret]
-  end
-
-  @client = Twitter::Client.new
-
-end</code></pre></noscript></div>
-
-
-<p>Correspondingly, below is the YAML which has the secrets, with my secrets stripped out:</p>
-
-<div><script src='https://gist.github.com/1381160.js?file=config.yml'></script>
-<noscript><pre><code>:twitter:
-    :consumer_key:       CONSUMER_KEY
-    :consumer_secret:    CONSUMER_SECRET
-    :oauth_token:        OAUTH_TOKEN
-    :oauth_token_secret: OAUTH_TOKEN_SECRET</code></pre></noscript></div>
-
-
-<p>This is a fine way to obfuscate my secrets, but only if I never include the secret in my repository, which I can do easily enough with .gitignore. But, I only want to exclude this from my viewable source, not from my deployed application, otherwise my app won&#8217;t run. <a href="http://help.github.com/ignore-files/">Github&#8217;s help</a> indicates that &#8220;Local per-repo rules can be added to the <code>.git/info/exclude</code> file in your repo,&#8221; but doesn&#8217;t indicate how this info needs to be formatted. The guides to .gitignore I have found have all directed me to a broken man page for more information, I think I need the help of a professional.</p>
-
-<p>So the question is: <strong>how do I make committing this YAML file conditional?</strong> So I never accidentally upload it to github, but it always shows up on Heroku?</p>
+<p>—Ira Glass <a href="http://www.youtube.com/watch?v=BI23U7U2aUY">on Storytelling</a></p>
 </div>
 
 
@@ -139,7 +108,7 @@ end</code></pre></noscript></div>
 
 
 
-<time datetime="2011-11-20T15:46:00-08:00" pubdate  data-updated="true" >Nov 20<span>th</span>, 2011</time>
+<time datetime="2011-12-16T17:24:00-08:00" pubdate  data-updated="true" >Dec 16<span>th</span>, 2011</time>
       
 
 
@@ -147,7 +116,7 @@ end</code></pre></noscript></div>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/" data-via="strabd" data-counturl="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://make.bettermistak.es/blog/2011/12/16/ira-glass-on-creative-work/" data-via="strabd" data-counturl="http://make.bettermistak.es/blog/2011/12/16/ira-glass-on-creative-work/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -263,8 +232,8 @@ end</code></pre></noscript></div>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/';
-        var disqus_url = 'http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/';
+        var disqus_identifier = 'http://make.bettermistak.es/blog/2011/12/16/ira-glass-on-creative-work/';
+        var disqus_url = 'http://make.bettermistak.es/blog/2011/12/16/ira-glass-on-creative-work/';
         var disqus_script = 'embed.js'
       
 

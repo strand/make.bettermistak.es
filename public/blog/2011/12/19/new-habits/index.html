@@ -6,11 +6,11 @@
 <head>
   <meta name="google-site-verification" content="dRiLXR9yjts1z5b9OZk9I-xjVqK76Jg9xybDTSKo59w" />
   <meta charset="utf-8">
-  <title>How Do I Keep Secrets While Sharing Code? - make better_mistakes</title>
+  <title>New Habits - make better_mistakes</title>
   <meta name="author" content="Strand">
 
   
-  <meta name="description" content="This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the twitter gem. I&#8217;m almost ready to post what I&#8217;...">
+  <meta name="description" content="This week I am going to set the goal of establishing two new habits, first I will post to the blog on Monday and Friday of every week. The Monday p...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/">
+  <link rel="canonical" href="http://make.bettermistak.es/blog/2011/12/19/new-habits/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -64,7 +64,7 @@
   
   <header>
     
-      <h1 class="entry-title">How Do I Keep Secrets While Sharing Code?</h1>
+      <h1 class="entry-title">New Habits</h1>
     
     
       <p class="meta">
@@ -78,47 +78,18 @@
 
 
 
-<time datetime="2011-11-20T15:46:00-08:00" pubdate  data-updated="true" >Nov 20<span>th</span>, 2011</time>
+<time datetime="2011-12-19T19:52:00-08:00" pubdate  data-updated="true" >Dec 19<span>th</span>, 2011</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the <a href="http://twitter.rubyforge.org/">twitter gem</a>. I&#8217;m almost ready to post what I&#8217;ve got so far on github and heroku and see if anyone likes what I&#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:</p>
+<div class="entry-content"><p>This week I am going to set the goal of establishing two new habits, first I will post to the blog on Monday and Friday of every week. The Monday post will be about whatever my goals for the week are. The Friday post will be a review of how well I achieved my goals. The second goal is to read at least five chapters of my current development book, <a href="http://www.manning.com/katz/">Rails 3 In Action</a>.</p>
 
-<div><script src='https://gist.github.com/1381160.js?file=authenticate.rb'></script>
-<noscript><pre><code>require 'twitter'
-require 'yaml'
+<p>Today I made it through the first chapter of Rails in Action, which was an overview of using rails with the scaffolding generator. Nothing too surprising, and near the end of the chapter my eyes started glazing over. Tomorrow&#8217;s chapter is about Unit::Test, RSpec, and Cucumber, Test Driven Development, all that. The writing is pretty good, Technical books have to strike a difficult balance in that their information to page count ratio must be high, but their tone shouldn&#8217;t be too dry, and if Rails in Action were a sandwich, it would have just the right amount of mustard.</p>
 
-def authenticate
-  
-  Twitter.configure do |c|
-    config = YAML.load(File.read(&quot;config.yml&quot;))[:twitter]
-    c.consumer_key       = config[:consumer_key]
-    c.consumer_secret    = config[:consumer_secret]
-    c.oauth_token        = config[:oauth_token]
-    c.oauth_token_secret = config[:oauth_token_secret]
-  end
-
-  @client = Twitter::Client.new
-
-end</code></pre></noscript></div>
-
-
-<p>Correspondingly, below is the YAML which has the secrets, with my secrets stripped out:</p>
-
-<div><script src='https://gist.github.com/1381160.js?file=config.yml'></script>
-<noscript><pre><code>:twitter:
-    :consumer_key:       CONSUMER_KEY
-    :consumer_secret:    CONSUMER_SECRET
-    :oauth_token:        OAUTH_TOKEN
-    :oauth_token_secret: OAUTH_TOKEN_SECRET</code></pre></noscript></div>
-
-
-<p>This is a fine way to obfuscate my secrets, but only if I never include the secret in my repository, which I can do easily enough with .gitignore. But, I only want to exclude this from my viewable source, not from my deployed application, otherwise my app won&#8217;t run. <a href="http://help.github.com/ignore-files/">Github&#8217;s help</a> indicates that &#8220;Local per-repo rules can be added to the <code>.git/info/exclude</code> file in your repo,&#8221; but doesn&#8217;t indicate how this info needs to be formatted. The guides to .gitignore I have found have all directed me to a broken man page for more information, I think I need the help of a professional.</p>
-
-<p>So the question is: <strong>how do I make committing this YAML file conditional?</strong> So I never accidentally upload it to github, but it always shows up on Heroku?</p>
+<p>Other things going on this week include packing and Christmas. My partner has sorted through all of her clothes and is giving away three quarters of them. Our rolling duffels will arrive in the mail tomorrow. We&#8217;re eleven days from flying out, and the limitations of international travel make me examine what I really <em>need</em>. Not a lot, it turns out.</p>
 </div>
 
 
@@ -139,7 +110,7 @@ end</code></pre></noscript></div>
 
 
 
-<time datetime="2011-11-20T15:46:00-08:00" pubdate  data-updated="true" >Nov 20<span>th</span>, 2011</time>
+<time datetime="2011-12-19T19:52:00-08:00" pubdate  data-updated="true" >Dec 19<span>th</span>, 2011</time>
       
 
 
@@ -147,7 +118,7 @@ end</code></pre></noscript></div>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/" data-via="strabd" data-counturl="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://make.bettermistak.es/blog/2011/12/19/new-habits/" data-via="strabd" data-counturl="http://make.bettermistak.es/blog/2011/12/19/new-habits/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -263,8 +234,8 @@ end</code></pre></noscript></div>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/';
-        var disqus_url = 'http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/';
+        var disqus_identifier = 'http://make.bettermistak.es/blog/2011/12/19/new-habits/';
+        var disqus_url = 'http://make.bettermistak.es/blog/2011/12/19/new-habits/';
         var disqus_script = 'embed.js'
       
 
