@@ -21,6 +21,7 @@ footer: true
 **Review** the resources listed below, an hour or two a day.
 
 ### Resources ###
+* [The RSpec Book][http://pragprog.com/book/achbd/the-rspec-book] recommended by @[mathiasx](http://twitter.com/mathiasx)
 * [Learning Rails 3][9]
 * [Rails Recipes: Rails 3][8] - Skimmed over section headings, need a decent refresher before using most material.
 * [Javascript the Good Parts][7]
@@ -75,3 +76,4 @@ better oauth support for node.js. Really, anything that they have in Ruby, but n
 [13]:	http://pragprog.com/book/btlang/seven-languages-in-seven-weeks
 [14]:	http://pragprog.com/book/rails4/agile-web-development-with-rails
 [15]:	http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420
+[16]:	http://pragprog.com/book/achbd/the-rspec-book
