@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-12-23T20:38:52-08:00</updated>
+  <updated>2011-12-26T23:54:04-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -13,6 +13,15 @@
     
   </author>
 
+  
+  <entry>
+    <title>Monday Check-In</title>
+    <link href="http://make.bettermistak.es/blog/2011/12/26/monday-check-in/"/>
+    <updated>2011-12-26T23:48:00-08:00</updated>
+    <id>http://make.bettermistak.es/blog/2011/12/26/monday-check-in</id>
+    <content type="html">&lt;p&gt;This week I will move my stuff out of my apartment and fly to Guangzhou. This obviously leaves me with a lack of time to work on projects. My project this week is to apply to &lt;a href=&quot;http://hungryacademy.com/&quot;&gt;Hungry Academy&lt;/a&gt;. I&amp;#8217;ll write a post before Friday to report how that went.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The Hidden Chapter</title>
