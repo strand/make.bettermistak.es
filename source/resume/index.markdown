@@ -12,7 +12,7 @@ strand@bettermistak.es · (206) 548-6948</p>
 
 ### Skills ###
 
-I like the following tools: bash, CSS, HTML, Javascript, Markdown, Rails, and Ruby.
+I like the following tools: bash, Cucumber, HTML, JavaScript, Rails, Ruby, Sass, and Sinatra.
 
 ### Projects ###
 
@@ -22,7 +22,7 @@ I like the following tools: bash, CSS, HTML, Javascript, Markdown, Rails, and Ru
 
 ### Work Experience ###
 
-**Production Specialist,** Microsoft contracting through Aquent, July 2011 – Present  
+**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
 
 * Communicated with customers and vendors about ongoing projects.
 * Edited XML content using internal tools.
@@ -39,7 +39,7 @@ I like the following tools: bash, CSS, HTML, Javascript, Markdown, Rails, and Ru
       
 > **Web Content Producer,** _HRWeb Content Management Project,_ January 2009 – October 2009
 >
-> *	Created content on a Sharepoint site and edited HTML to maintain style and formatting.
+> *	Created content on a SharePoint site and edited HTML to maintain style and formatting.
 > * Revised HTML by hand to fix formatting issues.	   
 > 
 > **Technical Writer,** _Live Ops Documentation Project,_ November 2008 – January 2009
@@ -48,7 +48,7 @@ I like the following tools: bash, CSS, HTML, Javascript, Markdown, Rails, and Ru
 > 
 > **Web Content Migrator,** _HRWeb Content Migration Project,_ August – October 2008
 > 
-> * Transferred content to a Sharepoint site and edited HTML to update links.
+> * Transferred content to a SharePoint site and edited HTML to update links.
 > 
 > **Search Optimization Project,** January – August 2008
 >
@@ -61,17 +61,10 @@ I like the following tools: bash, CSS, HTML, Javascript, Markdown, Rails, and Ru
 
 ### Volunteer Experience ###
 
-**Board Member,** Jigsaw Renaissance, February 2010 – February 2011  
-> **Lead Community Builder,** September 2010 – February 2011  
->  
-> *	Coordinated members to ensure community building and public relations tasks are addressed.  
-> *	Wrote and edited a weekly events email newsletter and regular blog content.  
->  
-> **Treasurer,** February 2010 – September 2010  
->  
-> *	Managed finances for a growing non-profit maker space. Maintained accurate financial records.  
-> *	Communicated with members and potential members regarding finances and monthly dues.  
->  
+**Board Member,** Jigsaw Renaissance, February 2010 – February 2011
+
+* Wrote and edited a weekly events email newsletter and regular blog content.   
+* Managed finances for a growing non-profit maker space. Maintained accurate financial records.
 
 **DJ,** Boise Community Radio Project, August 2006 – July 2007
 

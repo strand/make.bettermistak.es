@@ -4,7 +4,7 @@
   <title>make better_mistakes</title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2011-12-26T23:54:04-08:00</updated>
+  <updated>2012-01-02T18:57:26+08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name>Strand</name>
@@ -15,9 +15,38 @@
 
   
   <entry>
+    <title>New Year in Guangzhou</title>
+    <link href="http://make.bettermistak.es/blog/2012/01/02/new-year-in-guangzhou/"/>
+    <updated>2012-01-02T18:53:00+08:00</updated>
+    <id>http://make.bettermistak.es/blog/2012/01/02/new-year-in-guangzhou</id>
+    <content type="html">&lt;p&gt;=== SEA -&gt; BEI ===&lt;/p&gt;
+
+&lt;p&gt;I am on the flight to Beijing, after having moved out of my apartment and stored boxes with family and friends. Last night was a late one, drinking cheap wine on a friend&amp;#8217;s futon with my partner at two in the morning, letting the cheap wine soak our systems which were already coursing with caffeine from nine in the evening coffees.&lt;/p&gt;
+
+&lt;p&gt;This feels risky. Every part of my body says the safe bet would have been to stay in Seattle, find a job, any job, and work that for a couple of years till something better comes along. Something better isn&amp;#8217;t coming along. Maybe I just wasn&amp;#8217;t looking hard enough, but it looked doubtful that satisfying work was coming my way, no matter how hard I chose to look.&lt;/p&gt;
+
+&lt;p&gt;I did make one good stab towards my goals this week, despite the madness of moving. I finished my application to Hungry Academy, an apprenticeship program sponsored by Living Social with instruction by Jumpstart Lab. I posted my application video and a code sample. The video was ok, I did several eight minute takes and the last one felt good enough. The code sample I chose was a pull request wherein I had altered some of Brandon Mathis&amp;#8217; code from the Octopress Pullquote plugin. There are very few alterations to the code, but it is the simplest solution that works, and this choice of project will hopefully demonstrate that I am capable of reading other&amp;#8217;s code and adapting it. Also, able to contribute usefully to existing projects.&lt;/p&gt;
+
+&lt;p&gt;I really hope I get in, though the time commitment the program requires, along with it being DC-based might force my partner and myself to live apart for five months.&lt;/p&gt;
+
+&lt;p&gt;I reflected on last week&amp;#8217;s goals and what worked and what didn&amp;#8217;t I recognize that the thing that I need to focus on isn&amp;#8217;t chapters or pages read (though these may end up as good metrics) but instead I should begin to focus on hours spent studying. I think that next week I will attempt to read &lt;em&gt;Rails In Action&lt;/em&gt; for 12 hours. Which means I&amp;#8217;ll need to read for two hours and twenty four minutes each day. I believe this is a completely achievable goal.&lt;/p&gt;
+
+&lt;p&gt;The other part to making this work is recording a metric other than time to see if I can improve. Though not all pages are equal, I&amp;#8217;m going to track my page count, so that in the future I can improve my pages read per hour or day.&lt;/p&gt;
+
+&lt;p&gt;=== On the Ground in Guangzhou, Day Two ===&lt;/p&gt;
+
+&lt;p&gt;We arrived in Guangzhou late at night, 10:20 PM China time. We subtract sixteen hours to figure out the time in the States. it was 5:20 AM  back home in Seattle. We are exhausted from running through the Beijing airport after one of our bags disappeared. Both my partner and I had small meltdowns in the airport, and she barely slept on the plane. My brother and his wife pick us up from the airport and we cross into the new year while riding the Subway from the airport closer to their apartment.&lt;/p&gt;
+
+&lt;p&gt;Yesterday was a shopping day, including a long and exhausting trip to IKEA. We&amp;#8217;re crashing in the extra room in my brother&amp;#8217;s flat until we can furnish the apartment we&amp;#8217;ll be staying at in the building above my brother&amp;#8217;s brewery.&lt;/p&gt;
+
+&lt;p&gt;I think that acclimating through the jet lag and minor culture shock is going to leave me low energy, and it&amp;#8217;s already Monday evening. I&amp;#8217;m going to set a realistic goal of eight hours of reading this week, two hours each day Tuesday through Friday. I&amp;#8217;ll set aside time and space away from my family to make this happen and hopefully also be able to check in at the end of the week.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Monday Check-In</title>
     <link href="http://make.bettermistak.es/blog/2011/12/26/monday-check-in/"/>
-    <updated>2011-12-26T23:48:00-08:00</updated>
+    <updated>2011-12-26T23:48:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/12/26/monday-check-in</id>
     <content type="html">&lt;p&gt;This week I will move my stuff out of my apartment and fly to Guangzhou. This obviously leaves me with a lack of time to work on projects. My project this week is to apply to &lt;a href=&quot;http://hungryacademy.com/&quot;&gt;Hungry Academy&lt;/a&gt;. I&amp;#8217;ll write a post before Friday to report how that went.&lt;/p&gt;
 </content>
@@ -26,7 +55,7 @@
   <entry>
     <title>The Hidden Chapter</title>
     <link href="http://make.bettermistak.es/blog/2011/12/23/the-hidden-chapter/"/>
-    <updated>2011-12-23T20:32:00-08:00</updated>
+    <updated>2011-12-23T20:32:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/12/23/the-hidden-chapter</id>
     <content type="html">&lt;p&gt;I didn&amp;#8217;t read five chapters this week, and that&amp;#8217;s partially because of the hidden chapter in all tech books. I believe the hidden chapter is a bug, but in documenting it I hope to make it in to a feature.&lt;/p&gt;
 
@@ -53,7 +82,7 @@
   <entry>
     <title>New Habits</title>
     <link href="http://make.bettermistak.es/blog/2011/12/19/new-habits/"/>
-    <updated>2011-12-19T19:52:00-08:00</updated>
+    <updated>2011-12-19T19:52:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/12/19/new-habits</id>
     <content type="html">&lt;p&gt;This week I am going to set the goal of establishing two new habits, first I will post to the blog on Monday and Friday of every week. The Monday post will be about whatever my goals for the week are. The Friday post will be a review of how well I achieved my goals. The second goal is to read at least five chapters of my current development book, &lt;a href=&quot;http://www.manning.com/katz/&quot;&gt;Rails 3 In Action&lt;/a&gt;.&lt;/p&gt;
 
@@ -66,7 +95,7 @@
   <entry>
     <title>Slack</title>
     <link href="http://make.bettermistak.es/blog/2011/12/15/slack/"/>
-    <updated>2011-12-15T18:23:00-08:00</updated>
+    <updated>2011-12-15T18:23:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/12/15/slack</id>
     <content type="html">&lt;p&gt;&lt;em&gt;I&amp;#8217;ve been busy prepping to leave town&lt;/em&gt; is the lie I tell myself to excuse being unproductive in the last month. Our cultural obsession with productivity makes many into tools, but there are days I wouldn&amp;#8217;t mind getting a few things off of my metaphorical to do list.&lt;/p&gt;
 
@@ -124,7 +153,7 @@
   <entry>
     <title>How Do I Keep Secrets While Sharing Code?</title>
     <link href="http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code/"/>
-    <updated>2011-11-20T15:46:00-08:00</updated>
+    <updated>2011-11-20T15:46:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/11/20/how-do-i-keep-secrets-while-sharing-code</id>
     <content type="html">&lt;p&gt;This week I&amp;#8217;ve been working on a pretty simple Sinatra-based website which uses the &lt;a href=&quot;http://twitter.rubyforge.org/&quot;&gt;twitter gem&lt;/a&gt;. I&amp;#8217;m almost ready to post what I&amp;#8217;ve got so far on github and heroku and see if anyone likes what I&amp;#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:&lt;/p&gt;
 
@@ -166,7 +195,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>On Optimism</title>
     <link href="http://make.bettermistak.es/blog/2011/11/13/on-optimism/"/>
-    <updated>2011-11-13T20:00:00-08:00</updated>
+    <updated>2011-11-13T20:00:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/11/13/on-optimism</id>
     <content type="html">&lt;p&gt;What traits make us better able to learn new skills? I think there&amp;#8217;s a handful of qualities we can foster to make skill acquisition easier, but optimism may be the most important one.&lt;/p&gt;
 
@@ -189,7 +218,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>Rails for Zombies Is Fun</title>
     <link href="http://make.bettermistak.es/blog/2011/11/08/rails-for-zombies-is-fun/"/>
-    <updated>2011-11-08T12:44:00-08:00</updated>
+    <updated>2011-11-08T12:44:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/11/08/rails-for-zombies-is-fun</id>
     <content type="html">&lt;p&gt;&lt;em&gt;Note: &lt;a href=&quot;http://zfer.us/eyf1n&quot;&gt;Code School&lt;/a&gt; provides me a referral fee if folks sign up through some links in this post. Even without this fee, I would recommend their service.&lt;/em&gt;&lt;/p&gt;
 
@@ -218,7 +247,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>EZ Bake French Toast</title>
     <link href="http://make.bettermistak.es/blog/2011/11/06/ez-bake-french-toast/"/>
-    <updated>2011-11-06T16:35:00-08:00</updated>
+    <updated>2011-11-06T16:35:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/11/06/ez-bake-french-toast</id>
     <content type="html">&lt;p&gt;Today I made some yummy French Toast, and it was way easier then I had expected. My recipe is as follows:&lt;/p&gt;
 
@@ -243,7 +272,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>Music Management With the Swiss Army Chainsaw</title>
     <link href="http://make.bettermistak.es/blog/2011/11/06/music-management-with-the-swiss-army-chainsaw/"/>
-    <updated>2011-11-06T15:04:00-08:00</updated>
+    <updated>2011-11-06T15:04:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/11/06/music-management-with-the-swiss-army-chainsaw</id>
     <content type="html">&lt;p&gt;Last night I was cleaning out my music collection… I know, not the most interesting Saturday night, but over the last decade my collection has gotten a little hairy.&lt;/p&gt;
 
@@ -277,7 +306,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>My First Three Pull Requests</title>
     <link href="http://make.bettermistak.es/blog/2011/10/21/my-first-three-pull-requests/"/>
-    <updated>2011-10-21T11:37:00-07:00</updated>
+    <updated>2011-10-21T11:37:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/10/21/my-first-three-pull-requests</id>
     <content type="html">&lt;p&gt;In the last couple of weeks I&amp;#8217;ve made a few pull requests on Octopress, which is the blogging platform this blog uses. The primary reason I was making the pull requests, oddly enough, was to get a sense of how the process of making changes and improvements on github works. One of the things I picked up from it was a better understanding of the use and nuance of git.&lt;/p&gt;
 
@@ -324,7 +353,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>Contracts and Tethers</title>
     <link href="http://make.bettermistak.es/blog/2011/10/19/contracts-and-tethers/"/>
-    <updated>2011-10-19T10:38:00-07:00</updated>
+    <updated>2011-10-19T10:38:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/10/19/contracts-and-tethers</id>
     <content type="html">&lt;p&gt;Contracts end. Sometimes they end a little more abruptly then one might like.&lt;/p&gt;
 
@@ -349,7 +378,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>Resources</title>
     <link href="http://make.bettermistak.es/blog/2011/10/09/resources/"/>
-    <updated>2011-10-09T16:37:00-07:00</updated>
+    <updated>2011-10-09T16:37:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/10/09/resources</id>
     <content type="html">&lt;p&gt;I believe my attention, time, and money are the most valuable resources I have. Actually, I think it all comes down to my attention, what I choose to pay attention to and care about, but my time and money are the commonly traded commodities that let me pay more attention to things.&lt;/p&gt;
 
@@ -381,7 +410,7 @@ end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
   <entry>
     <title>First Post</title>
     <link href="http://make.bettermistak.es/blog/2011/10/02/first-post/"/>
-    <updated>2011-10-02T18:16:00-07:00</updated>
+    <updated>2011-10-02T18:16:00+08:00</updated>
     <id>http://make.bettermistak.es/blog/2011/10/02/first-post</id>
     <content type="html">&lt;p&gt;Hello, internet.&lt;/p&gt;
 
