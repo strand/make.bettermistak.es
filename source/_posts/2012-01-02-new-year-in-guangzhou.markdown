@@ -5,7 +5,7 @@ date: 2012-01-02 18:53
 comments: true
 categories: 
 ---
-=== SEA -> BEI ===
+### SEA -> BEI ###
 
 I am on the flight to Beijing, after having moved out of my apartment and stored boxes with family and friends. Last night was a late one, drinking cheap wine on a friend's futon with my partner at two in the morning, letting the cheap wine soak our systems which were already coursing with caffeine from nine in the evening coffees.
 
@@ -19,7 +19,7 @@ I reflected on last week's goals and what worked and what didn't I recognize tha
 
 The other part to making this work is recording a metric other than time to see if I can improve. Though not all pages are equal, I'm going to track my page count, so that in the future I can improve my pages read per hour or day.
 
-=== On the Ground in Guangzhou, Day Two ===
+### On the Ground in Guangzhou, Day Two ###
 
 We arrived in Guangzhou late at night, 10:20 PM China time. We subtract sixteen hours to figure out the time in the States. it was 5:20 AM  back home in Seattle. We are exhausted from running through the Beijing airport after one of our bags disappeared. Both my partner and I had small meltdowns in the airport, and she barely slept on the plane. My brother and his wife pick us up from the airport and we cross into the new year while riding the Subway from the airport closer to their apartment. 
 
