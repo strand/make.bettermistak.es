@@ -21,6 +21,8 @@ footer: true
 **Review** the resources listed below, an hour or two a day.
 
 ### Resources ###
+* [The Well-Grounded Rubyist](http://www.manning.com/black2/)
+* [The Cucumber Book](http://pragprog.com/book/hwcuc/the-cucumber-book)
 * [The RSpec Book][http://pragprog.com/book/achbd/the-rspec-book] recommended by @[mathiasx](http://twitter.com/mathiasx)
 * [Learning Rails 3][9]
 * [Rails Recipes: Rails 3][8] - Skimmed over section headings, need a decent refresher before using most material.
