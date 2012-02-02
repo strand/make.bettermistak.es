@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Thesis"
+date: 2012-02-02 09:25
+comments: true
+categories: 
+---
+*Make Better Mistakes* is the idea. We all make mistakes every day, even when our perfectionism has locked us into the paralysis of doing nothing. Doing nothing is often a big and repeating mistake. Aim to make your mistakes small and individual or iterating. Small mistakes give you faster feedback. Individual mistakes give you more unique experiences to draw upon. Iterating mistakes keep you on the path, but allow you to guide course corrections.

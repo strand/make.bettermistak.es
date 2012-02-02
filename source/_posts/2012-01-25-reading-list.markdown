@@ -27,6 +27,6 @@ I've touched down at Narita for two and a half hours, and thought it might be a 
 >	
 >	_Walden_ by Henry David Thoreau — Classic book on holing up in the woods and living simply. Thoreau affirms my belief getting rid of my stuff or not getting stuff in the first place is one of the best things I can do to improve my spiritual and mental clarity. Choice quote: "As long as possible live free and uncommitted. It makes but little difference wether you are committed to a farm or the county jail."
 
-That's what I'm working on at the moment. I hope the interview goes well, and wish I'd been able to eat my uncle's _jiaozi_ today.
+That's what I'm working on at the moment. I hope the interview goes well, and wish I'd been able to eat my uncle's  _jiaozi_ today.
 
 [1]:	http://www.hungryacademy.com
