@@ -1,4 +1,4 @@
----
+pagination_dir---
 layout: post
 title: "First Post"
 date: 2011-10-02 18:16
