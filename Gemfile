@@ -1,5 +1,15 @@
 source "http://rubygems.org"
 
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'cucumber-sinatra'
+  gem 'cucumber'
+  gem 'rspec'
+  gem 'spork'
+  gem 'launchy'    # So you can do Then show me the page
+end
+
 group :development do
   gem 'rake'
   gem 'rack'
