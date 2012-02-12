@@ -1,29 +1,26 @@
 ---
 layout: page
 title: "Projects"
-date: 2011-10-12 11:42
+date: 2012-02-12 22:28
 comments: true
 sharing: true
 footer: true
 ---
 
 ## make.bettermistak.es ##
-* No immediate improvements needed. Tweaks to stylesheets would be nice, but that sort of stuff can get endless.
-* Regular posts **need to be scheduled.**
 
-## Octopress ##
-* Close and resubmit pull requests
-** Pullquote plugin: implemented a left-aligning pullquote. **Status: [Pull Request][1] in review.**
-** Blockquote plugin: made seperate [pull request][10]. Used the [branching guide][5], then work on the new branch.
-* Sub-menu navigation (dropdown)? No idea how to implement or if the community would find it useful.
+* Fix the Cucumber thing that you started and got side-tracked on.
 
 ## Review Resources ##
-**Review** the resources listed below, an hour or two a day.
+I'm currently reading:
+
+* [Rails 3 in Action](http://www.manning.com/black2/)
+* [The Well-Grounded Rubyist](http://www.manning.com/katz/)
 
 ### Resources ###
-* [The Well-Grounded Rubyist](http://www.manning.com/black2/)
+
 * [The Cucumber Book](http://pragprog.com/book/hwcuc/the-cucumber-book)
-* [The RSpec Book][http://pragprog.com/book/achbd/the-rspec-book] recommended by @[mathiasx](http://twitter.com/mathiasx)
+* [The RSpec Book](http://pragprog.com/book/achbd/the-rspec-book) recommended by @[mathiasx](http://twitter.com/mathiasx)
 * [Learning Rails 3][9]
 * [Rails Recipes: Rails 3][8] - Skimmed over section headings, need a decent refresher before using most material.
 * [Javascript the Good Parts][7]
