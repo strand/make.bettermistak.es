@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-03-08T10:14:01-08:00</updated>
+  <updated>2012-03-08T10:32:40-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Realistic Goals]]></title>
+    <link href="http://make.bettermistak.es/2012/03/08/realistic-goals/"/>
+    <updated>2012-03-08T10:19:00-08:00</updated>
+    <id>http://make.bettermistak.es/2012/03/08/realistic-goals</id>
+    <content type="html"><![CDATA[<p>I&#8217;m a little disappointed in myself for not posting anything in the last month.</p>
+
+<p>It&#8217;s been an exciting month too. My partner and I have returned to Seattle, and I&#8217;ve started working with mentors to establish myself as a web dev. I&#8217;ve been devoting time to studying an working on projects, and I&#8217;ve become a little more forgiving of myself if I fail to absorb all of the knowledge at once. In fact my primary goal at the moment is a simple and incremental one. I want to devote more time to working on projects and studying each week than I did the week before.</p>
+
+<p>I think that is a realistic goal, because it assumes merely that I can do a little better than I did the week before, and I find it interesting that it is a relative goal as well. I had a realization a few weeks back when I was looking at a goal of reading a certain number of pages or working through a certain number of chapters. I found that I didn&#8217;t know what setbacks I would encounter, that it was difficult for me to estimate how much work I would be able to do in absolute terms, because there are always unforeseen roadblocks.</p>
+
+<p>I can however, put in the time. So I&#8217;m going to try and work a little more every week and see what I can accomplish with a bit of incrementalism. I will eventually amend this goal to focus on increasing the quality of my work, but not until I&#8217;ve increased my weekly capacity from twenty hours of devoted work (which takes thirty to forty hours, I&#8217;m only counting the time my eyes are on the page or my brain and fingers are on the code) to about thirty hours a week. At that point I can be reduce certain less useful kinds of work but for now I just want to do better today than I did yesterday.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What Are You Planning to Do?]]></title>
