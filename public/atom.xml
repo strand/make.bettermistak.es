@@ -1,256 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>make better_mistakes</title>
+  <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-02-12T22:34:26+08:00</updated>
+  <updated>2012-03-08T10:14:01-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
-    <name>Strand</name>
-    
-      <email>strand@bettermistak.es</email>
-    
+    <name><![CDATA[Strand]]></name>
+    <email><![CDATA[strand@bettermistak.es]]></email>
   </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title>What Are You Planning to Do?</title>
+    <title type="html"><![CDATA[What Are You Planning to Do?]]></title>
     <link href="http://make.bettermistak.es/2012/02/03/what-are-you-planning-to-do-since-you-didnt-get-into-hungry-academy-just-curious/"/>
-    <updated>2012-02-03T09:10:00+08:00</updated>
+    <updated>2012-02-03T09:10:00-08:00</updated>
     <id>http://make.bettermistak.es/2012/02/03/what-are-you-planning-to-do-since-you-didnt-get-into-hungry-academy-just-curious</id>
-    <content type="html">&lt;p&gt;Yesterday an efriend direct messaged me: &lt;em&gt;What are you planning to do since you didn&amp;#8217;t get into Hungry Academy? Just curious.&lt;/em&gt;&lt;/p&gt;
+    <content type="html"><![CDATA[<p>Yesterday an efriend direct messaged me: <em>What are you planning to do since you didn&#8217;t get into Hungry Academy? Just curious.</em></p>
 
-&lt;p&gt;Good question.&lt;/p&gt;
+<p>Good question.</p>
 
-&lt;p&gt;I would like to find a junior web dev position, but the path from here to there is not clear to me yet.&lt;/p&gt;
+<p>I would like to find a junior web dev position, but the path from here to there is not clear to me yet.</p>
 
-&lt;p&gt;My partner and I are looking at going back to the States, the culture shock has been especially rough for her and we both miss our community in Seattle.&lt;/p&gt;
+<p>My partner and I are looking at going back to the States, the culture shock has been especially rough for her and we both miss our community in Seattle.</p>
 
-&lt;p&gt;On my window above my desk I have a post-it I wrote to myself yesterday, as a contingency plan for not getting in.&lt;/p&gt;
+<p>On my window above my desk I have a post-it I wrote to myself yesterday, as a contingency plan for not getting in.</p>
 
-&lt;blockquote&gt;&lt;p&gt;If I don&amp;#8217;t get into Hungry Academy:&lt;/p&gt;
+<blockquote><p>If I don&#8217;t get into Hungry Academy:</p>
 
-&lt;ul&gt;
-&lt;li&gt;Ask &lt;a href=&quot;http://twitter.com/#!/nicolemaddox&quot;&gt;@nicolemaddox&lt;/a&gt; for interview feedback and guidance.&lt;/li&gt;
-&lt;li&gt;Ask &lt;a href=&quot;http://twitter.com/#!/steveklabnik&quot;&gt;@steveklabnik&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://twitter.com/#!/mathiasx&quot;&gt;@mathiasx&lt;/a&gt; to be mentors.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
+<ul>
+<li>Ask <a href="http://twitter.com/#!/nicolemaddox">@nicolemaddox</a> for interview feedback and guidance.</li>
+<li>Ask <a href="http://twitter.com/#!/steveklabnik">@steveklabnik</a> &amp; <a href="http://twitter.com/#!/mathiasx">@mathiasx</a> to be mentors.</li>
+</ul>
+</blockquote>
 
-&lt;p&gt;This has two parts with actionable steps that begin to chip away at two problems exposed by the HA application. The first problem is I have mediocre interview skills and this means that I only get mediocre jobs. Interviews are rare events that have a significant impact on my future.  Interviews are a game that I can increase my odds on, and I haven&amp;#8217;t done a sufficient amount of work to get &lt;em&gt;really good&lt;/em&gt; at answering questions like, &amp;#8220;Where do you see yourself in five years?&amp;#8221; An immediate next step to get better at interviewing is to solicit feedback from LivingSocial.&lt;/p&gt;
+<p>This has two parts with actionable steps that begin to chip away at two problems exposed by the HA application. The first problem is I have mediocre interview skills and this means that I only get mediocre jobs. Interviews are rare events that have a significant impact on my future.  Interviews are a game that I can increase my odds on, and I haven&#8217;t done a sufficient amount of work to get <em>really good</em> at answering questions like, &#8220;Where do you see yourself in five years?&#8221; An immediate next step to get better at interviewing is to solicit feedback from LivingSocial.</p>
 
-&lt;p&gt;The second problem is I am still learning to code, and it&amp;#8217;s going slow. I can continue to work on my own through whichever resources strike my fancy, but that&amp;#8217;s a plan for slow-moving disaster. There are a lot of things I can work on, but I don&amp;#8217;t have the judgement to know which things will be best for me at this juncture. An immediate next step to lay down the groundwork to improve my coding skills are to find mentors. Steve and Matt have both been awesome efriends, and I hope I can establish some checkins with them to ensure I stay on the right track.&lt;/p&gt;
+<p>The second problem is I am still learning to code, and it&#8217;s going slow. I can continue to work on my own through whichever resources strike my fancy, but that&#8217;s a plan for slow-moving disaster. There are a lot of things I can work on, but I don&#8217;t have the judgement to know which things will be best for me at this juncture. An immediate next step to lay down the groundwork to improve my coding skills are to find mentors. Steve and Matt have both been awesome efriends, and I hope I can establish some checkins with them to ensure I stay on the right track.</p>
 
-&lt;p&gt;Hungry Academy will be seeking applicants again, and if I&amp;#8217;m on the market when they are, I will apply.&lt;/p&gt;
+<p>Hungry Academy will be seeking applicants again, and if I&#8217;m on the market when they are, I will apply.</p>
 
-&lt;p&gt;I also want to attend Ruby conferences, but there&amp;#8217;s the chicken-and-egg problem of not having enough money to travel because I&amp;#8217;m unemployed, and thus not being able to make the connections which could lead to employment because I can&amp;#8217;t justify travel.&lt;/p&gt;
+<p>I also want to attend Ruby conferences, but there&#8217;s the chicken-and-egg problem of not having enough money to travel because I&#8217;m unemployed, and thus not being able to make the connections which could lead to employment because I can&#8217;t justify travel.</p>
 
-&lt;p&gt;It&amp;#8217;s looking likely that we&amp;#8217;ll be back in Seattle before the end of February, and I will be looking for work to support our household. I hope that I can find a part time position to allow me to continue learning web tech until I am more qualified for development roles.&lt;/p&gt;
+<p>It&#8217;s looking likely that we&#8217;ll be back in Seattle before the end of February, and I will be looking for work to support our household. I hope that I can find a part time position to allow me to continue learning web tech until I am more qualified for development roles.</p>
 
-&lt;p&gt;TL;DR Keep trying, hope I don&amp;#8217;t run out of money too quickly.&lt;/p&gt;
-</content>
+<p>TL;DR Keep trying, hope I don&#8217;t run out of money too quickly.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>Thesis</title>
+    <title type="html"><![CDATA[Thesis]]></title>
     <link href="http://make.bettermistak.es/2012/02/02/thesis/"/>
-    <updated>2012-02-02T09:25:00+08:00</updated>
+    <updated>2012-02-02T09:25:00-08:00</updated>
     <id>http://make.bettermistak.es/2012/02/02/thesis</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;Make Better Mistakes&lt;/em&gt; is the idea. We all make mistakes every day, even when our perfectionism has locked us into the paralysis of doing nothing. Doing nothing is often a big and repeating mistake. Aim to make your mistakes small and individual or iterating. Small mistakes give you faster feedback. Individual mistakes give you more unique experiences to draw upon. Iterating mistakes keep you on the path, but allow you to guide course corrections.&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p><em>Make Better Mistakes</em> is the idea. We all make mistakes every day, even when our perfectionism has locked us into the paralysis of doing nothing. Doing nothing is often a big and repeating mistake. Aim to make your mistakes small and individual or iterating. Small mistakes give you faster feedback. Individual mistakes give you more unique experiences to draw upon. Iterating mistakes keep you on the path, but allow you to guide course corrections.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>Reading List</title>
+    <title type="html"><![CDATA[Reading List]]></title>
     <link href="http://make.bettermistak.es/2012/01/25/reading-list/"/>
-    <updated>2012-01-25T14:41:00+08:00</updated>
+    <updated>2012-01-25T14:41:00-08:00</updated>
     <id>http://make.bettermistak.es/2012/01/25/reading-list</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;This was a jumble written on a plane, please forgive the incoherency.&lt;/em&gt;&lt;/p&gt;
+    <content type="html"><![CDATA[<p><em>This was a jumble written on a plane, please forgive the incoherency.</em></p>
 
-&lt;p&gt;Today I am flying from Guangzhou to Washington DC by way of Tokyo to interview for &lt;a href=&quot;http://www.hungryacademy.com&quot;&gt;Hungry Academy&lt;/a&gt;. I feel like I haven&amp;#8217;t updated this blog since I got to China. It&amp;#8217;s been a very full January for me. The first two weeks here were culture shock and settling into our new home, the third week was minorly productive for me, I managed to study for 9 half-hour sprints before my aunt and uncle arrived in town for the Spring Festival.&lt;/p&gt;
+<p>Today I am flying from Guangzhou to Washington DC by way of Tokyo to interview for <a href="http://www.hungryacademy.com">Hungry Academy</a>. I feel like I haven&#8217;t updated this blog since I got to China. It&#8217;s been a very full January for me. The first two weeks here were culture shock and settling into our new home, the third week was minorly productive for me, I managed to study for 9 half-hour sprints before my aunt and uncle arrived in town for the Spring Festival.</p>
 
-&lt;p&gt;I was also nervous as heck before my phone interview with Living Social regarding Hungry Academy. I managed to chat with them around 3:30 AM Saturday morning, China time.&lt;/p&gt;
+<p>I was also nervous as heck before my phone interview with Living Social regarding Hungry Academy. I managed to chat with them around 3:30 AM Saturday morning, China time.</p>
 
-&lt;p&gt;I&amp;#8217;ve touched down at Narita for two and a half hours, and thought it might be a good exercise to write out all of the books which I am reading at the moment and what I am getting out of them.&lt;/p&gt;
+<p>I&#8217;ve touched down at Narita for two and a half hours, and thought it might be a good exercise to write out all of the books which I am reading at the moment and what I am getting out of them.</p>
 
-&lt;blockquote&gt;&lt;p&gt;  &lt;em&gt;The Pragmatic Programmer&lt;/em&gt; by Andrew Hunt and David Thomas — I&amp;#8217;d read the intro to this several months ago and have been meaning to read it since. I&amp;#8217;ve taken this plane ride as a chance to absorb it. I can tell already that this is a book that I will revisit as I advance in my career as a software developer.&lt;/p&gt;
+<blockquote><p>  <em>The Pragmatic Programmer</em> by Andrew Hunt and David Thomas — I&#8217;d read the intro to this several months ago and have been meaning to read it since. I&#8217;ve taken this plane ride as a chance to absorb it. I can tell already that this is a book that I will revisit as I advance in my career as a software developer.</p>
 
-&lt;p&gt;  &lt;em&gt;The Fault in Our Stars&lt;/em&gt; by John Green — I&amp;#8217;m a fan of Green&amp;#8217;s YA fiction, as it handles the challenges of its genre extremely well, and aims to be fiction about young adults, not merely fiction to be consumed by a YA demographic. I just started his most recent novel which is about a young woman with cancer.&lt;/p&gt;
+<p>  <em>The Fault in Our Stars</em> by John Green — I&#8217;m a fan of Green&#8217;s YA fiction, as it handles the challenges of its genre extremely well, and aims to be fiction about young adults, not merely fiction to be consumed by a YA demographic. I just started his most recent novel which is about a young woman with cancer.</p>
 
-&lt;p&gt;  &lt;em&gt;Non-violent Communication&lt;/em&gt; by Marshall B. Rosenberg — My partner and I have been reading this book aloud to each other at night before bed. It aims to teach the language and practice of empathy for self and others. I have noticed that both my partner and I—we are both excellent communicators—have improved our empathic communication skills since we began reading it. I anticipate re-reading this book. Highly recommended for anyone who communicates in their day-to-day life&lt;/p&gt;
+<p>  <em>Non-violent Communication</em> by Marshall B. Rosenberg — My partner and I have been reading this book aloud to each other at night before bed. It aims to teach the language and practice of empathy for self and others. I have noticed that both my partner and I—we are both excellent communicators—have improved our empathic communication skills since we began reading it. I anticipate re-reading this book. Highly recommended for anyone who communicates in their day-to-day life</p>
 
-&lt;p&gt;  &lt;em&gt;Them&lt;/em&gt; by Jon Ronson — I read Ronson&amp;#8217;s &lt;em&gt;The Psychopath Test&lt;/em&gt; this fall and really enjoyed his pithy style and engaging non-fiction narrative. &lt;em&gt;Them&lt;/em&gt; is an earlier &amp;#8220;novel&amp;#8221; about extremists in the late nineties and early two thousands. It&amp;#8217;s not as good, as there is not as much connective tissue between the different types of extremists, but I look forward to seeing the parallels Ronson draws.&lt;/p&gt;
+<p>  <em>Them</em> by Jon Ronson — I read Ronson&#8217;s <em>The Psychopath Test</em> this fall and really enjoyed his pithy style and engaging non-fiction narrative. <em>Them</em> is an earlier &#8220;novel&#8221; about extremists in the late nineties and early two thousands. It&#8217;s not as good, as there is not as much connective tissue between the different types of extremists, but I look forward to seeing the parallels Ronson draws.</p>
 
-&lt;p&gt;  &lt;em&gt;Rails 3 in Action&lt;/em&gt; by Yehuda Katz and Ryan Bigg — Katz and Bigg do something very difficult extremely well: They have written an enjoyable to read introduction to Rails with a focus on test-driven and behavior-driven development using Cucumber and RSpec. This isn&amp;#8217;t my first Rails book (that was &lt;em&gt;Agile Web Development&lt;/em&gt;) but it&amp;#8217;s the first one I &amp;#8216;ve found fairly engaging. I could attribute that to a greater sense of patience with technical books, but I suspect it actually has to do with the pattern of development that the book is based around.&lt;/p&gt;
+<p>  <em>Rails 3 in Action</em> by Yehuda Katz and Ryan Bigg — Katz and Bigg do something very difficult extremely well: They have written an enjoyable to read introduction to Rails with a focus on test-driven and behavior-driven development using Cucumber and RSpec. This isn&#8217;t my first Rails book (that was <em>Agile Web Development</em>) but it&#8217;s the first one I &#8216;ve found fairly engaging. I could attribute that to a greater sense of patience with technical books, but I suspect it actually has to do with the pattern of development that the book is based around.</p>
 
-&lt;p&gt;  The hidden bonus feature of this book is introducing you to test-driven development. Using Rails sometimes seems like a mystical art to me, but using Cucumber in particular has given me guidance as to what my next steps are. I will definitely be studying TDD in greater detail in the future, as introductory books lose me at times when they introduce how to do lots of things in a language or framework, but refrain from informing me clearly why I am doing it. The pattern of write test -&gt; implement features -&gt; run tests is infinitely reusable and will save me time as it leads me towards better practices.&lt;/p&gt;
+<p>  The hidden bonus feature of this book is introducing you to test-driven development. Using Rails sometimes seems like a mystical art to me, but using Cucumber in particular has given me guidance as to what my next steps are. I will definitely be studying TDD in greater detail in the future, as introductory books lose me at times when they introduce how to do lots of things in a language or framework, but refrain from informing me clearly why I am doing it. The pattern of write test -> implement features -> run tests is infinitely reusable and will save me time as it leads me towards better practices.</p>
 
-&lt;p&gt;  &lt;em&gt;Walden&lt;/em&gt; by Henry David Thoreau — Classic book on holing up in the woods and living simply. Thoreau affirms my belief getting rid of my stuff or not getting stuff in the first place is one of the best things I can do to improve my spiritual and mental clarity. Choice quote: &amp;#8220;As long as possible live free and uncommitted. It makes but little difference wether you are committed to a farm or the county jail.&amp;#8221;&lt;/p&gt;&lt;/blockquote&gt;
+<p>  <em>Walden</em> by Henry David Thoreau — Classic book on holing up in the woods and living simply. Thoreau affirms my belief getting rid of my stuff or not getting stuff in the first place is one of the best things I can do to improve my spiritual and mental clarity. Choice quote: &#8220;As long as possible live free and uncommitted. It makes but little difference wether you are committed to a farm or the county jail.&#8221;</p></blockquote>
 
-&lt;p&gt;That&amp;#8217;s what I&amp;#8217;m working on at the moment. I hope the interview goes well, and wish I&amp;#8217;d been able to eat my uncle&amp;#8217;s  &lt;em&gt;jiaozi&lt;/em&gt; today.&lt;/p&gt;
-</content>
+<p>That&#8217;s what I&#8217;m working on at the moment. I hope the interview goes well, and wish I&#8217;d been able to eat my uncle&#8217;s  <em>jiaozi</em> today.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>New Year in Guangzhou</title>
+    <title type="html"><![CDATA[New Year in Guangzhou]]></title>
     <link href="http://make.bettermistak.es/2012/01/02/new-year-in-guangzhou/"/>
-    <updated>2012-01-02T18:53:00+08:00</updated>
+    <updated>2012-01-02T18:53:00-08:00</updated>
     <id>http://make.bettermistak.es/2012/01/02/new-year-in-guangzhou</id>
-    <content type="html">&lt;h3&gt;SEA -&gt; BEI&lt;/h3&gt;
+    <content type="html"><![CDATA[<h3>SEA -> BEI</h3>
 
-&lt;p&gt;I am on the flight to Beijing, after having moved out of my apartment and stored boxes with family and friends. Last night was a late one, drinking cheap wine on a friend&amp;#8217;s futon with my partner at two in the morning, letting the cheap wine soak our systems which were already coursing with caffeine from nine in the evening coffees.&lt;/p&gt;
+<p>I am on the flight to Beijing, after having moved out of my apartment and stored boxes with family and friends. Last night was a late one, drinking cheap wine on a friend&#8217;s futon with my partner at two in the morning, letting the cheap wine soak our systems which were already coursing with caffeine from nine in the evening coffees.</p>
 
-&lt;p&gt;This feels risky. Every part of my body says the safe bet would have been to stay in Seattle, find a job, any job, and work that for a couple of years till something better comes along. Something better isn&amp;#8217;t coming along. Maybe I just wasn&amp;#8217;t looking hard enough, but it looked doubtful that satisfying work was coming my way, no matter how hard I chose to look.&lt;/p&gt;
+<p>This feels risky. Every part of my body says the safe bet would have been to stay in Seattle, find a job, any job, and work that for a couple of years till something better comes along. Something better isn&#8217;t coming along. Maybe I just wasn&#8217;t looking hard enough, but it looked doubtful that satisfying work was coming my way, no matter how hard I chose to look.</p>
 
-&lt;p&gt;I did make one good stab towards my goals this week, despite the madness of moving. I finished my application to Hungry Academy, an apprenticeship program sponsored by Living Social with instruction by Jumpstart Lab. I posted my application video and a code sample. The video was ok, I did several eight minute takes and the last one felt good enough. The code sample I chose was a pull request wherein I had altered some of Brandon Mathis&amp;#8217; code from the Octopress Pullquote plugin. There are very few alterations to the code, but it is the simplest solution that works, and this choice of project will hopefully demonstrate that I am capable of reading other&amp;#8217;s code and adapting it. Also, able to contribute usefully to existing projects.&lt;/p&gt;
+<p>I did make one good stab towards my goals this week, despite the madness of moving. I finished my application to Hungry Academy, an apprenticeship program sponsored by Living Social with instruction by Jumpstart Lab. I posted my application video and a code sample. The video was ok, I did several eight minute takes and the last one felt good enough. The code sample I chose was a pull request wherein I had altered some of Brandon Mathis&#8217; code from the Octopress Pullquote plugin. There are very few alterations to the code, but it is the simplest solution that works, and this choice of project will hopefully demonstrate that I am capable of reading other&#8217;s code and adapting it. Also, able to contribute usefully to existing projects.</p>
 
-&lt;p&gt;I really hope I get in, though the time commitment the program requires, along with it being DC-based might force my partner and myself to live apart for five months.&lt;/p&gt;
+<p>I really hope I get in, though the time commitment the program requires, along with it being DC-based might force my partner and myself to live apart for five months.</p>
 
-&lt;p&gt;I reflected on last week&amp;#8217;s goals and what worked and what didn&amp;#8217;t I recognize that the thing that I need to focus on isn&amp;#8217;t chapters or pages read (though these may end up as good metrics) but instead I should begin to focus on hours spent studying. I think that next week I will attempt to read &lt;em&gt;Rails In Action&lt;/em&gt; for 12 hours. Which means I&amp;#8217;ll need to read for two hours and twenty four minutes each day. I believe this is a completely achievable goal.&lt;/p&gt;
+<p>I reflected on last week&#8217;s goals and what worked and what didn&#8217;t I recognize that the thing that I need to focus on isn&#8217;t chapters or pages read (though these may end up as good metrics) but instead I should begin to focus on hours spent studying. I think that next week I will attempt to read <em>Rails In Action</em> for 12 hours. Which means I&#8217;ll need to read for two hours and twenty four minutes each day. I believe this is a completely achievable goal.</p>
 
-&lt;p&gt;The other part to making this work is recording a metric other than time to see if I can improve. Though not all pages are equal, I&amp;#8217;m going to track my page count, so that in the future I can improve my pages read per hour or day.&lt;/p&gt;
+<p>The other part to making this work is recording a metric other than time to see if I can improve. Though not all pages are equal, I&#8217;m going to track my page count, so that in the future I can improve my pages read per hour or day.</p>
 
-&lt;h3&gt;On the Ground in Guangzhou, Day Two&lt;/h3&gt;
+<h3>On the Ground in Guangzhou, Day Two</h3>
 
-&lt;p&gt;We arrived in Guangzhou late at night, 10:20 PM China time. We subtract sixteen hours to figure out the time in the States. it was 5:20 AM  back home in Seattle. We are exhausted from running through the Beijing airport after one of our bags disappeared. Both my partner and I had small meltdowns in the airport, and she barely slept on the plane. My brother and his wife pick us up from the airport and we cross into the new year while riding the Subway from the airport closer to their apartment.&lt;/p&gt;
+<p>We arrived in Guangzhou late at night, 10:20 PM China time. We subtract sixteen hours to figure out the time in the States. it was 5:20 AM  back home in Seattle. We are exhausted from running through the Beijing airport after one of our bags disappeared. Both my partner and I had small meltdowns in the airport, and she barely slept on the plane. My brother and his wife pick us up from the airport and we cross into the new year while riding the Subway from the airport closer to their apartment.</p>
 
-&lt;p&gt;Yesterday was a shopping day, including a long and exhausting trip to IKEA. We&amp;#8217;re crashing in the extra room in my brother&amp;#8217;s flat until we can furnish the apartment we&amp;#8217;ll be staying at in the building above my brother&amp;#8217;s brewery.&lt;/p&gt;
+<p>Yesterday was a shopping day, including a long and exhausting trip to IKEA. We&#8217;re crashing in the extra room in my brother&#8217;s flat until we can furnish the apartment we&#8217;ll be staying at in the building above my brother&#8217;s brewery.</p>
 
-&lt;p&gt;I think that acclimating through the jet lag and minor culture shock is going to leave me low energy, and it&amp;#8217;s already Monday evening. I&amp;#8217;m going to set a realistic goal of eight hours of reading this week, two hours each day Tuesday through Friday. I&amp;#8217;ll set aside time and space away from my family to make this happen and hopefully also be able to check in at the end of the week.&lt;/p&gt;
-</content>
+<p>I think that acclimating through the jet lag and minor culture shock is going to leave me low energy, and it&#8217;s already Monday evening. I&#8217;m going to set a realistic goal of eight hours of reading this week, two hours each day Tuesday through Friday. I&#8217;ll set aside time and space away from my family to make this happen and hopefully also be able to check in at the end of the week.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>Monday Check-In</title>
+    <title type="html"><![CDATA[Monday Check-In]]></title>
     <link href="http://make.bettermistak.es/2011/12/26/monday-check-in/"/>
-    <updated>2011-12-26T23:48:00+08:00</updated>
+    <updated>2011-12-26T23:48:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/12/26/monday-check-in</id>
-    <content type="html">&lt;p&gt;This week I will move my stuff out of my apartment and fly to Guangzhou. This obviously leaves me with a lack of time to work on projects. My project this week is to apply to &lt;a href=&quot;http://hungryacademy.com/&quot;&gt;Hungry Academy&lt;/a&gt;. I&amp;#8217;ll write a post before Friday to report how that went.&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<p>This week I will move my stuff out of my apartment and fly to Guangzhou. This obviously leaves me with a lack of time to work on projects. My project this week is to apply to <a href="http://hungryacademy.com/">Hungry Academy</a>. I&#8217;ll write a post before Friday to report how that went.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>The Hidden Chapter</title>
+    <title type="html"><![CDATA[The Hidden Chapter]]></title>
     <link href="http://make.bettermistak.es/2011/12/23/the-hidden-chapter/"/>
-    <updated>2011-12-23T20:32:00+08:00</updated>
+    <updated>2011-12-23T20:32:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/12/23/the-hidden-chapter</id>
-    <content type="html">&lt;p&gt;I didn&amp;#8217;t read five chapters this week, and that&amp;#8217;s partially because of the hidden chapter in all tech books. I believe the hidden chapter is a bug, but in documenting it I hope to make it in to a feature.&lt;/p&gt;
+    <content type="html"><![CDATA[<p>I didn&#8217;t read five chapters this week, and that&#8217;s partially because of the hidden chapter in all tech books. I believe the hidden chapter is a bug, but in documenting it I hope to make it in to a feature.</p>
 
-&lt;p&gt;Tech publishing firms deals with different issues than other publishers. Tech books have small audiences which leads to higher prices per book as the economy of scale is the only thing that makes a paperback a possibly profitable prospect. (Though most books make very little. The secret of publishing is making small bets on unknowns and then creating and maintaining audiences for authors who find an audience with their first book.)&lt;/p&gt;
+<p>Tech publishing firms deals with different issues than other publishers. Tech books have small audiences which leads to higher prices per book as the economy of scale is the only thing that makes a paperback a possibly profitable prospect. (Though most books make very little. The secret of publishing is making small bets on unknowns and then creating and maintaining audiences for authors who find an audience with their first book.)</p>
 
-&lt;p&gt;Tech authors aren&amp;#8217;t paid much relative to the compensation they can receive if they work as consultants. I don&amp;#8217;t have any info to compare their wage to authors in other sections of the bookstore, but anyone who has enough expertise to write a good tech book also has enough expertise to find better paying work elsewhere.&lt;/p&gt;
+<p>Tech authors aren&#8217;t paid much relative to the compensation they can receive if they work as consultants. I don&#8217;t have any info to compare their wage to authors in other sections of the bookstore, but anyone who has enough expertise to write a good tech book also has enough expertise to find better paying work elsewhere.</p>
 
-&lt;p&gt;They also have to strike a difficult balance, being entertaining without being overly verbose, being informative without dulling the reader into a coma. I have been routinely surprised at how well written the prose is in tech books, and it comes from a high attention to detail on the authors part, as well as the early readers of the book, who are generally uncompensated.&lt;/p&gt;
+<p>They also have to strike a difficult balance, being entertaining without being overly verbose, being informative without dulling the reader into a coma. I have been routinely surprised at how well written the prose is in tech books, and it comes from a high attention to detail on the authors part, as well as the early readers of the book, who are generally uncompensated.</p>
 
-&lt;p&gt;To prepare a book for printing the publisher must work in rigid formats which preserve layouts and encourage migraines. There may be some editing staff that review the prose, but the publishing industry has scaled down heavily on copy-editors and other related quality assurance staff as the industry has digitized.&lt;/p&gt;
+<p>To prepare a book for printing the publisher must work in rigid formats which preserve layouts and encourage migraines. There may be some editing staff that review the prose, but the publishing industry has scaled down heavily on copy-editors and other related quality assurance staff as the industry has digitized.</p>
 
-&lt;p&gt;This is all to say, &lt;strong&gt;mistakes are made in tech books&lt;/strong&gt;. They are to be expected.&lt;/p&gt;
+<p>This is all to say, <strong>mistakes are made in tech books</strong>. They are to be expected.</p>
 
-&lt;p&gt;However, a small mistake can have large ramifications for a coder just learning a new technology. I&amp;#8217;ve been working through Rails 3 In Action written by Ryan Bigg and published by Manning Books. This morning at six, after a night of insomnia, I began working through the third chapter. My PDF was generated earlier this week, or it was delivered to me at the least, and I assumed that any known errata would already be incorporated. It turns out this is not the case.&lt;/p&gt;
+<p>However, a small mistake can have large ramifications for a coder just learning a new technology. I&#8217;ve been working through Rails 3 In Action written by Ryan Bigg and published by Manning Books. This morning at six, after a night of insomnia, I began working through the third chapter. My PDF was generated earlier this week, or it was delivered to me at the least, and I assumed that any known errata would already be incorporated. It turns out this is not the case.</p>
 
-&lt;p&gt;Instead, I had an issue with using a version of Cucumber that had come out since the book was released and breaks the functionality of the code I was working through. The error got me confused, and I decided to take a rest. After a two hour nap and some veggie huevos rancheros, I tried my hand at it again. I figured out that my issue was related to using the wrong version of Cucumber. I tried a few things to fix the version issue on my current commit, but ended up having to revert to an earlier checkin with git. And that troubleshooting process took me a couple of hours where I would have actually worked through the material.&lt;/p&gt;
+<p>Instead, I had an issue with using a version of Cucumber that had come out since the book was released and breaks the functionality of the code I was working through. The error got me confused, and I decided to take a rest. After a two hour nap and some veggie huevos rancheros, I tried my hand at it again. I figured out that my issue was related to using the wrong version of Cucumber. I tried a few things to fix the version issue on my current commit, but ended up having to revert to an earlier checkin with git. And that troubleshooting process took me a couple of hours where I would have actually worked through the material.</p>
 
-&lt;p&gt;I believe that troubleshooting problems is an important skill to have. Mistakes in tech books encourage the reader to learn how to troubleshoot. But they also encourage frustration. I wish that there were a good, simple solution to ironing out errors from tech books, even those errors that are introduced by changing technology. From my understanding, Pragmatic Programmers has much better errata reporting system then Manning Books. Reducing the errors by using print-on-demand and continuous development helps a lot, but it will never be a silver bullet.&lt;/p&gt;
+<p>I believe that troubleshooting problems is an important skill to have. Mistakes in tech books encourage the reader to learn how to troubleshoot. But they also encourage frustration. I wish that there were a good, simple solution to ironing out errors from tech books, even those errors that are introduced by changing technology. From my understanding, Pragmatic Programmers has much better errata reporting system then Manning Books. Reducing the errors by using print-on-demand and continuous development helps a lot, but it will never be a silver bullet.</p>
 
-&lt;p&gt;Those hours you take to troubleshoot something that should work, but doesn&amp;#8217;t, are the missing chapter in most tech books. Try to look at them as value-added content. And publishers, please try to keep the missing chapters in the second half of your books.&lt;/p&gt;
-</content>
+<p>Those hours you take to troubleshoot something that should work, but doesn&#8217;t, are the missing chapter in most tech books. Try to look at them as value-added content. And publishers, please try to keep the missing chapters in the second half of your books.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>New Habits</title>
+    <title type="html"><![CDATA[New Habits]]></title>
     <link href="http://make.bettermistak.es/2011/12/19/new-habits/"/>
-    <updated>2011-12-19T19:52:00+08:00</updated>
+    <updated>2011-12-19T19:52:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/12/19/new-habits</id>
-    <content type="html">&lt;p&gt;This week I am going to set the goal of establishing two new habits, first I will post to the blog on Monday and Friday of every week. The Monday post will be about whatever my goals for the week are. The Friday post will be a review of how well I achieved my goals. The second goal is to read at least five chapters of my current development book, &lt;a href=&quot;http://www.manning.com/katz/&quot;&gt;Rails 3 In Action&lt;/a&gt;.&lt;/p&gt;
+    <content type="html"><![CDATA[<p>This week I am going to set the goal of establishing two new habits, first I will post to the blog on Monday and Friday of every week. The Monday post will be about whatever my goals for the week are. The Friday post will be a review of how well I achieved my goals. The second goal is to read at least five chapters of my current development book, <a href="http://www.manning.com/katz/">Rails 3 In Action</a>.</p>
 
-&lt;p&gt;Today I made it through the first chapter of Rails in Action, which was an overview of using rails with the scaffolding generator. Nothing too surprising, and near the end of the chapter my eyes started glazing over. Tomorrow&amp;#8217;s chapter is about Unit::Test, RSpec, and Cucumber, Test Driven Development, all that. The writing is pretty good, Technical books have to strike a difficult balance in that their information to page count ratio must be high, but their tone shouldn&amp;#8217;t be too dry, and if Rails in Action were a sandwich, it would have just the right amount of mustard.&lt;/p&gt;
+<p>Today I made it through the first chapter of Rails in Action, which was an overview of using rails with the scaffolding generator. Nothing too surprising, and near the end of the chapter my eyes started glazing over. Tomorrow&#8217;s chapter is about Unit::Test, RSpec, and Cucumber, Test Driven Development, all that. The writing is pretty good, Technical books have to strike a difficult balance in that their information to page count ratio must be high, but their tone shouldn&#8217;t be too dry, and if Rails in Action were a sandwich, it would have just the right amount of mustard.</p>
 
-&lt;p&gt;Other things going on this week include packing and Christmas. My partner has sorted through all of her clothes and is giving away three quarters of them. Our rolling duffels will arrive in the mail tomorrow. We&amp;#8217;re eleven days from flying out, and the limitations of international travel make me examine what I really &lt;em&gt;need&lt;/em&gt;. Not a lot, it turns out.&lt;/p&gt;
-</content>
+<p>Other things going on this week include packing and Christmas. My partner has sorted through all of her clothes and is giving away three quarters of them. Our rolling duffels will arrive in the mail tomorrow. We&#8217;re eleven days from flying out, and the limitations of international travel make me examine what I really <em>need</em>. Not a lot, it turns out.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>Ira Glass On Creative Work</title>
+    <title type="html"><![CDATA[Ira Glass On Creative Work]]></title>
     <link href="http://make.bettermistak.es/2011/12/16/ira-glass-on-creative-work/"/>
-    <updated>2011-12-16T00:00:00+08:00</updated>
+    <updated>2011-12-16T00:00:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/12/16/ira-glass-on-creative-work</id>
-    <content type="html">
-</content>
+    <content type="html"><![CDATA[
+]]></content>
   </entry>
   
   <entry>
-    <title>Slack</title>
+    <title type="html"><![CDATA[Slack]]></title>
     <link href="http://make.bettermistak.es/2011/12/15/slack/"/>
-    <updated>2011-12-15T18:23:00+08:00</updated>
+    <updated>2011-12-15T18:23:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/12/15/slack</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;I&amp;#8217;ve been busy prepping to leave town&lt;/em&gt; is the lie I tell myself to excuse being unproductive in the last month. Our cultural obsession with productivity makes many into tools, but there are days I wouldn&amp;#8217;t mind getting a few things off of my metaphorical to do list.&lt;/p&gt;
+    <content type="html"><![CDATA[<p><em>I&#8217;ve been busy prepping to leave town</em> is the lie I tell myself to excuse being unproductive in the last month. Our cultural obsession with productivity makes many into tools, but there are days I wouldn&#8217;t mind getting a few things off of my metaphorical to do list.</p>
 
-&lt;p&gt;Reality is: I get stuck in dumb loops. I check twitter. I play civ5. I marathon DS9 on Netflix way past midnight. I check twitter, reddit, reader, facebook, and twitter. I look for dopamine fixes, and avoid sitting still without my wifi on for distraction. Why? as Tony Schwartz puts it in his excellent talk &lt;a href=&quot;http://the99percent.com/videos/7110/Tony-Schwartz-The-Myths-of-the-Overworked-Creative&quot;&gt;The Myths of the Overworked Creative&lt;/a&gt;&lt;/p&gt;
+<p>Reality is: I get stuck in dumb loops. I check twitter. I play civ5. I marathon DS9 on Netflix way past midnight. I check twitter, reddit, reader, facebook, and twitter. I look for dopamine fixes, and avoid sitting still without my wifi on for distraction. Why? as Tony Schwartz puts it in his excellent talk <a href="http://the99percent.com/videos/7110/Tony-Schwartz-The-Myths-of-the-Overworked-Creative">The Myths of the Overworked Creative</a></p>
 
-&lt;blockquote&gt;&lt;p&gt;&amp;#8220;Let&amp;#8217;s imagine you are looking at your computer and you are working on a very difficult problem and you know &lt;em&gt;anything that you can do to get away from that problem will be extremely attractive&lt;/em&gt;, because human beings have two core impulses in life: number one, escape pain; number two, move towards pleasure. That&amp;#8217;s where we live. So now, along comes the ping of that email, and that email is saying freedom, I&amp;#8217;m free at last. And you go to that email because it takes you away from the pain of doing something more difficult and more complex, and it promises you a potential pleasure. It rarely delivers.&amp;#8221;&lt;/p&gt;&lt;/blockquote&gt;
+<blockquote><p>&#8220;Let&#8217;s imagine you are looking at your computer and you are working on a very difficult problem and you know <em>anything that you can do to get away from that problem will be extremely attractive</em>, because human beings have two core impulses in life: number one, escape pain; number two, move towards pleasure. That&#8217;s where we live. So now, along comes the ping of that email, and that email is saying freedom, I&#8217;m free at last. And you go to that email because it takes you away from the pain of doing something more difficult and more complex, and it promises you a potential pleasure. It rarely delivers.&#8221;</p></blockquote>
 
-&lt;!&#8211;more&#8211;&gt;
-
-
-&lt;p&gt;In the short term, slack is very attractive. Seems obvious on the face of it, almost as obvious as &amp;#8220;cake is delicious.&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;Still, beating myself up for past mistakes won&amp;#8217;t magically elicit good behavior, and I think part of the problem is a lack of SMART goals. SMART goals are those which are Specific, Measurable, Action-oriented, Reasonable, and Timely.&lt;sup id=&quot;refBody1&quot;&gt;&lt;a href=&quot;#refAnchor1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;So yeah, I need to define better, more actionable goals, I&amp;#8217;ll acknowledge that.&lt;/p&gt;
-
-&lt;p&gt;But I also need to get past a fear that is occupying some space in my head, the fear of incompetence. I am avoiding finding some real challenges because it&amp;#8217;s so much easier to play a game of Civilization, cycle through social networks, watch old television on Netflix, but, as &lt;a href=&quot;http://twitter.com/raganwald&quot;&gt;@raganwald&lt;/a&gt; writes in his blog post &amp;#8221;&lt;a href=&quot;https://github.com/raganwald/homoiconic/blob/master/2009-10-20/high_anxiety.md&quot;&gt;High Anxiety&lt;/a&gt;&amp;#8221;, &amp;#8220;The irony is, competence is not a cure for the fear of incompetence. The courage to play incompetently is a cure for the fear of incompetence.&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;If it makes you feel any better, I&amp;#8217;m not the only one who wastes time so phenomenally well. I read an article a few days ago—skimmed really—which said that most young people waste their time online. I&amp;#8217;d dig it up and link to it, but I think it is a waste of our time and attention.&lt;/p&gt;
-
-&lt;p&gt;I guess I should start doing something about this huge surplus of slack. Tomorrow. Well, how about in the new year after I&amp;#8217;ve settled down in Guangzhou. Or, you could attack any of the following potential problems, Strand:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Work through any of the technical books you own.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hack at any Ruby project you can find on github.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://rubykoans.com/&quot;&gt;rubykoans.com&lt;/a&gt;&lt;/strong&gt; — Learn how to develop test driven applications by working through these koans, a series of programs which fail every test built into them.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Unemployedrubyist.com&lt;/strong&gt; — I&amp;#8217;ve heard that the employment rate in the Ruby community is 100 percent from three seperate rubyists. Well, there is an exception to prove every rule, and this domain wasn&amp;#8217;t taken the last time I checked. Develop a Rails-based site for rubyists who want to let potential employers know that they are available for hire.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;euler.heroku.com&lt;/strong&gt; - Create a Sinatra-based site for rubyists to contribute solutions to Euler problems. Maintain a github repo that mirrors to heroku.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;small&gt;
-&lt;ol&gt;
-&lt;li id=&quot;refAnchor1&quot;&gt;
-&lt;p&gt;My Aunt Jan defined SMART goals in an email to my family&amp;#8217;s listserv:
-&lt;blockquote&gt;If goal setting is new to you or something you have not done for a while—go easy at first… seek one or two that REALLY matter to you… and set SMART GOALS: &lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;S is for Specific.&lt;/b&gt; If you set a goal to exercise 3 days a week that is somewhat specific. If you can be more specific you are more likely to achieve the goal… for example you might write I will exercise on Tuesday at the Club; I will walk more than three miles on Thursday; and on Friday I will life weights—three days of exercise—but with a much more defined road map. &lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;M is for Measurable.&lt;/b&gt; Set your own yard stick but make sure you are measuring—with exercise it can be miles, or minutes, or maintaining heart rate. With writing it can be number of words per day. With knitting it can be number of rows; or inches of a scarf—when you write a goal, include the measurement you will use—so you can evaluate success. &lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;A is Action-oriented.&lt;/b&gt; Make sure your goal statement has a visible action in it. &amp;#8216;I will look for work&amp;#8217; has an action that is pretty fuzzy—like wandering around the house looking for your keys when you have forgotten where you put them. &amp;#8220;I will research to find 3 places within 5 miles of the house who are accepting applications.&amp;#8221; This is an ACTION item—you can see yourself doing the work.  &lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;R is Reasonable.&lt;/b&gt; Set Goals you can REASONABLY reach. If you haven&amp;#8217;t been writing for a while, writing for 20 minutes five times this week might be possible—but if you are setting a writing goal, maybe writing three times a week is more like what you can accomplish. If you know how fast you knit—so you can think that knitting 9 rows each day is reasonable but knit a six foot scarf might not be something you can reasonably accomplish in one week.  &lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;T is Timely—&lt;/b&gt;ALL of the goals that you set for this week are things you think you can accomplish this week—and that you will evaluate next Wednesday. Each week you get to decide if you want to continue with a goal; modify a goal; or not continue. &lt;/blockquote&gt;&lt;a href=&quot;#refBody1&quot;  class=&#8217;footnoteBackLink&#8217;  title=&quot;Jump back to footnote 1 in the text.&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/small&gt;
-&lt;/div&gt;
+<!--more-->
 
 
+<p>In the short term, slack is very attractive. Seems obvious on the face of it, almost as obvious as &#8220;cake is delicious.&#8221;</p>
 
-</content>
+<p>Still, beating myself up for past mistakes won&#8217;t magically elicit good behavior, and I think part of the problem is a lack of SMART goals. SMART goals are those which are Specific, Measurable, Action-oriented, Reasonable, and Timely.<sup id="refBody1"><a href="#refAnchor1">1</a></sup></p>
+
+<p>So yeah, I need to define better, more actionable goals, I&#8217;ll acknowledge that.</p>
+
+<p>But I also need to get past a fear that is occupying some space in my head, the fear of incompetence. I am avoiding finding some real challenges because it&#8217;s so much easier to play a game of Civilization, cycle through social networks, watch old television on Netflix, but, as <a href="http://twitter.com/raganwald">@raganwald</a> writes in his blog post &#8221;<a href="https://github.com/raganwald/homoiconic/blob/master/2009-10-20/high_anxiety.md">High Anxiety</a>&#8221;, &#8220;The irony is, competence is not a cure for the fear of incompetence. The courage to play incompetently is a cure for the fear of incompetence.&#8221;</p>
+
+<p>If it makes you feel any better, I&#8217;m not the only one who wastes time so phenomenally well. I read an article a few days ago—skimmed really—which said that most young people waste their time online. I&#8217;d dig it up and link to it, but I think it is a waste of our time and attention.</p>
+
+<p>I guess I should start doing something about this huge surplus of slack. Tomorrow. Well, how about in the new year after I&#8217;ve settled down in Guangzhou. Or, you could attack any of the following potential problems, Strand:</p>
+
+<p><strong>Work through any of the technical books you own.</strong></p>
+
+<p><strong>Hack at any Ruby project you can find on github.</strong></p>
+
+<p><strong><a href="http://rubykoans.com/">rubykoans.com</a></strong> — Learn how to develop test driven applications by working through these koans, a series of programs which fail every test built into them.</p>
+
+<p><strong>Unemployedrubyist.com</strong> — I&#8217;ve heard that the employment rate in the Ruby community is 100 percent from three seperate rubyists. Well, there is an exception to prove every rule, and this domain wasn&#8217;t taken the last time I checked. Develop a Rails-based site for rubyists who want to let potential employers know that they are available for hire.</p>
+
+<p><strong>euler.heroku.com</strong> - Create a Sinatra-based site for rubyists to contribute solutions to Euler problems. Maintain a github repo that mirrors to heroku.</p>
+
+<div class="footnotes">
+<hr />
+<small>
+<ol>
+<li id="refAnchor1">
+<p>My Aunt Jan defined SMART goals in an email to my family&#8217;s listserv:
+<blockquote>If goal setting is new to you or something you have not done for a while—go easy at first… seek one or two that REALLY matter to you… and set SMART GOALS: <br/><br/>
+<b>S is for Specific.</b> If you set a goal to exercise 3 days a week that is somewhat specific. If you can be more specific you are more likely to achieve the goal… for example you might write I will exercise on Tuesday at the Club; I will walk more than three miles on Thursday; and on Friday I will life weights—three days of exercise—but with a much more defined road map. <br/><br/>
+<b>M is for Measurable.</b> Set your own yard stick but make sure you are measuring—with exercise it can be miles, or minutes, or maintaining heart rate. With writing it can be number of words per day. With knitting it can be number of rows; or inches of a scarf—when you write a goal, include the measurement you will use—so you can evaluate success. <br/><br/>
+<b>A is Action-oriented.</b> Make sure your goal statement has a visible action in it. &#8216;I will look for work&#8217; has an action that is pretty fuzzy—like wandering around the house looking for your keys when you have forgotten where you put them. &#8220;I will research to find 3 places within 5 miles of the house who are accepting applications.&#8221; This is an ACTION item—you can see yourself doing the work.  <br/><br/>
+<b>R is Reasonable.</b> Set Goals you can REASONABLY reach. If you haven&#8217;t been writing for a while, writing for 20 minutes five times this week might be possible—but if you are setting a writing goal, maybe writing three times a week is more like what you can accomplish. If you know how fast you knit—so you can think that knitting 9 rows each day is reasonable but knit a six foot scarf might not be something you can reasonably accomplish in one week.  <br/><br/>
+<b>T is Timely—</b>ALL of the goals that you set for this week are things you think you can accomplish this week—and that you will evaluate next Wednesday. Each week you get to decide if you want to continue with a goal; modify a goal; or not continue. </blockquote><a href="#refBody1"  class='footnoteBackLink'  title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</small>
+</div>
+
+
+
+]]></content>
   </entry>
   
   <entry>
-    <title>How Do I Keep Secrets While Sharing Code?</title>
+    <title type="html"><![CDATA[How Do I Keep Secrets While Sharing Code?]]></title>
     <link href="http://make.bettermistak.es/2011/11/20/how-do-i-keep-secrets-while-sharing-code/"/>
-    <updated>2011-11-20T15:46:00+08:00</updated>
+    <updated>2011-11-20T15:46:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/11/20/how-do-i-keep-secrets-while-sharing-code</id>
-    <content type="html">&lt;p&gt;This week I&amp;#8217;ve been working on a pretty simple Sinatra-based website which uses the &lt;a href=&quot;http://twitter.rubyforge.org/&quot;&gt;twitter gem&lt;/a&gt;. I&amp;#8217;m almost ready to post what I&amp;#8217;ve got so far on github and heroku and see if anyone likes what I&amp;#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:&lt;/p&gt;
+    <content type="html"><![CDATA[<p>This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the <a href="http://twitter.rubyforge.org/">twitter gem</a>. I&#8217;m almost ready to post what I&#8217;ve got so far on github and heroku and see if anyone likes what I&#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:</p>
 
-&lt;div&gt;&lt;script src=&#8217;https://gist.github.com/1381160.js?file=authenticate.rb&#8217;&gt;&lt;/script&gt;
-&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;require &#8216;twitter&#8217;
-require &#8216;yaml&#8217;
+<div><script src='https://gist.github.com/1381160.js?file=authenticate.rb'></script>
+<noscript><pre><code>require 'twitter'
+require 'yaml'
 
 def authenticate
   
   Twitter.configure do |c|
-    config = YAML.load(File.read(&amp;quot;config.yml&amp;quot;))[:twitter]
+    config = YAML.load(File.read(&quot;config.yml&quot;))[:twitter]
     c.consumer_key       = config[:consumer_key]
     c.consumer_secret    = config[:consumer_secret]
     c.oauth_token        = config[:oauth_token]
@@ -259,268 +258,268 @@ def authenticate
 
   @client = Twitter::Client.new
 
-end&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+end</code></pre></noscript></div>
 
 
-&lt;p&gt;Correspondingly, below is the YAML which has the secrets, with my secrets stripped out:&lt;/p&gt;
+<p>Correspondingly, below is the YAML which has the secrets, with my secrets stripped out:</p>
 
-&lt;div&gt;&lt;script src=&#8217;https://gist.github.com/1381160.js?file=config.yml&#8217;&gt;&lt;/script&gt;
-&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;:twitter:
+<div><script src='https://gist.github.com/1381160.js?file=config.yml'></script>
+<noscript><pre><code>:twitter:
     :consumer_key:       CONSUMER_KEY
     :consumer_secret:    CONSUMER_SECRET
     :oauth_token:        OAUTH_TOKEN
-    :oauth_token_secret: OAUTH_TOKEN_SECRET&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+    :oauth_token_secret: OAUTH_TOKEN_SECRET</code></pre></noscript></div>
 
 
-&lt;p&gt;This is a fine way to obfuscate my secrets, but only if I never include the secret in my repository, which I can do easily enough with .gitignore. But, I only want to exclude this from my viewable source, not from my deployed application, otherwise my app won&amp;#8217;t run. &lt;a href=&quot;http://help.github.com/ignore-files/&quot;&gt;Github&amp;#8217;s help&lt;/a&gt; indicates that &amp;#8220;Local per-repo rules can be added to the &lt;code&gt;.git/info/exclude&lt;/code&gt; file in your repo,&amp;#8221; but doesn&amp;#8217;t indicate how this info needs to be formatted. The guides to .gitignore I have found have all directed me to a broken man page for more information, I think I need the help of a professional.&lt;/p&gt;
+<p>This is a fine way to obfuscate my secrets, but only if I never include the secret in my repository, which I can do easily enough with .gitignore. But, I only want to exclude this from my viewable source, not from my deployed application, otherwise my app won&#8217;t run. <a href="http://help.github.com/ignore-files/">Github&#8217;s help</a> indicates that &#8220;Local per-repo rules can be added to the <code>.git/info/exclude</code> file in your repo,&#8221; but doesn&#8217;t indicate how this info needs to be formatted. The guides to .gitignore I have found have all directed me to a broken man page for more information, I think I need the help of a professional.</p>
 
-&lt;p&gt;So the question is: &lt;strong&gt;how do I make committing this YAML file conditional?&lt;/strong&gt; So I never accidentally upload it to github, but it always shows up on Heroku?&lt;/p&gt;
-</content>
+<p>So the question is: <strong>how do I make committing this YAML file conditional?</strong> So I never accidentally upload it to github, but it always shows up on Heroku?</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>On Optimism</title>
+    <title type="html"><![CDATA[On Optimism]]></title>
     <link href="http://make.bettermistak.es/2011/11/13/on-optimism/"/>
-    <updated>2011-11-13T20:00:00+08:00</updated>
+    <updated>2011-11-13T20:00:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/11/13/on-optimism</id>
-    <content type="html">&lt;p&gt;What traits make us better able to learn new skills? I think there&amp;#8217;s a handful of qualities we can foster to make skill acquisition easier, but optimism may be the most important one.&lt;/p&gt;
+    <content type="html"><![CDATA[<p>What traits make us better able to learn new skills? I think there&#8217;s a handful of qualities we can foster to make skill acquisition easier, but optimism may be the most important one.</p>
 
-&lt;p&gt;Recently I began reading &lt;a href=&quot;http://www.amazon.com/gp/product/1400078393/ref=as_li_tf_tl?ie=UTF8&amp;amp;tag=sibrar-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399369&amp;amp;creativeASIN=1400078393&quot;&gt;Learned Optimism&lt;/a&gt;, which claims that pessimists are significantly likelier to stay depressed than optimists are. I heard about the book after stumbling on a talk by &lt;a href=&quot;http://twitter.com/#!/raganwald&quot;&gt;@raganwald&lt;/a&gt; on &lt;a href=&quot;https://github.com/raganwald/homoiconic/blob/master/2009-05-01/optimism.md&quot;&gt;optimism&lt;/a&gt;.&lt;/p&gt;
+<p>Recently I began reading <a href="http://www.amazon.com/gp/product/1400078393/ref=as_li_tf_tl?ie=UTF8&amp;tag=sibrar-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399369&amp;creativeASIN=1400078393">Learned Optimism</a>, which claims that pessimists are significantly likelier to stay depressed than optimists are. I heard about the book after stumbling on a talk by <a href="http://twitter.com/#!/raganwald">@raganwald</a> on <a href="https://github.com/raganwald/homoiconic/blob/master/2009-05-01/optimism.md">optimism</a>.</p>
 
-&lt;p&gt;The book is good. I&amp;#8217;m about halfway through it, and have taken tests which determine wether you are an optimist or a pessimist, and wether you are depressed or not, I can tell you that I am a pessimist, but I am not depressed.&lt;/p&gt;
+<p>The book is good. I&#8217;m about halfway through it, and have taken tests which determine wether you are an optimist or a pessimist, and wether you are depressed or not, I can tell you that I am a pessimist, but I am not depressed.</p>
 
-&lt;p&gt;I am especially glad to hear the second half of that. I have had depressions come and go since my teens, and this year has had it&amp;#8217;s ups and downs. If I didn&amp;#8217;t do a good job of maintaining myself, I could find myself in a depressive funk which can feel like it will go on forever.&lt;/p&gt;
+<p>I am especially glad to hear the second half of that. I have had depressions come and go since my teens, and this year has had it&#8217;s ups and downs. If I didn&#8217;t do a good job of maintaining myself, I could find myself in a depressive funk which can feel like it will go on forever.</p>
 
-&lt;p&gt;The pessimist part of the quizzes is accurate, too. I am inclined to look at what can go wrong, and prepare well for when it eventually does. I am anxious. I tend to overthink my problems when I have them. Right now I am worrying if I am taking the right tact in this blog post.&lt;/p&gt;
+<p>The pessimist part of the quizzes is accurate, too. I am inclined to look at what can go wrong, and prepare well for when it eventually does. I am anxious. I tend to overthink my problems when I have them. Right now I am worrying if I am taking the right tact in this blog post.</p>
 
-&lt;p&gt;When we&amp;#8217;re learning something new, it is good to have an optimistic frame of mind. Because, eventually, there will be a setback. My partner is less tech-inclined then I am, and when she runs into a problem that she cannot solve on the computer, she throws her hands up and says &amp;#8220;I&amp;#8217;m no good at tech.&amp;#8221; It pains me to see her pessimistic approach to technology.&lt;/p&gt;
+<p>When we&#8217;re learning something new, it is good to have an optimistic frame of mind. Because, eventually, there will be a setback. My partner is less tech-inclined then I am, and when she runs into a problem that she cannot solve on the computer, she throws her hands up and says &#8220;I&#8217;m no good at tech.&#8221; It pains me to see her pessimistic approach to technology.</p>
 
-&lt;p&gt;When bad things happen, like if our programming environment is near impossible to setup, an optimist explains it as being impersonal, specific, and temporary. &amp;#8220;It isn&amp;#8217;t my fault Foo++ 0.9 isn&amp;#8217;t easy to install, but the next version should be easier.&amp;#8221; When good things happen, like creating an app in a new environment, the optimist takes it as personal, general, and permanent. &amp;#8220;I&amp;#8217;m really smart, which is what made putting together my Foo++-based webserver so quick and easy. I&amp;#8217;m going to try building a bigger app next.&amp;#8221;&lt;/p&gt;
+<p>When bad things happen, like if our programming environment is near impossible to setup, an optimist explains it as being impersonal, specific, and temporary. &#8220;It isn&#8217;t my fault Foo++ 0.9 isn&#8217;t easy to install, but the next version should be easier.&#8221; When good things happen, like creating an app in a new environment, the optimist takes it as personal, general, and permanent. &#8220;I&#8217;m really smart, which is what made putting together my Foo++-based webserver so quick and easy. I&#8217;m going to try building a bigger app next.&#8221;</p>
 
-&lt;p&gt;Optimism is the attitude we need to foster to better encourage persistent improvement, especially when (inevitably) things don&amp;#8217;t go as planned.&lt;/p&gt;
-</content>
+<p>Optimism is the attitude we need to foster to better encourage persistent improvement, especially when (inevitably) things don&#8217;t go as planned.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>Rails for Zombies Is Fun</title>
+    <title type="html"><![CDATA[Rails for Zombies Is Fun]]></title>
     <link href="http://make.bettermistak.es/2011/11/08/rails-for-zombies-is-fun/"/>
-    <updated>2011-11-08T12:44:00+08:00</updated>
+    <updated>2011-11-08T12:44:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/11/08/rails-for-zombies-is-fun</id>
-    <content type="html">&lt;p&gt;&lt;em&gt;Note: &lt;a href=&quot;http://zfer.us/eyf1n&quot;&gt;Code School&lt;/a&gt; provides me a referral fee if folks sign up through some links in this post. Even without this fee, I would recommend their service.&lt;/em&gt;&lt;/p&gt;
+    <content type="html"><![CDATA[<p><em>Note: <a href="http://zfer.us/eyf1n">Code School</a> provides me a referral fee if folks sign up through some links in this post. Even without this fee, I would recommend their service.</em></p>
 
-&lt;p&gt;I don&amp;#8217;t like webinars on the face of it, though perhaps I am judging a book by its cover. My experience with them is that a webinar will be a series of videos where someone captures their screen and drones narration while they perform some sort of boring task in whatever technology they are trying to demonstrate. Which, for me at least, isn&amp;#8217;t a great way to learn something.&lt;/p&gt;
+<p>I don&#8217;t like webinars on the face of it, though perhaps I am judging a book by its cover. My experience with them is that a webinar will be a series of videos where someone captures their screen and drones narration while they perform some sort of boring task in whatever technology they are trying to demonstrate. Which, for me at least, isn&#8217;t a great way to learn something.</p>
 
-&lt;p&gt;Recently, I tried &lt;a href=&quot;http://railsforzombies.org/&quot;&gt;Rails for Zombies&lt;/a&gt; recently and I  enjoyed it. At first glance, Rails for Zombies appears to be a webinar, but it is really a well produced course. The course is led by Gregg Pollack, and all of the slides used are available as a PDF. After each video there is a level—a short quiz with a series of challenges which tests your knowledge of the material. &lt;span class=&#8217;pullquote-left&#8217; data-pullquote=&#8217;I know I am making progress with these small, well-defined challenges.&#8217;&gt;I know I am making progress with these small, well-defined challenges.&lt;/span&gt; The mix of questions is pretty good, with some being pretty easy to grok, while others require a few minutes of reviewing the material.&lt;/p&gt;
+<p>Recently, I tried <a href="http://railsforzombies.org/">Rails for Zombies</a> recently and I  enjoyed it. At first glance, Rails for Zombies appears to be a webinar, but it is really a well produced course. The course is led by Gregg Pollack, and all of the slides used are available as a PDF. After each video there is a level—a short quiz with a series of challenges which tests your knowledge of the material. <span class='pullquote-left' data-pullquote='I know I am making progress with these small, well-defined challenges.'>I know I am making progress with these small, well-defined challenges.</span> The mix of questions is pretty good, with some being pretty easy to grok, while others require a few minutes of reviewing the material.</p>
 
-&lt;p&gt;This course is thrown together for free by &lt;a href=&quot;http://zfer.us/eyf1n&quot;&gt;Code School&lt;/a&gt;, which has several courses on Ruby, JQuery, HTML5 and CSS3, as well as the Rails course. Once you&amp;#8217;ve completed the Rails for Zombies course they give you a five dollar credit to &amp;#8220;enroll&amp;#8221; in the school, at a cost of 25$ per month. Which is a bargain if you consider the courses individually are priced at 55$ apiece.&lt;sup id=&quot;refBody1&quot;&gt;&lt;a href=&quot;#refAnchor1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+<p>This course is thrown together for free by <a href="http://zfer.us/eyf1n">Code School</a>, which has several courses on Ruby, JQuery, HTML5 and CSS3, as well as the Rails course. Once you&#8217;ve completed the Rails for Zombies course they give you a five dollar credit to &#8220;enroll&#8221; in the school, at a cost of 25$ per month. Which is a bargain if you consider the courses individually are priced at 55$ apiece.<sup id="refBody1"><a href="#refAnchor1">1</a></sup></p>
 
-&lt;p&gt;I had such a good time using the free version of Rails for Zombies that I have signed up for Code School and I am working on the second attack Rails for Zombies 2. These courses are a fun and engaging way to learn (or review) the basics of creating webapps in a Rails environment, and I&amp;#8217;m going to see how much I can get done in the next month, then likely freeze my subscription. I like Code School a lot, but they&amp;#8217;re currently only putting out a course a month, and I&amp;#8217;m currently trying to keep my bills at a minimum.&lt;/p&gt;
+<p>I had such a good time using the free version of Rails for Zombies that I have signed up for Code School and I am working on the second attack Rails for Zombies 2. These courses are a fun and engaging way to learn (or review) the basics of creating webapps in a Rails environment, and I&#8217;m going to see how much I can get done in the next month, then likely freeze my subscription. I like Code School a lot, but they&#8217;re currently only putting out a course a month, and I&#8217;m currently trying to keep my bills at a minimum.</p>
 
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&quot;refAnchor1&quot;&gt;
-&lt;p&gt;I recognize this cost comparison is actually good marketing. Anyone who considers the monthly charge or the single-time fee will sign on for the subscription, and subscription services left uncanceled are more profitable than the purchase of products from time to time. &lt;a href=&quot;#refBody1&quot;  class=&#8217;footnoteBackLink&#8217;  title=&quot;Jump back to footnote 1 in the text.&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
+<div class="footnotes">
+<hr />
+<ol>
+<li id="refAnchor1">
+<p>I recognize this cost comparison is actually good marketing. Anyone who considers the monthly charge or the single-time fee will sign on for the subscription, and subscription services left uncanceled are more profitable than the purchase of products from time to time. <a href="#refBody1"  class='footnoteBackLink'  title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
-</content>
+]]></content>
   </entry>
   
   <entry>
-    <title>EZ Bake French Toast</title>
+    <title type="html"><![CDATA[EZ Bake French Toast]]></title>
     <link href="http://make.bettermistak.es/2011/11/06/ez-bake-french-toast/"/>
-    <updated>2011-11-06T16:35:00+08:00</updated>
+    <updated>2011-11-06T16:35:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/11/06/ez-bake-french-toast</id>
-    <content type="html">&lt;p&gt;Today I made some yummy French Toast, and it was way easier then I had expected. My recipe is as follows:&lt;/p&gt;
+    <content type="html"><![CDATA[<p>Today I made some yummy French Toast, and it was way easier then I had expected. My recipe is as follows:</p>
 
-&lt;blockquote&gt;&lt;p&gt;Preheat oven to 400 with a cast iron skillet inside. Whip the following with a fork:&lt;/p&gt;
+<blockquote><p>Preheat oven to 400 with a cast iron skillet inside. Whip the following with a fork:</p>
 
-&lt;ul&gt;
-&lt;li&gt;a splash of honey whiskey&lt;/li&gt;
-&lt;li&gt;an egg&lt;/li&gt;
-&lt;li&gt;a pinch of salt&lt;/li&gt;
-&lt;li&gt;a large pinch of sugar&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>a splash of honey whiskey</li>
+<li>an egg</li>
+<li>a pinch of salt</li>
+<li>a large pinch of sugar</li>
+</ul>
 
 
-&lt;p&gt;Dunk two slices of white bread in the mixture, taking care to get as much bread as possible to suck up the egg. Let set for ten or more minutes.&lt;/p&gt;
+<p>Dunk two slices of white bread in the mixture, taking care to get as much bread as possible to suck up the egg. Let set for ten or more minutes.</p>
 
-&lt;p&gt;Place bread in the preheated skillet, and reduce the heat in the oven to 350. Cook ten minutes, flip, and then cook an additional ten minutes.&lt;/p&gt;
+<p>Place bread in the preheated skillet, and reduce the heat in the oven to 350. Cook ten minutes, flip, and then cook an additional ten minutes.</p>
 
-&lt;p&gt;Serve with jam or Nutella. If you need syrup, avoid anything doctored with high fructose corn syrup like &lt;em&gt;yersinia pestis&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;
-</content>
+<p>Serve with jam or Nutella. If you need syrup, avoid anything doctored with high fructose corn syrup like <em>yersinia pestis</em>.</p></blockquote>
+]]></content>
   </entry>
   
   <entry>
-    <title>Music Management With the Swiss Army Chainsaw</title>
+    <title type="html"><![CDATA[Music Management With the Swiss Army Chainsaw]]></title>
     <link href="http://make.bettermistak.es/2011/11/06/music-management-with-the-swiss-army-chainsaw/"/>
-    <updated>2011-11-06T15:04:00+08:00</updated>
+    <updated>2011-11-06T15:04:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/11/06/music-management-with-the-swiss-army-chainsaw</id>
-    <content type="html">&lt;p&gt;Last night I was cleaning out my music collection… I know, not the most interesting Saturday night, but over the last decade my collection has gotten a little hairy.&lt;/p&gt;
+    <content type="html"><![CDATA[<p>Last night I was cleaning out my music collection… I know, not the most interesting Saturday night, but over the last decade my collection has gotten a little hairy.</p>
 
-&lt;p&gt;It&amp;#8217;s also grown to the size that pruning it by hand with Finder is nearly impossible.&lt;/p&gt;
+<p>It&#8217;s also grown to the size that pruning it by hand with Finder is nearly impossible.</p>
 
-&lt;p&gt;Initially, I just wanted to find some files which had been accidentally duplicated. There were folders with a bunch of songs titled &lt;strong&gt;file.mp3&lt;/strong&gt; and &lt;strong&gt;file 1.mp3&lt;/strong&gt;. My first stab at this had me listing files and then filtering them by piping them to grep, and yielded commands that looked like this &lt;strong&gt;ls -Rd | grep -i &amp;#8217; 1.mp3&amp;#8217;&lt;/strong&gt;.&lt;/p&gt;
+<p>Initially, I just wanted to find some files which had been accidentally duplicated. There were folders with a bunch of songs titled <strong>file.mp3</strong> and <strong>file 1.mp3</strong>. My first stab at this had me listing files and then filtering them by piping them to grep, and yielded commands that looked like this <strong>ls -Rd | grep -i &#8217; 1.mp3&#8217;</strong>.</p>
 
-&lt;!&#8211;more&#8211;&gt;
+<!--more-->
 
 
-&lt;p&gt;After some filtering like that for a while I realized that find might be a better tool for the job.&lt;/p&gt;
+<p>After some filtering like that for a while I realized that find might be a better tool for the job.</p>
 
-&lt;p&gt;I looked at find and ran several test  to figure out what I wanted. I came up with &lt;strong&gt;find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type f -iname &amp;#8216;* 1.MP3&amp;#8217; -exec rm -f {} \;&lt;/strong&gt; which finds all the files in my Music Archive which have the case-insensitive suffix of &amp;#8216;1.mp3&amp;#8217;, and when it finds them, it removes them with force, that is, it deletes the files without checking with me first.&lt;/p&gt;
+<p>I looked at find and ran several test  to figure out what I wanted. I came up with <strong>find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type f -iname &#8216;* 1.MP3&#8217; -exec rm -f {} \;</strong> which finds all the files in my Music Archive which have the case-insensitive suffix of &#8216;1.mp3&#8217;, and when it finds them, it removes them with force, that is, it deletes the files without checking with me first.</p>
 
-&lt;p&gt;After feeling the immense power of find I couldn&amp;#8217;t stop. I had to delete empty directories with &lt;strong&gt;find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -empty -exec rm -f {} \;&lt;/strong&gt;&lt;/p&gt;
+<p>After feeling the immense power of find I couldn&#8217;t stop. I had to delete empty directories with <strong>find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -empty -exec rm -f {} \;</strong></p>
 
-&lt;p&gt;Then, I got curious, which was my first mistake. Could I come up with something that would find all of the directories with folders with just one file in them? After all, my archive was cluttered up with plenty of one-hit wonders. To figure out how many files a directory has you can run &lt;strong&gt;ls -1 | wc -l&lt;/strong&gt;. Which is to say, list all of the files in the current directory, each on a line, then pipe the results into the word count tool which is set to count the number of lines.&lt;/p&gt;
+<p>Then, I got curious, which was my first mistake. Could I come up with something that would find all of the directories with folders with just one file in them? After all, my archive was cluttered up with plenty of one-hit wonders. To figure out how many files a directory has you can run <strong>ls -1 | wc -l</strong>. Which is to say, list all of the files in the current directory, each on a line, then pipe the results into the word count tool which is set to count the number of lines.</p>
 
-&lt;p&gt;I experimented with using these commands in the -exec argument on find, but I ran into errors indicating that I needed to have a better understanding of bash fu to solve this problem.&lt;/p&gt;
+<p>I experimented with using these commands in the -exec argument on find, but I ran into errors indicating that I needed to have a better understanding of bash fu to solve this problem.</p>
 
-&lt;p&gt;So I went out for pho. When I got back to my apartment this problem was still tickling my brain, so I went to the bash IRC and asked for some advice.&lt;/p&gt;
+<p>So I went out for pho. When I got back to my apartment this problem was still tickling my brain, so I went to the bash IRC and asked for some advice.</p>
 
-&lt;p&gt;With their help, I eventually ran &lt;strong&gt;time find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -exec bash -c &amp;#8216;cd &amp;#8220;$1&amp;#8221;; f=(&lt;em&gt;); (( ${#f[&lt;/em&gt;]} == 1 )) &amp;amp;&amp;amp; [[ -f $f ]] &amp;amp;&amp;amp; echo &amp;#8220;$1&amp;#8221; &gt;&gt; ~/Code/singletons.txt&amp;#8217; _ {} \; &amp;amp;&amp;amp; say &amp;#8220;I&amp;#8217;m done&amp;#8221;&lt;/strong&gt; which listed out all of the singletons in a text file for me. Though I must admit this incantation is voodoo to me. This is likely a problem which a shell script, rather than a one-liner, would be more apt to solve.&lt;/p&gt;
+<p>With their help, I eventually ran <strong>time find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -exec bash -c &#8216;cd &#8220;$1&#8221;; f=(<em>); (( ${#f[</em>]} == 1 )) &amp;&amp; [[ -f $f ]] &amp;&amp; echo &#8220;$1&#8221; >> ~/Code/singletons.txt&#8217; _ {} \; &amp;&amp; say &#8220;I&#8217;m done&#8221;</strong> which listed out all of the singletons in a text file for me. Though I must admit this incantation is voodoo to me. This is likely a problem which a shell script, rather than a one-liner, would be more apt to solve.</p>
 
-&lt;p&gt;It was plenty fun to play around in the shell, I hope that next time I&amp;#8217;m better able to puzzle out quickly which commands are useful.&lt;/p&gt;
+<p>It was plenty fun to play around in the shell, I hope that next time I&#8217;m better able to puzzle out quickly which commands are useful.</p>
 
-&lt;p&gt;Lessons learned: bash is a great music management tool, if you don&amp;#8217;t mind pruning your collection with the Swiss Army chainsaw, the bash IRC is friendly and active, and appending &amp;#8220;; say &amp;#8216;Imdone&amp;#8217;&amp;#8221; to commands that run more than ten seconds will save your sanity.&lt;/p&gt;
-</content>
+<p>Lessons learned: bash is a great music management tool, if you don&#8217;t mind pruning your collection with the Swiss Army chainsaw, the bash IRC is friendly and active, and appending &#8220;; say &#8216;Imdone&#8217;&#8221; to commands that run more than ten seconds will save your sanity.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>My First Three Pull Requests</title>
+    <title type="html"><![CDATA[My First Three Pull Requests]]></title>
     <link href="http://make.bettermistak.es/2011/10/21/my-first-three-pull-requests/"/>
-    <updated>2011-10-21T11:37:00+08:00</updated>
+    <updated>2011-10-21T11:37:00-07:00</updated>
     <id>http://make.bettermistak.es/2011/10/21/my-first-three-pull-requests</id>
-    <content type="html">&lt;p&gt;In the last couple of weeks I&amp;#8217;ve made a few pull requests on Octopress, which is the blogging platform this blog uses. The primary reason I was making the pull requests, oddly enough, was to get a sense of how the process of making changes and improvements on github works. One of the things I picked up from it was a better understanding of the use and nuance of git.&lt;/p&gt;
+    <content type="html"><![CDATA[<p>In the last couple of weeks I&#8217;ve made a few pull requests on Octopress, which is the blogging platform this blog uses. The primary reason I was making the pull requests, oddly enough, was to get a sense of how the process of making changes and improvements on github works. One of the things I picked up from it was a better understanding of the use and nuance of git.</p>
 
-&lt;p&gt;The three pull requests I made were:&lt;/p&gt;
+<p>The three pull requests I made were:</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/imathis/octopress/pull/215&quot;&gt;Pullquote left&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/imathis/octopress/pull/220&quot;&gt;Blockquote improvement&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/imathis/octopress/pull/233&quot;&gt;Alternate read more link text&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;The first request got approved, the second is languishing with no current action, and the third got quickly requested, with an excellent conversation.&lt;/p&gt;
-
-&lt;!&#8211;more&#8211;&gt;
+<ul>
+<li><a href="https://github.com/imathis/octopress/pull/215">Pullquote left</a></li>
+<li><a href="https://github.com/imathis/octopress/pull/220">Blockquote improvement</a></li>
+<li><a href="https://github.com/imathis/octopress/pull/233">Alternate read more link text</a></li>
+</ul>
 
 
-&lt;p&gt;My improvements to Octopress focused on making minor changes to presentational issues. I got to play around with other people&amp;#8217;s Ruby code, learn how Jekyll&amp;#8217;s Liquid tagging system works, learn a little bit about SASS and regular expressions, and discuss the particulars of code with project leads.&lt;/p&gt;
+<p>The first request got approved, the second is languishing with no current action, and the third got quickly requested, with an excellent conversation.</p>
 
-&lt;p&gt;The pullquote left improvement made the existing pullquote plugin accept an argument of &amp;#8220;left&amp;#8221; which formats that pullquote on the left side instead of the default of right. I wrote a rudimentary regular expression to match it and modified the existing &amp;#8220;has-pullquote&amp;#8221; class to create the &amp;#8220;pullquote-right&amp;#8221; and &amp;#8220;pullquote-left&amp;#8221; classes which are used by the SASS to format the text properly. &lt;span class=&#8217;pullquote-right&#8217; data-pullquote=&#8217;A possible future improvement is implementing automated alternating pullquote functionality&#8217;&gt; A possible future improvement is implementing automated alternating pullquote functionality &lt;/span&gt; so that posts with multiple pullquotes switch off between left and right.&lt;/p&gt;
+<!--more-->
 
-&lt;p&gt;My next improvement was a change in the implementation of blockquotes. Octopress has three ways in which the Markdown will translate into blockquotes, and I believe there is a semantic difference in how blockquotes are used which should lead to two related but varied styles of presentation. Blockquotes can be created using a blockquote tag, using Markdown&amp;#8217;s &amp;#8216;&gt;&amp;#8217; which emulates email threading, or by using the liquid tag blockquote which invokes &lt;a href=&quot;http://octopress.org/docs/plugins/blockquote/&quot;&gt;Octopress&amp;#8217; blockquote plugin&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately this request is hard to read, because I accidentally made the changes on the same branch and so my pull request accidentally merged changes from the earlier pullquote request. I believe this is part of the reason it&amp;#8217;s received little attention. Additionally, &lt;span class=&#8217;pullquote-left&#8217; data-pullquote=&#8217;I did a poor job of initially explaining why the difference between how the blockquote plugin is invoked&#8217;&gt; I did a poor job of initially explaining why the difference between how the blockquote plugin is invoked &lt;/span&gt;, which made arguing that the different versions should be styled differently difficult.&lt;/p&gt;
+<p>My improvements to Octopress focused on making minor changes to presentational issues. I got to play around with other people&#8217;s Ruby code, learn how Jekyll&#8217;s Liquid tagging system works, learn a little bit about SASS and regular expressions, and discuss the particulars of code with project leads.</p>
 
-&lt;p&gt;&lt;strong&gt;Here&amp;#8217;s the basic problem:&lt;/strong&gt; when someone calls the blockquote plugin using the liquid tag, it adds styling which is entirely appropriate for quoting someone. Specifically, it makes the text larger, by a factor of twenty percent. This formatting applies the same when you&amp;#8217;re using Markdown&amp;#8217;s right caret to make blockquotes, but this is a different kind of blockquote. Specifically, this blockquote is likely to be nested, and the liquid tag shouldn&amp;#8217;t ever be nested. When blockquote styling is nested it scales up. A first level blockquote is 120% of normal text size, second level is 144%, third level is 173%, and fourth level is 207%.&lt;/p&gt;
+<p>The pullquote left improvement made the existing pullquote plugin accept an argument of &#8220;left&#8221; which formats that pullquote on the left side instead of the default of right. I wrote a rudimentary regular expression to match it and modified the existing &#8220;has-pullquote&#8221; class to create the &#8220;pullquote-right&#8221; and &#8220;pullquote-left&#8221; classes which are used by the SASS to format the text properly. <span class='pullquote-right' data-pullquote='A possible future improvement is implementing automated alternating pullquote functionality'> A possible future improvement is implementing automated alternating pullquote functionality </span> so that posts with multiple pullquotes switch off between left and right.</p>
 
-&lt;p&gt;Anyhow, it&amp;#8217;s an edge case that people will be invoking nested blockquotes, but it&amp;#8217;s certainly a fixable edge case.&lt;/p&gt;
+<p>My next improvement was a change in the implementation of blockquotes. Octopress has three ways in which the Markdown will translate into blockquotes, and I believe there is a semantic difference in how blockquotes are used which should lead to two related but varied styles of presentation. Blockquotes can be created using a blockquote tag, using Markdown&#8217;s &#8216;>&#8217; which emulates email threading, or by using the liquid tag blockquote which invokes <a href="http://octopress.org/docs/plugins/blockquote/">Octopress&#8217; blockquote plugin</a>.</p>
 
-&lt;p&gt;The last pull request I made started as an attempt to start building my own plugin. And after a few hours of working on it I discovered that what I was working on duplicated existing functionality. I wanted to implement a &amp;#8220;read more&amp;#8221; plugin, which would either create a link to the permalink of an article on the blog&amp;#8217;s index, or alternately, use javascript to hide content past the read more link until the reader clicked on it.&lt;/p&gt;
+<p>Unfortunately this request is hard to read, because I accidentally made the changes on the same branch and so my pull request accidentally merged changes from the earlier pullquote request. I believe this is part of the reason it&#8217;s received little attention. Additionally, <span class='pullquote-left' data-pullquote='I did a poor job of initially explaining why the difference between how the blockquote plugin is invoked'> I did a poor job of initially explaining why the difference between how the blockquote plugin is invoked </span>, which made arguing that the different versions should be styled differently difficult.</p>
 
-&lt;p&gt;Two decent implementations of this idea are &lt;a href=&quot;http://codex.wordpress.org/Customizing_the_Read_More&quot;&gt;WordPress&amp;#8217; read more&lt;/a&gt; and the Slog&amp;#8217;s continue reading. WordPress&amp;#8217; implementation was the one I was most familiar with, and I wanted to do something similar, except I thought that using the liquid tag instead of an html comment might leave devs with future flexibility. After I had spent a couple of hours working to figure out the details of this sort of implementation, I realized that this functionality already existed in &lt;a href=&quot;https://github.com/imathis/octopress/blob/master/plugins/octopress_filters.rb&quot;&gt;Octopress&amp;#8217; octopress_filters&lt;/a&gt; plugin, though it used a standard html comment. So I switched gears and thought about how I could improve the existing filter.&lt;/p&gt;
+<p><strong>Here&#8217;s the basic problem:</strong> when someone calls the blockquote plugin using the liquid tag, it adds styling which is entirely appropriate for quoting someone. Specifically, it makes the text larger, by a factor of twenty percent. This formatting applies the same when you&#8217;re using Markdown&#8217;s right caret to make blockquotes, but this is a different kind of blockquote. Specifically, this blockquote is likely to be nested, and the liquid tag shouldn&#8217;t ever be nested. When blockquote styling is nested it scales up. A first level blockquote is 120% of normal text size, second level is 144%, third level is 173%, and fourth level is 207%.</p>
 
-&lt;p&gt;As written, this filter lacked a feature which I knew existed in the WordPress version it was modeled after. You couldn&amp;#8217;t change the read more text inline, and so what this says to entice the reader to click through remains the same site-wide. &lt;span class=&#8217;pullquote-right&#8217; data-pullquote=&#8217;I learned from my previous experience and created a separate branch&#8217;&gt; I learned from my previous experience and created a separate branch &lt;/span&gt; so that my pull request would only have changes made related to this improvement.&lt;/p&gt;
+<p>Anyhow, it&#8217;s an edge case that people will be invoking nested blockquotes, but it&#8217;s certainly a fixable edge case.</p>
 
-&lt;p&gt;I altered the existing regular expressions in post_filters so that they would be slightly more liberal in what they accepted as a read more comment, so that it would include ones which had the alternate text in the tag itself. Then I implemented some conditional logic within the article template using Liquid tagging, so that when the more tag contained alternate link text, that text would be pulled out by the post_filters plugin, then displayed on posts in the blog index. I made a request and within an hour &lt;a href=&quot;https://github.com/imathis/&quot;&gt;@imathis&lt;/a&gt;, Octopress&amp;#8217; creator and maintainer had rejected the request.&lt;/p&gt;
+<p>The last pull request I made started as an attempt to start building my own plugin. And after a few hours of working on it I discovered that what I was working on duplicated existing functionality. I wanted to implement a &#8220;read more&#8221; plugin, which would either create a link to the permalink of an article on the blog&#8217;s index, or alternately, use javascript to hide content past the read more link until the reader clicked on it.</p>
 
-&lt;p&gt;I could be disappointed that my request was squarely rejected, but I learned a lot in the process of trying to change the code, and the post-mortem discussion is really valuable in that it lets me see what type of change is wanted on this project.&lt;/p&gt;
+<p>Two decent implementations of this idea are <a href="http://codex.wordpress.org/Customizing_the_Read_More">WordPress&#8217; read more</a> and the Slog&#8217;s continue reading. WordPress&#8217; implementation was the one I was most familiar with, and I wanted to do something similar, except I thought that using the liquid tag instead of an html comment might leave devs with future flexibility. After I had spent a couple of hours working to figure out the details of this sort of implementation, I realized that this functionality already existed in <a href="https://github.com/imathis/octopress/blob/master/plugins/octopress_filters.rb">Octopress&#8217; octopress_filters</a> plugin, though it used a standard html comment. So I switched gears and thought about how I could improve the existing filter.</p>
 
-&lt;p&gt;I don&amp;#8217;t know if I&amp;#8217;m going to continue trying to improve Octopress, though it might be nice to create a decent footnote plugin for it.&lt;/p&gt;
-</content>
+<p>As written, this filter lacked a feature which I knew existed in the WordPress version it was modeled after. You couldn&#8217;t change the read more text inline, and so what this says to entice the reader to click through remains the same site-wide. <span class='pullquote-right' data-pullquote='I learned from my previous experience and created a separate branch'> I learned from my previous experience and created a separate branch </span> so that my pull request would only have changes made related to this improvement.</p>
+
+<p>I altered the existing regular expressions in post_filters so that they would be slightly more liberal in what they accepted as a read more comment, so that it would include ones which had the alternate text in the tag itself. Then I implemented some conditional logic within the article template using Liquid tagging, so that when the more tag contained alternate link text, that text would be pulled out by the post_filters plugin, then displayed on posts in the blog index. I made a request and within an hour <a href="https://github.com/imathis/">@imathis</a>, Octopress&#8217; creator and maintainer had rejected the request.</p>
+
+<p>I could be disappointed that my request was squarely rejected, but I learned a lot in the process of trying to change the code, and the post-mortem discussion is really valuable in that it lets me see what type of change is wanted on this project.</p>
+
+<p>I don&#8217;t know if I&#8217;m going to continue trying to improve Octopress, though it might be nice to create a decent footnote plugin for it.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>Contracts and Tethers</title>
+    <title type="html"><![CDATA[Contracts and Tethers]]></title>
     <link href="http://make.bettermistak.es/2011/10/19/contracts-and-tethers/"/>
-    <updated>2011-10-19T10:38:00+08:00</updated>
+    <updated>2011-10-19T10:38:00-07:00</updated>
     <id>http://make.bettermistak.es/2011/10/19/contracts-and-tethers</id>
-    <content type="html">&lt;p&gt;Contracts end. Sometimes they end a little more abruptly then one might like.&lt;/p&gt;
+    <content type="html"><![CDATA[<p>Contracts end. Sometimes they end a little more abruptly then one might like.</p>
 
-&lt;p&gt;I was working as a production specialist at Microsoft until recently. Nine days ago, at a Monday
- morning one-on-one, my manager asked me if I wanted to be doing the work. I don&amp;#8217;t make a habit of lying, and I had to say &amp;#8220;not really.&amp;#8221; In the conversation that unfolded we determined what I would do to wrap up my work that day.&lt;/p&gt;
+<p>I was working as a production specialist at Microsoft until recently. Nine days ago, at a Monday
+ morning one-on-one, my manager asked me if I wanted to be doing the work. I don&#8217;t make a habit of lying, and I had to say &#8220;not really.&#8221; In the conversation that unfolded we determined what I would do to wrap up my work that day.</p>
 
-&lt;!&#8211; more &#8211;&gt;
+<!-- more -->
 
 
-&lt;p&gt;I had been contracting there for three months, and regrettably I wasn&amp;#8217;t a good fit for their culture.&lt;/p&gt;
+<p>I had been contracting there for three months, and regrettably I wasn&#8217;t a good fit for their culture.</p>
 
-&lt;p&gt;Unfortunately, that pulled the plug on my household&amp;#8217;s primary source of income. We have some savings, but my partner has been struggling in underemployment for the past year. Realistically, it will be months till I find another job. It could be longer.&lt;/p&gt;
+<p>Unfortunately, that pulled the plug on my household&#8217;s primary source of income. We have some savings, but my partner has been struggling in underemployment for the past year. Realistically, it will be months till I find another job. It could be longer.</p>
 
-&lt;p&gt;We had been talking about going to China to visit my brother and his wife for a few months centered around the 2013 Chinese New Year. Now we&amp;#8217;re talking about early December 2011. On Monday my partner sent out her application for a new passport.&lt;/p&gt;
+<p>We had been talking about going to China to visit my brother and his wife for a few months centered around the 2013 Chinese New Year. Now we&#8217;re talking about early December 2011. On Monday my partner sent out her application for a new passport.</p>
 
-&lt;p&gt;The states are expensive. At the same time, work is scarce. Knowledge workers like myself can sharpen our tools anywhere. I&amp;#8217;ll take the winter in Guangzhou over Seattle this year, and we&amp;#8217;ll see what I can find after a few months of studying and vacation.&lt;/p&gt;
+<p>The states are expensive. At the same time, work is scarce. Knowledge workers like myself can sharpen our tools anywhere. I&#8217;ll take the winter in Guangzhou over Seattle this year, and we&#8217;ll see what I can find after a few months of studying and vacation.</p>
 
-&lt;p&gt;While I was a production specialist some days just felt like slow-moving mistakes. On one level, paying for Seattle while we have no reason to be tethered here feels just the same. I don&amp;#8217;t know if China is the right path right now, but if it&amp;#8217;s a failure it will be a fast one.&lt;/p&gt;
-</content>
+<p>While I was a production specialist some days just felt like slow-moving mistakes. On one level, paying for Seattle while we have no reason to be tethered here feels just the same. I don&#8217;t know if China is the right path right now, but if it&#8217;s a failure it will be a fast one.</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>Resources</title>
+    <title type="html"><![CDATA[Resources]]></title>
     <link href="http://make.bettermistak.es/2011/10/09/resources/"/>
-    <updated>2011-10-09T16:37:00+08:00</updated>
+    <updated>2011-10-09T16:37:00-07:00</updated>
     <id>http://make.bettermistak.es/2011/10/09/resources</id>
-    <content type="html">&lt;p&gt;I believe my attention, time, and money are the most valuable resources I have. Actually, I think it all comes down to my attention, what I choose to pay attention to and care about, but my time and money are the commonly traded commodities that let me pay more attention to things.&lt;/p&gt;
+    <content type="html"><![CDATA[<p>I believe my attention, time, and money are the most valuable resources I have. Actually, I think it all comes down to my attention, what I choose to pay attention to and care about, but my time and money are the commonly traded commodities that let me pay more attention to things.</p>
 
-&lt;p&gt;I&amp;#8217;m feeling really low resource these days. I&amp;#8217;ve got a full life. I started a new job three months ago. I&amp;#8217;m building a domestic life with my partner and cohabitator. I also try to make time to socialize. And somehow, coding and writing get thrown under the bus because at the end of the day I&amp;#8217;d rather poke the internet while watching TNG with my partner then try to build something new while working with stress and tension. Of course, researchers have found that for the sort of creative work I do, one can only create quality solutions if they are well rested.&lt;/p&gt;
+<p>I&#8217;m feeling really low resource these days. I&#8217;ve got a full life. I started a new job three months ago. I&#8217;m building a domestic life with my partner and cohabitator. I also try to make time to socialize. And somehow, coding and writing get thrown under the bus because at the end of the day I&#8217;d rather poke the internet while watching TNG with my partner then try to build something new while working with stress and tension. Of course, researchers have found that for the sort of creative work I do, one can only create quality solutions if they are well rested.</p>
 
-&lt;!&#8211; more &#8211;&gt;
+<!-- more -->
 
 
-&lt;p&gt;I&amp;#8217;ve got a backlog of stuff in its first draft. I&amp;#8217;m feeling time-crunched. The fact that I&amp;#8217;ve got a backlog of things to edit or code on tells me one thing: I need to kill my darlings.&lt;/p&gt;
+<p>I&#8217;ve got a backlog of stuff in its first draft. I&#8217;m feeling time-crunched. The fact that I&#8217;ve got a backlog of things to edit or code on tells me one thing: I need to kill my darlings.</p>
 
-&lt;p&gt;My attention is in low supply.&lt;/p&gt;
+<p>My attention is in low supply.</p>
 
-&lt;p&gt;Which leaves me in an uncomfortable crunch. I&amp;#8217;m making a more cogent effort to budget time. I&amp;#8217;ve scheduled office hours: five hours on both Saturday and Sunday, and an hour and a half on weeknights. I&amp;#8217;ll check in next week with my progress. My metric of progress, the number of twenty minute tasks I can work on in a week.&lt;/p&gt;
+<p>Which leaves me in an uncomfortable crunch. I&#8217;m making a more cogent effort to budget time. I&#8217;ve scheduled office hours: five hours on both Saturday and Sunday, and an hour and a half on weeknights. I&#8217;ll check in next week with my progress. My metric of progress, the number of twenty minute tasks I can work on in a week.</p>
 
-&lt;p&gt;I&amp;#8217;m feeling engaged again with my coding efforts. There are a number of interesting projects others are working on on my radar. The one I&amp;#8217;m going to attack first is making improvements to Octopress plugins. The whole Jekyll framework is a new pond to play in, so I don&amp;#8217;t know what I don&amp;#8217;t know yet.&lt;/p&gt;
+<p>I&#8217;m feeling engaged again with my coding efforts. There are a number of interesting projects others are working on on my radar. The one I&#8217;m going to attack first is making improvements to Octopress plugins. The whole Jekyll framework is a new pond to play in, so I don&#8217;t know what I don&#8217;t know yet.</p>
 
-&lt;p&gt;I will also be helping my partner establish her own Octopress blog. She maintains a blog for her poetry, and in our conversations about starting a new blog (one which would house rants and political essays) she has sounded genuinely interested to learn about the system I use. This is going to be a great learning experience for the both of us, I&amp;#8217;ll get to show her how the command line works, what markdown is, and how to work within a project framework as a writer. That&amp;#8217;s really cool and it will allow her to touch on a bunch of tech that she hasn&amp;#8217;t been exposed to. The coolest thing about it is I can see her transitioning as someone who is tech averse due to her family being on the wrong side of the digital divide to someone who is tech critical because this stuff ain&amp;#8217;t always as friendly to newcomers as it needs to be.&lt;/p&gt;
+<p>I will also be helping my partner establish her own Octopress blog. She maintains a blog for her poetry, and in our conversations about starting a new blog (one which would house rants and political essays) she has sounded genuinely interested to learn about the system I use. This is going to be a great learning experience for the both of us, I&#8217;ll get to show her how the command line works, what markdown is, and how to work within a project framework as a writer. That&#8217;s really cool and it will allow her to touch on a bunch of tech that she hasn&#8217;t been exposed to. The coolest thing about it is I can see her transitioning as someone who is tech averse due to her family being on the wrong side of the digital divide to someone who is tech critical because this stuff ain&#8217;t always as friendly to newcomers as it needs to be.</p>
 
-&lt;p&gt;I guess the other project that&amp;#8217;s already been happening, accidentally, is I have formed a cohort online. I&amp;#8217;ve been running into a lot of friendly folks on Twitter, and I feel more comfortable voicing my questions today than I did even a month ago. Tech can be a weird place, you&amp;#8217;ve got evangelists of course, but sometimes the true believers shun you for ignorance rather than welcome you for your fresh perspective. I&amp;#8217;m finding a community that isn&amp;#8217;t mean-spirited, and that&amp;#8217;s really helpful. Also, sometimes they share pictures of their cats.&lt;/p&gt;
+<p>I guess the other project that&#8217;s already been happening, accidentally, is I have formed a cohort online. I&#8217;ve been running into a lot of friendly folks on Twitter, and I feel more comfortable voicing my questions today than I did even a month ago. Tech can be a weird place, you&#8217;ve got evangelists of course, but sometimes the true believers shun you for ignorance rather than welcome you for your fresh perspective. I&#8217;m finding a community that isn&#8217;t mean-spirited, and that&#8217;s really helpful. Also, sometimes they share pictures of their cats.</p>
 
-&lt;p&gt;I&amp;#8217;m hoping to start coursework at UW in the Winter and Spring. I found out about a &lt;a href=&quot;http://www.pce.uw.edu/prog.aspx?id=7432&quot;&gt;certificate in Ruby on Rails&lt;/a&gt; through my friend &lt;a href=&quot;http://twitter.com/#!/nellshamrell&quot;&gt;@nellshamrell&lt;/a&gt;. I found out too late to get in the Autumn quarter, but hopefully I can get into later classes. Even if I don&amp;#8217;t, I think I&amp;#8217;ll be iterating and learning as quickly as possible.&lt;/p&gt;
+<p>I&#8217;m hoping to start coursework at UW in the Winter and Spring. I found out about a <a href="http://www.pce.uw.edu/prog.aspx?id=7432">certificate in Ruby on Rails</a> through my friend <a href="http://twitter.com/#!/nellshamrell">@nellshamrell</a>. I found out too late to get in the Autumn quarter, but hopefully I can get into later classes. Even if I don&#8217;t, I think I&#8217;ll be iterating and learning as quickly as possible.</p>
 
-&lt;p&gt;Fail Faster,&lt;/p&gt;
+<p>Fail Faster,</p>
 
-&lt;p&gt;Strand&lt;/p&gt;
-</content>
+<p>Strand</p>
+]]></content>
   </entry>
   
   <entry>
-    <title>First Post</title>
+    <title type="html"><![CDATA[First Post]]></title>
     <link href="http://make.bettermistak.es/2011/10/02/first-post/"/>
-    <updated>2011-10-02T00:00:00+08:00</updated>
+    <updated>2011-10-02T00:00:00-07:00</updated>
     <id>http://make.bettermistak.es/2011/10/02/first-post</id>
-    <content type="html">&lt;p&gt;pagination_dir&amp;#8212;
+    <content type="html"><![CDATA[<p>pagination_dir&#8212;
 layout: post
-title: &amp;#8220;First Post&amp;#8221;
+title: &#8220;First Post&#8221;
 date: 2011-10-02 18:16
-comments: true&lt;/p&gt;
+comments: true</p>
 
-&lt;h2&gt;categories: &lt;/h2&gt;
+<h2>categories: </h2>
 
-&lt;p&gt;Hello, internet.&lt;/p&gt;
+<p>Hello, internet.</p>
 
-&lt;p&gt;I&amp;#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I&amp;#8217;m generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry.&lt;/p&gt;
+<p>I&#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I&#8217;m generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry.</p>
 
-&lt;!&#8211; more &#8211;&gt;
+<!-- more -->
 
 
-&lt;p&gt;Below is a summary, notes to self, about how I got this thing up and running.&lt;/p&gt;
+<p>Below is a summary, notes to self, about how I got this thing up and running.</p>
 
-&lt;p&gt;Today I successfully launched &lt;a href=&quot;http://make.bettermistak.es&quot;&gt;make.bettermistak.es&lt;/a&gt;. I followed the &lt;a href=&quot;http://octopress.org/docs/setup/&quot;&gt;setup guide&lt;/a&gt; for a fresh octopress install, then used the &lt;a href=&quot;http://octopress.org/docs/deploying/heroku/&quot;&gt;deploying to heroku guide&lt;/a&gt; to get it on to a host. I then followed heroku&amp;#8217;s &lt;a href=&quot;http://devcenter.heroku.com/articles/custom-domains&quot;&gt;custom domain guide&lt;/a&gt; to setup my main domain.&lt;/p&gt;
+<p>Today I successfully launched <a href="http://make.bettermistak.es">make.bettermistak.es</a>. I followed the <a href="http://octopress.org/docs/setup/">setup guide</a> for a fresh octopress install, then used the <a href="http://octopress.org/docs/deploying/heroku/">deploying to heroku guide</a> to get it on to a host. I then followed heroku&#8217;s <a href="http://devcenter.heroku.com/articles/custom-domains">custom domain guide</a> to setup my main domain.</p>
 
-&lt;p&gt;TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use &lt;a href=&quot;http://devcenter.heroku.com/articles/custom-domains#redirecting_traffic_to_a_specific_domain&quot;&gt;redirecting traffic to a specific domain&lt;/a&gt; to do so. # TODO: Move todo to a non-content location so it is not copied three times.&lt;/p&gt;
+<p>TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use <a href="http://devcenter.heroku.com/articles/custom-domains#redirecting_traffic_to_a_specific_domain">redirecting traffic to a specific domain</a> to do so. # TODO: Move todo to a non-content location so it is not copied three times.</p>
 
-&lt;p&gt;Then, after composing this post, I ran &lt;strong&gt;rake generate&lt;/strong&gt;, mentioned in the &lt;a href=&quot;http://octopress.org/docs/blogging/&quot;&gt;blogging guide&lt;/a&gt;, to make the markdown into HTML. After that &lt;strong&gt;git add .&lt;/strong&gt;, &lt;strong&gt;git commit -m &amp;#8216;first post!&amp;#8217;&lt;/strong&gt;, and &lt;strong&gt;git push heroku master&lt;/strong&gt; to upload it to the web.&lt;/p&gt;
-</content>
+<p>Then, after composing this post, I ran <strong>rake generate</strong>, mentioned in the <a href="http://octopress.org/docs/blogging/">blogging guide</a>, to make the markdown into HTML. After that <strong>git add .</strong>, <strong>git commit -m &#8216;first post!&#8217;</strong>, and <strong>git push heroku master</strong> to upload it to the web.</p>
+]]></content>
   </entry>
   
 </feed>
