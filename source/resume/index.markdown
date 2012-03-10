@@ -7,7 +7,7 @@ sharing: false
 footer: true
 ---
 # B Strand #
-<p align="right">1017 Boren Ave, Apt. 512, Seattle, WA 98104<br/>
+<p align="right">4826 12th Ave. S, Seattle, WA 98108<br/>
 strand@bettermistak.es · (206) 548-6948</p>
 
 ### Skills ###
