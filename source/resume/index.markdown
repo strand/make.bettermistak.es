@@ -8,7 +8,7 @@ footer: true
 ---
 # B Strand #
 <p align="right">4826 12th Ave. S, Seattle, WA 98108<br/>
-strand@bettermistak.es · (206) 548-6948</p>
+strand@bettermistak.es · (206) 569-4363</p>
 
 ### Skills ###
 
