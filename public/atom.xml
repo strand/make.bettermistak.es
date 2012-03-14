@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-03-10T15:53:54-08:00</updated>
+  <updated>2012-03-14T16:00:29-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The RSpec Book]]></title>
+    <link href="http://make.bettermistak.es/2012/03/14/the-rspec-book/"/>
+    <updated>2012-03-14T15:57:00-07:00</updated>
+    <id>http://make.bettermistak.es/2012/03/14/the-rspec-book</id>
+    <content type="html"><![CDATA[<p><em><a href="http://pragprog.com/book/achbd/the-rspec-book">The RSpec Book</a></em> teaches how to build and refactor code using RSpec and Cucumber. I started it a few weeks ago, and set it down in preparing for my return to the States. I started it again last night and I&#8217;m glad that I was able to hook back in to the book even though I&#8217;d not looked at it or its code in more than two weeks. It is well written and approachable, written at a granular enough level that it is easy to set down for a while and not get lost when you pick it back up.</p>
+
+<p>One thing that I am loving about The RSpec Book is that the chapters are short, and do a good job of guiding you through the process of building applications in a Behavior Driven Development style. Each chapter takes between twenty and forty minutes to complete, so even if your study time is constrained you can make some substantial progress.</p>
+
+<p>At the moment I&#8217;m in the middle of the chapter &#8220;Refactoring with Confidence&#8221; in which the authors use a number of refactoring patterns outlined in Martin Fowler&#8217;s <em>Refactoring</em>. My roommate happens to have a copy, so I&#8217;ll be adding that to my reading pile and hopefully I&#8217;ll be able to find the time to start reading it soon. I am really enjoying the style of BDD, as its outside-in process helps me define the problem I want to solve, and guides me through the best ways to solve it.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Realistic Goals]]></title>
