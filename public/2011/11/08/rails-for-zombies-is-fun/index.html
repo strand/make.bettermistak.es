@@ -60,6 +60,21 @@
 	</div>
 </div>
 </header>
+	
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/strabd">strabd</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('strabd', 6, false);
+	})(jQuery);
+</script>
+
 	<div id="content" class="inner"><article class="post">
     <h1 class="title">Rails for Zombies Is Fun</h1>
     <div class="entry"><p><em>Note: <a href="http://zfer.us/eyf1n">Code School</a> provides me a referral fee if folks sign up through some links in this post. Even without this fee, I would recommend their service.</em></p>
@@ -126,9 +141,7 @@
 </div>
 </section>
 </div>
-	<!--
 	<footer class="inner">Copyright &copy; 2012 make better_mistakes</footer>
-	-->
 	<script src="/javascripts/jquery.easing.1.3.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
 <script src="/javascripts/slash.js"></script>
@@ -151,21 +164,6 @@
 </script>
 
 
-
-	
-<div id="banner" class="inner">
-	<div class="container">
-		<ul class="feed"></ul>
-	</div>
-	<small><a href="http://twitter.com/strabd">strabd</a> @ <a href="http://twitter.com">Twitter</a></small>
-	<div class="loading">Loading...</div>
-</div>
-<script src="/javascripts/twitter.js"></script>
-<script type="text/javascript">
-	(function($){
-		$('#banner').getTwitterFeed('strabd', 6, false);
-	})(jQuery);
-</script>
 
 </body>
 </html>

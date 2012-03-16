@@ -62,6 +62,21 @@ It&#8217;s been an exciting month t...">
 	</div>
 </div>
 </header>
+	
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/strabd">strabd</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('strabd', 6, false);
+	})(jQuery);
+</script>
+
 	<div id="content" class="inner"><article class="post">
     <h1 class="title">Realistic Goals</h1>
     <div class="entry"><p>I&#8217;m a little disappointed in myself for not posting anything in the last month.</p>
@@ -114,9 +129,7 @@ It&#8217;s been an exciting month t...">
 </div>
 </section>
 </div>
-	<!--
 	<footer class="inner">Copyright &copy; 2012 make better_mistakes</footer>
-	-->
 	<script src="/javascripts/jquery.easing.1.3.js"></script>
 <script src="/javascripts/jquery.fancybox.pack.js"></script>
 <script src="/javascripts/slash.js"></script>
@@ -139,21 +152,6 @@ It&#8217;s been an exciting month t...">
 </script>
 
 
-
-	
-<div id="banner" class="inner">
-	<div class="container">
-		<ul class="feed"></ul>
-	</div>
-	<small><a href="http://twitter.com/strabd">strabd</a> @ <a href="http://twitter.com">Twitter</a></small>
-	<div class="loading">Loading...</div>
-</div>
-<script src="/javascripts/twitter.js"></script>
-<script type="text/javascript">
-	(function($){
-		$('#banner').getTwitterFeed('strabd', 6, false);
-	})(jQuery);
-</script>
 
 </body>
 </html>
