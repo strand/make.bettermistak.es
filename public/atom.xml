@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-03-15T17:43:22-07:00</updated>
+  <updated>2012-03-20T15:30:15-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FizzBuzz in CoffeeScript]]></title>
+    <link href="http://make.bettermistak.es/2012/03/20/fizzbuzz-in-coffeescript/"/>
+    <updated>2012-03-20T15:20:00-07:00</updated>
+    <id>http://make.bettermistak.es/2012/03/20/fizzbuzz-in-coffeescript</id>
+    <content type="html"><![CDATA[<p>This afternoon I had an interview which I arrived twenty minutes early for. I wondered if they might have me do a demonstration of coding skills, and remembered that <a href="http://www.twitter.com/kerrizor">@kerrizor</a> is sometimes asked to use <a href="https://github.com/kerrizor/fizz-buzz">FizzBuzz to demonstrate competency</a> in interviews.</p>
+
+<p>So while I was waiting in the lobby, I decided to generate FizzBuzz in CoffeeScript. This is what I came up with:</p>
+
+<div><script src='https://gist.github.com/2141870.js?file='></script>
+<noscript><pre><code>range = [1..100]
+for num in range
+    if num % 15 is 0
+        console.log &quot;FizzBuzz&quot;
+    else if num % 5 is 0
+        console.log &quot;Buzz&quot;
+    else if num % 3 is 0
+        console.log &quot;Fizz&quot;
+    else
+        console.log num</code></pre></noscript></div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The RSpec Book]]></title>
