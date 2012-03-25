@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-03-20T15:30:15-07:00</updated>
+  <updated>2012-03-24T23:34:03-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FizzBuzz in Ruby]]></title>
+    <link href="http://make.bettermistak.es/2012/03/24/fizzbuzz-in-ruby/"/>
+    <updated>2012-03-24T23:29:00-07:00</updated>
+    <id>http://make.bettermistak.es/2012/03/24/fizzbuzz-in-ruby</id>
+    <content type="html"><![CDATA[<p>As a quick followup to this week&#8217;s earlier post demonstrating <a href="http://make.bettermistak.es/2012/03/20/fizzbuzz-in-coffeescript/">FizzBuzz in CoffeeScript</a>, I give you FizzBuzz in Ruby.</p>
+
+<div><script src='https://gist.github.com/2164704.js?file='></script>
+<noscript><pre><code>(0..100).each do |number|
+  case
+  when number % 15 == 0 then puts &quot;FizzBuzz&quot;
+  when number % 5 == 0 then puts &quot;Buzz&quot;
+  when number % 3 == 0 then puts &quot;Fizz&quot;
+  else puts number
+  end
+end</code></pre></noscript></div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[FizzBuzz in CoffeeScript]]></title>
@@ -532,36 +552,6 @@ end</code></pre></noscript></div>
 <p>Fail Faster,</p>
 
 <p>Strand</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://make.bettermistak.es/2011/10/02/first-post/"/>
-    <updated>2011-10-02T00:00:00-07:00</updated>
-    <id>http://make.bettermistak.es/2011/10/02/first-post</id>
-    <content type="html"><![CDATA[<p>pagination_dir&#8212;
-layout: post
-title: &#8220;First Post&#8221;
-date: 2011-10-02 18:16
-comments: true</p>
-
-<h2>categories: </h2>
-
-<p>Hello, internet.</p>
-
-<p>I&#8217;m just getting this blog up and running, and I hope that it will be a good place for me to learn more about the tech I want to use. This blog is running octopress on heroku, and I&#8217;m generally interested in improving my Ruby and Rails expertise, getting better at bash, understanding git, and a ton of other advanced-beginner-level open source web development related lines of inquiry.</p>
-
-<!-- more -->
-
-
-<p>Below is a summary, notes to self, about how I got this thing up and running.</p>
-
-<p>Today I successfully launched <a href="http://make.bettermistak.es">make.bettermistak.es</a>. I followed the <a href="http://octopress.org/docs/setup/">setup guide</a> for a fresh octopress install, then used the <a href="http://octopress.org/docs/deploying/heroku/">deploying to heroku guide</a> to get it on to a host. I then followed heroku&#8217;s <a href="http://devcenter.heroku.com/articles/custom-domains">custom domain guide</a> to setup my main domain.</p>
-
-<p>TODO ensure that www.bettermistak.es, bettermistak.es, and *.bettermistak.es redirect to make. I think I can use <a href="http://devcenter.heroku.com/articles/custom-domains#redirecting_traffic_to_a_specific_domain">redirecting traffic to a specific domain</a> to do so. # TODO: Move todo to a non-content location so it is not copied three times.</p>
-
-<p>Then, after composing this post, I ran <strong>rake generate</strong>, mentioned in the <a href="http://octopress.org/docs/blogging/">blogging guide</a>, to make the markdown into HTML. After that <strong>git add .</strong>, <strong>git commit -m &#8216;first post!&#8217;</strong>, and <strong>git push heroku master</strong> to upload it to the web.</p>
 ]]></content>
   </entry>
   
