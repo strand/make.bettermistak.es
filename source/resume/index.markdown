@@ -12,15 +12,21 @@ strand@bettermistak.es · (206) 569-4363</p>
 
 ### Skills ###
 
-I like the following tools: bash, Cucumber, HTML, JavaScript, Rails, Ruby, Sass, and Sinatra.
+I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, and Sinatra.
 
 ### Projects ###
 
-**make.bettermistak.es**, September 2011 - Present
+**Blogger**, _make.bettermistak.es_, September 2011 - Present
 
 * Document my progress with Rails development on a personal blog using an Octopress framework on a Heroku deploy.
 
+**Reviewer**, _Rails 3 in Action, 2nd Edition_, April 2012 - Present
+
 ### Work Experience ###
+
+**Web Developer**, Contour, April 2012 - Present
+
+* Write and refactor code for Contour.com.
 
 **Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
 
