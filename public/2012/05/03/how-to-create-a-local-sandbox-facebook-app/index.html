@@ -97,11 +97,13 @@ Facebook makes ...">
 
 <p>Login to Heroku and head to &#8221;<a href="https://api.heroku.com/myapps">My Apps</a>&#8221; Click on general info and copy the git address under Git Repo. Go to the command line and in the directory you want the code to live in enter the following</p>
 
-<blockquote><p>git clone git@heroku.com:electric-robot-2715.git  <br/>
-cd electric-robot-2715/  <br/>
-bundle install   <br/>
-gem install foreman   <br/>
-foreman start</p></blockquote>
+<blockquote><p>git clone git@heroku.com:electric-robot-2715.git <em># Clone your app.</em>  <br/>
+cd electric-robot-2715/                          <em># Move into the app directory.</em>  <br/>
+echo FACEBOOK_APP_ID=12345 >> .env               <em># Add your App ID to the local environment.</em>  <br/>
+echo FACEBOOK_SECRET=abcde >> .env               <em># Add your secret to the local environment.</em>  <br/>
+bundle install                                   <em># Install gem dependencies.</em>  <br/>
+gem install foreman                              <em># Install Foreman.</em>  <br/>
+foreman start                                    <em># Start Foreman.</em></p></blockquote>
 
 <p>Navigate to localhost:5000 in your browser and click &#8220;Log In.&#8221; Oh no! you get OAuthException 191! This had me stuck for a few hours, and all I found were a few confusing Stack Overflow posts about it.</p>
 
@@ -126,6 +128,12 @@ foreman start</p></blockquote>
 
 <time datetime="2012-05-03T12:41:00-07:00" pubdate data-updated="true"></time></div>
         <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/categories/walkthrough/'>walkthrough</a>
+  
+</div>
 
 </div>
         

@@ -9,13 +9,13 @@ categories: walkthrough
 
 Facebook makes it easy to get started developing an app that integrates with their service, but I ran into a snag that confused me when I was trying to test my app locally. Here's what I did to resolve the error below, which is thrown when you first try to log in on the Facebook Ruby-based app on localhost:
 
-> {
->    "error": {
->    "message": "Invalid redirect_uri: Given URL is not allowed by the Application configuration.",
->    "type": "OAuthException",
->    "code": 191
->  }
-> }
+> {    
+>    "error": {    
+>    "message": "Invalid redirect_uri: Given URL is not allowed by the Application configuration.",    
+>    "type": "OAuthException",    
+>    "code": 191    
+>  }    
+> }    
 
 To get started login to [https://developers.facebook.com/](https://developers.facebook.com/) with your Facebook account and click **Get Started**. Under Create a Facebook App, click on Developer App and Create New App, Name it ("Brony Finder"), Give it a Namespace ("og_brony") and click the ticky-box for Heroku web hosting. I grumbled at having to provide a mobile telephone or credit card, and then moved on.
 
@@ -23,11 +23,13 @@ Select your environment and the email address you would like this Heroku app to 
 
 Login to Heroku and head to "[My Apps](https://api.heroku.com/myapps)" Click on general info and copy the git address under Git Repo. Go to the command line and in the directory you want the code to live in enter the following
 
-> git clone git@heroku.com:electric-robot-2715.git
-> cd electric-robot-2715/
-> bundle install
-> gem install foreman
-> foreman start
+> git clone git@heroku.com:electric-robot-2715.git _# Clone your app._    
+> cd electric-robot-2715/                          _# Move into the app directory._    
+> echo FACEBOOK_APP_ID=12345 >> .env               _# Add your App ID to the local environment._    
+> echo FACEBOOK_SECRET=abcde >> .env               _# Add your secret to the local environment._    
+> bundle install                                   _# Install gem dependencies._    
+> gem install foreman                              _# Install Foreman._    
+> foreman start                                    _# Start Foreman._    
 
 Navigate to localhost:5000 in your browser and click "Log In." Oh no! you get OAuthException 191! This had me stuck for a few hours, and all I found were a few confusing Stack Overflow posts about it.
 
