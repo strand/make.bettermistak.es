@@ -14,19 +14,11 @@ strand@bettermistak.es · (206) 569-4363</p>
 
 I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, and Sinatra.
 
-### Projects ###
-
-**Blogger**, _make.bettermistak.es_, September 2011 - Present
-
-* Document my progress with Rails development on a personal blog using an Octopress framework on a Heroku deploy.
-
-**Reviewer**, _Rails 3 in Action, 2nd Edition_, April 2012 - Present
-
 ### Work Experience ###
 
 **Web Developer**, Contour, April 2012 - Present
 
-* Write and refactor code for Contour.com.
+* Write and refactor code (Ruby on Rails, jQuery) for Contour.com.
 
 **Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
 
@@ -46,7 +38,7 @@ I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, an
 > **Web Content Producer,** _HRWeb Content Management Project,_ January 2009 – October 2009
 >
 > *	Created content on a SharePoint site and edited HTML to maintain style and formatting.
-> * Revised HTML by hand to fix formatting issues.	   
+> * Revised HTML to fix formatting issues.	   
 > 
 > **Technical Writer,** _Live Ops Documentation Project,_ November 2008 – January 2009
 > 
@@ -54,7 +46,7 @@ I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, an
 > 
 > **Web Content Migrator,** _HRWeb Content Migration Project,_ August – October 2008
 > 
-> * Transferred content to a SharePoint site and edited HTML to update links.
+> * Transferred content to a SharePoint site and edited HTML.
 > 
 > **Search Optimization Project,** January – August 2008
 >
@@ -64,6 +56,14 @@ I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, an
 
 * Implemented a flexible XML schema which made data simple to consume for derivative web applications.
 * Exceeded schedule and performance expectations in compiling current data into XML.
+
+### Projects ###
+
+**Blogger**, _make.bettermistak.es_, September 2011 - Present
+
+* Document my progress with Rails development on a personal blog using an Octopress framework on a Heroku deploy.
+
+**Reviewer**, _Rails 3 in Action, 2nd Edition_, April 2012 - Present
 
 ### Volunteer Experience ###
 
