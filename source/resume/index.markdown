@@ -18,13 +18,14 @@ I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, an
 
 **Web Developer**, Contour, April 2012 - Present
 
-* Write and refactor code (Ruby on Rails, jQuery) for Contour.com.
+* Write and refactor readable and maintainable Ruby on Rails code.
+* Improve the style and behavior of Contour.com.
+* Develop features which interact with social networks and internal APIs.
+* Deploy hotfixes and scheduled updates to our heroku-based site.
 
 **Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
 
-* Communicated with customers and vendors about ongoing projects.
-* Edited XML content using internal tools.
-* Queried databases using internal tools.
+* Edited XML content and queried databases using internal tools.
 * Ran shell commands and scripts to prepare content for localization handoffs.
 * Investigated details and troubleshot problems to resolve tickets.
 
@@ -50,12 +51,12 @@ I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, an
 > 
 > **Search Optimization Project,** January – August 2008
 >
-> * Used internal tools to improve relevance of web search results.
+> * Exceeded expectations while using internal tools to improve relevance of web search results.
 
 **Web Development Assistant,** World Vision through Volt, October – November 2007
 
-* Implemented a flexible XML schema which made data simple to consume for derivative web applications.
-* Exceeded schedule and performance expectations in compiling current data into XML.
+* Implemented an XML schema which made data simple to consume for web applications.
+* Developed a simple mapping tool to confirm data quality.
 
 ### Projects ###
 
