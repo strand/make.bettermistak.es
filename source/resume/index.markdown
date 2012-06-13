@@ -6,19 +6,19 @@ comments: false
 sharing: false
 footer: true
 ---
-# B Strand #
+# Strand McCutchen #
 <p align="right">4826 12th Ave. S, Seattle, WA 98108<br/>
 strand@bettermistak.es · (206) 569-4363</p>
 
 ### Skills ###
 
-I like the following tools: bash, HTML, JavaScript, Rails, RSpec, Ruby, Sass, and Sinatra.
+I like the following tools: bash, HTML, JavaScript, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
 
 ### Work Experience ###
 
 **Web Developer**, Contour, April 2012 - Present
 
-* Write and refactor readable and maintainable Ruby on Rails code.
+* Write and refactor readable and maintainable code for a Ruby on Rails framework.
 * Improve the style and behavior of Contour.com.
 * Develop features which interact with social networks and internal APIs.
 * Deploy hotfixes and scheduled updates to our heroku-based site.
