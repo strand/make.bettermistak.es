@@ -20,7 +20,7 @@ I have experience with PowerShell, SharePoint, and many proprietary internal too
 
 ### Work Experience ###
 
-**Web Developer**, Contour, April 2012 - Present
+**Web Developer**, Contour, April 2012 – Present
 
 * Develop and deploy Facebook OAuth-based account creation and Open Graph video sharing functions.
 * Create new web API functions for desktop software integration and refactor team-produced code for maintainability.
