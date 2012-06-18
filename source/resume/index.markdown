@@ -12,22 +12,29 @@ strand@bettermistak.es · (206) 569-4363</p>
 
 ### Skills ###
 
-I like the following tools: bash, HTML, JavaScript, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
+I solve problems and communicate clearly in English, markup, and code.
+
+I use open tools including: bash, HTML, JavaScript, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
+
+I have experience with PowerShell, SharePoint, and many proprietary internal tools.
 
 ### Work Experience ###
 
 **Web Developer**, Contour, April 2012 - Present
 
-* Write and refactor readable and maintainable code for a Ruby on Rails framework.
+* Develop and deploy Facebook OAuth-based account creation and Open Graph video sharing functions.
+* Create new web API functions for desktop software integration and refactor team-produced code for maintainability.
+* Write hotfixes and related time-based display code to allow multi-phase changes with single deployments to production.
+* Work with PostgreSQL-backed development & production environments through ActiveRecord and directly via psql.
+* Refactor and document Ruby on Rails code for reliability & maintainability.
+* Deploy releases to staging and production environments.
 * Improve the style and behavior of Contour.com.
-* Develop features which interact with social networks and internal APIs.
-* Deploy hotfixes and scheduled updates to our heroku-based site.
 
 **Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
 
 * Edited XML content and queried databases using internal tools.
 * Ran shell commands and scripts to prepare content for localization handoffs.
-* Investigated details and troubleshot problems to resolve tickets.
+* Investigated details and diagnosed problems to resolve tickets.
 
 **Consultant,** _Content Migration Project,_ Aquent Studios, March 2011 – May 2011
 

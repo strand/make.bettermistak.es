@@ -7,7 +7,7 @@ categories:
 ---
 On my twenty-ninth birthday I got let go from the job I had been on for less than two months. I was hired on at a low rate to move files between servers, and I decided to write a PowerShell script to speed up the process. I improved productivity by an order of magnitude. As in, my project manager told me "the guy who was doing this before you would do in a day what you're doing in an hour!" They were really excited to have me working so efficiently that they gave me a raise, and I was glad to be tweaking a shell script to do this. (Incidentally, if you're in a Windows environment, don't use your own shell script to do this, run robocopy.)
 
-I'd been unemployed for a long while, and I was just glad to be working again. And on top of that I got o program a bit, sure Windows' PowerShell wasn't my preferred environment, but it was great to fix a problem with some code.
+I'd been unemployed for a long while, and I was just glad to be working again. And on top of that I got to program a bit–sure Windows PowerShell wasn't my preferred environment–but it was great to fix a problem with some code.
 
 And then they gave me the call. I was working from home the day before my birthday, and I had ended up taking a long late lunch with my partner. I had a shell script running at home. I was on the bus home when one of the recruiters at the consultancy called me and let me know that this was my last day. I brought in my equipment the next day, and that was that.
 
