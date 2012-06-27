@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-06-17T22:27:26-07:00</updated>
+  <updated>2012-06-26T20:16:24-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Apprenticeships as a Competitive Advantage]]></title>
+    <link href="http://make.bettermistak.es/2012/06/26/apprenticeships-as-a-competitive-advantage/"/>
+    <updated>2012-06-26T20:08:00-07:00</updated>
+    <id>http://make.bettermistak.es/2012/06/26/apprenticeships-as-a-competitive-advantage</id>
+    <content type="html"><![CDATA[<p>A business that chooses to train knowledge workers in whatever domain is in demand is likely to find that at the end of the day they have a competitive advantage. I think that you could start a small business today based solely on this principle and be a leader in your field within five years.</p>
+
+<p>I recently read <a href="http://www.amazon.com/gp/product/B00850ZOKI/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00850ZOKI&amp;linkCode=as2&amp;tag=sibrar-20">Why Good People Can&#8217;t Get Jobs</a><img src="http://www.assoc-amazon.com/e/ir?t=sibrar-20&l=as2&o=1&a=B00850ZOKI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> a short book by Peter Cappelli, and found his argument incredibly compelling.<sup id="refBody1"><a href="#refAnchor1">1</a></sup> For a variety of risk-averse reasons companies today make a practice of not filling job openings unless they have the perfect candidate. In the past, to fill a position which required special knowledge some companies would train promising candidates, but the nature of the jobs marketplace in the last few decades has made them overly-cautious of investing in training programs as they fear their employees will walk away after getting training.</p>
+
+<p>For instance, a business that chooses to hire non-programmers and teach them to program will have a competitive advantage in their field. For this reason, based solely on the fact that LivingSocial started an <a href="http://hungryacademy.com">apprenticeship program</a>, I would place money on LivingSocial doing better than GroupOn in the next few years. LivingSocial recognized that without an influx of developers they wouldn&#8217;t be able to reach future business goals, and that it is cheaper to train devs than to (continually) recruit them.</p>
+
+<p>I wonder if a web development consultancy cooperative could be formed based off of this insight. If you had a group of half experienced devs and half less experienced but dedicated trainees pairing together, you might find diamonds in the rough rather than paying market rates for diamonds. Of course, this sort of idea could be applied to any sort of business rooted in knowledge work, which is all of them.</p>
+
+<hr/>
+
+
+<p><small></p>
+
+<ol>
+<li id="refAnchor1"><p>That&#8217;s an Amazon Affiliate link. The book was short, but this <a href="http://spectrum.ieee.org/podcast/at-work/tech-careers/why-bad-jobsor-no-jobshappen-to-good-workers/">interview with the author</a> is shorter and covers the key points. <a href="#refBody1"  class='footnoteBackLink'  title="Jump back to footnote 1 in the text.">&#8617;</a></p></li>
+</ol>
+
+
+<p></small></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Birthday]]></title>
@@ -489,40 +516,6 @@ end</code></pre></noscript></div>
 <p>Place bread in the preheated skillet, and reduce the heat in the oven to 350. Cook ten minutes, flip, and then cook an additional ten minutes.</p>
 
 <p>Serve with jam or Nutella. If you need syrup, avoid anything doctored with high fructose corn syrup like <em>yersinia pestis</em>.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Music Management With the Swiss Army Chainsaw]]></title>
-    <link href="http://make.bettermistak.es/2011/11/06/music-management-with-the-swiss-army-chainsaw/"/>
-    <updated>2011-11-06T15:04:00-08:00</updated>
-    <id>http://make.bettermistak.es/2011/11/06/music-management-with-the-swiss-army-chainsaw</id>
-    <content type="html"><![CDATA[<p>Last night I was cleaning out my music collection… I know, not the most interesting Saturday night, but over the last decade my collection has gotten a little hairy.</p>
-
-<p>It&#8217;s also grown to the size that pruning it by hand with Finder is nearly impossible.</p>
-
-<p>Initially, I just wanted to find some files which had been accidentally duplicated. There were folders with a bunch of songs titled <strong>file.mp3</strong> and <strong>file 1.mp3</strong>. My first stab at this had me listing files and then filtering them by piping them to grep, and yielded commands that looked like this <strong>ls -Rd | grep -i &#8217; 1.mp3&#8217;</strong>.</p>
-
-<!--more-->
-
-
-<p>After some filtering like that for a while I realized that find might be a better tool for the job.</p>
-
-<p>I looked at find and ran several test  to figure out what I wanted. I came up with <strong>find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type f -iname &#8216;* 1.MP3&#8217; -exec rm -f {} \;</strong> which finds all the files in my Music Archive which have the case-insensitive suffix of &#8216;1.mp3&#8217;, and when it finds them, it removes them with force, that is, it deletes the files without checking with me first.</p>
-
-<p>After feeling the immense power of find I couldn&#8217;t stop. I had to delete empty directories with <strong>find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -empty -exec rm -f {} \;</strong></p>
-
-<p>Then, I got curious, which was my first mistake. Could I come up with something that would find all of the directories with folders with just one file in them? After all, my archive was cluttered up with plenty of one-hit wonders. To figure out how many files a directory has you can run <strong>ls -1 | wc -l</strong>. Which is to say, list all of the files in the current directory, each on a line, then pipe the results into the word count tool which is set to count the number of lines.</p>
-
-<p>I experimented with using these commands in the -exec argument on find, but I ran into errors indicating that I needed to have a better understanding of bash fu to solve this problem.</p>
-
-<p>So I went out for pho. When I got back to my apartment this problem was still tickling my brain, so I went to the bash IRC and asked for some advice.</p>
-
-<p>With their help, I eventually ran <strong>time find /Volumes/Strand/iTunes\ Music/Music\ Archive/ -type d -exec bash -c &#8216;cd &#8220;$1&#8221;; f=(<em>); (( ${#f[</em>]} == 1 )) &amp;&amp; [[ -f $f ]] &amp;&amp; echo &#8220;$1&#8221; >> ~/Code/singletons.txt&#8217; _ {} \; &amp;&amp; say &#8220;I&#8217;m done&#8221;</strong> which listed out all of the singletons in a text file for me. Though I must admit this incantation is voodoo to me. This is likely a problem which a shell script, rather than a one-liner, would be more apt to solve.</p>
-
-<p>It was plenty fun to play around in the shell, I hope that next time I&#8217;m better able to puzzle out quickly which commands are useful.</p>
-
-<p>Lessons learned: bash is a great music management tool, if you don&#8217;t mind pruning your collection with the Swiss Army chainsaw, the bash IRC is friendly and active, and appending &#8220;; say &#8216;Imdone&#8217;&#8221; to commands that run more than ten seconds will save your sanity.</p>
 ]]></content>
   </entry>
   
