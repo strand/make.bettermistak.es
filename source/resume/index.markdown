@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: "Resume - B Strand"
+date: 2012-09-02 15:13
+comments: false
+sharing: false
+---
 # Strand McCutchen #
 <p align="right">4826 12th Ave. S, Seattle, WA 98108<br/>
 strand@bettermistak.es · (206) 569-4363</p>
@@ -69,4 +75,5 @@ API integration, bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, 
 ### Education ###
 
 Bachelor of Arts in English: emphasis in Creative Writing  
+
 **The University of Puget Sound,** Graduated August 2004  
