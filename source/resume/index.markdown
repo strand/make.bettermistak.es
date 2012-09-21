@@ -1,52 +1,38 @@
----
-layout: page
-title: false
-date:
-comments: false
-sharing: false
-footer: true
----
+
 # Strand McCutchen #
 <p align="right">4826 12th Ave. S, Seattle, WA 98108<br/>
 strand@bettermistak.es · (206) 569-4363</p>
 
 ### Skills ###
 
-I solve problems and communicate clearly in English, markup, and code.
-
-I use open tools including: bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
-
-I have experience with PowerShell, SharePoint, and many proprietary internal tools.
+API integration, bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
 
 ### Work Experience ###
 
-**Web Developer**, Contour, April 2012 – Present
+**Web Developer**, Contour, April 2012 - Present
 
-* Develop and deploy Facebook OAuth-based account creation and Open Graph video sharing functions.
-* Create new web API functions for desktop software integration and refactor team-produced code for maintainability.
-* Write hotfixes and related time-based display code to allow multi-phase changes with single deployments to production.
-* Work with PostgreSQL-backed development & production environments through ActiveRecord and directly via psql.
-* Refactor and document Ruby on Rails code for reliability & maintainability.
-* Deploy releases to staging and production environments.
+* Write and refactor readable and maintainable code for a Ruby/Rails site.
 * Improve the style and behavior of Contour.com.
+* Develop features which interact with social networks and internal APIs.
+* Deploy hotfixes and scheduled updates to our Heroku-based site.
 
-**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011
+**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
 
 * Edited XML content and queried databases using internal tools.
 * Ran shell commands and scripts to prepare content for localization handoffs.
-* Investigated details and diagnosed problems to resolve tickets.
+* Investigated details and troubleshot problems to resolve tickets.
 
 **Consultant,** _Content Migration Project,_ Aquent Studios, March 2011 – May 2011
 
-* Developed PowerShell scripts to automate file transfers.
-* Improved the file transfer process and increased efficiency by an order of magnitude.
-
+* Developed PowerShell scripts to automate file transfers. 
+* Improved the file transfer process and increased efficiency by an order of magnitude.  
+  
 **Consultant,** Aquent Studios, January 2008 – October 2009
-
+      
 > **Web Content Producer,** _HRWeb Content Management Project,_ January 2009 – October 2009
 >
 > *	Created content on a SharePoint site and edited HTML to maintain style and formatting.
-> * Revised HTML to fix formatting issues.
+> * Revised HTML to fix formatting issues.	   
 > 
 > **Technical Writer,** _Live Ops Documentation Project,_ November 2008 – January 2009
 > 
@@ -75,12 +61,12 @@ I have experience with PowerShell, SharePoint, and many proprietary internal too
 
 **Board Member,** Jigsaw Renaissance, February 2010 – February 2011
 
-* Wrote and edited a weekly events email newsletter and regular blog content.
+* Wrote and edited a weekly events email newsletter and regular blog content.   
 * Managed finances for a growing non-profit maker space. Maintained accurate financial records.
 
 **DJ,** Boise Community Radio Project, August 2006 – July 2007
 
 ### Education ###
 
-Bachelor of Arts in English: emphasis in Creative Writing
-**The University of Puget Sound,** Graduated August 2004
+Bachelor of Arts in English: emphasis in Creative Writing  
+**The University of Puget Sound,** Graduated August 2004  
