@@ -2,6 +2,7 @@
 layout: post
 title: "Resume - B Strand"
 date: 2012-09-02 15:13
+tags: resume
 comments: false
 sharing: false
 ---
