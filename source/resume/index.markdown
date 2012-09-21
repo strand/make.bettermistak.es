@@ -14,7 +14,7 @@ strand@bettermistak.es · (206) 569-4363</p>
 
 I solve problems and communicate clearly in English, markup, and code.
 
-I use open tools including: bash, HTML, JavaScript, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
+I use open tools including: bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
 
 I have experience with PowerShell, SharePoint, and many proprietary internal tools.
 
@@ -30,7 +30,7 @@ I have experience with PowerShell, SharePoint, and many proprietary internal too
 * Deploy releases to staging and production environments.
 * Improve the style and behavior of Contour.com.
 
-**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
+**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011
 
 * Edited XML content and queried databases using internal tools.
 * Ran shell commands and scripts to prepare content for localization handoffs.
@@ -38,15 +38,15 @@ I have experience with PowerShell, SharePoint, and many proprietary internal too
 
 **Consultant,** _Content Migration Project,_ Aquent Studios, March 2011 – May 2011
 
-* Developed PowerShell scripts to automate file transfers. 
-* Improved the file transfer process and increased efficiency by an order of magnitude.  
-  
+* Developed PowerShell scripts to automate file transfers.
+* Improved the file transfer process and increased efficiency by an order of magnitude.
+
 **Consultant,** Aquent Studios, January 2008 – October 2009
-      
+
 > **Web Content Producer,** _HRWeb Content Management Project,_ January 2009 – October 2009
 >
 > *	Created content on a SharePoint site and edited HTML to maintain style and formatting.
-> * Revised HTML to fix formatting issues.	   
+> * Revised HTML to fix formatting issues.
 > 
 > **Technical Writer,** _Live Ops Documentation Project,_ November 2008 – January 2009
 > 
@@ -71,19 +71,16 @@ I have experience with PowerShell, SharePoint, and many proprietary internal too
 
 * Document my progress with Rails development on a personal blog using an Octopress framework on a Heroku deploy.
 
-**Reviewer**, _Rails 3 in Action, 2nd Edition_, April 2012 - Present
-
 ### Volunteer Experience ###
 
 **Board Member,** Jigsaw Renaissance, February 2010 – February 2011
 
-* Wrote and edited a weekly events email newsletter and regular blog content.   
+* Wrote and edited a weekly events email newsletter and regular blog content.
 * Managed finances for a growing non-profit maker space. Maintained accurate financial records.
 
 **DJ,** Boise Community Radio Project, August 2006 – July 2007
 
 ### Education ###
 
-Bachelor of Arts in English: emphasis in Creative Writing  
-**The University of Puget Sound,** Graduated August 2004  
-Honors: Summer Research Grant, Summer 2002, “Philip K. Dick, Cyberpunk, and Beyond”
+Bachelor of Arts in English: emphasis in Creative Writing
+**The University of Puget Sound,** Graduated August 2004
