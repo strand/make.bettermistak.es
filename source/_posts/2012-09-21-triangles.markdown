@@ -7,19 +7,19 @@ categories:
 ---
 Yesterday I was working on building out some arrows to bring attention to content. The request was to have a box with some content with an arrow from the top that makes it look like a speech bubble.
 
-<span class="bubble top">I came up with this:</span>
+<span class="bubble top_arrow">I came up with this:</span>
 
 ``` sass speech bubble arrow http://www.yuiblog.com/blog/2010/11/22/css-quick-tip-css-arrows-and-shapes-without-markup Based on CSS Arrows and Shapes Without Markup
 // Colors
-$white:            #ffffff
-$greya:            #aaaaaa
+$white:             #ffffff
+$greya:             #aaaaaa
 
 .bubble
-  background:   $white
-  border:       1px solid $greya
-  padding:      10px
-  font-weight:  bold
-  position:     relative
+  background:       $white
+  border:           1px solid $greya
+  padding:          10px
+  font-weight:      bold
+  position:         relative
 
 .bubble.arrow
   &:before, &:after
@@ -69,7 +69,7 @@ We can express this more clearly and succinctly. First we abstract out the arrow
     border-left:    $shadow-size solid transparent
     border-right:   $shadow-size solid transparent
     border-bottom:  $shadow-size solid $greyc
-
+...
 .bubble.arrow
   @include arrow
 ```
@@ -80,11 +80,11 @@ It becomes a bit apparent at this point that we're re-using a triangle pattern f
 ``` sass Bring triangles out of the arrow
 ...
 @mixin triangle($color, $size, $offset)
-  top:            -$size
-  left:           $offset
-  border-left:    $size solid transparent
-  border-right:   $size solid transparent
-  border-bottom:  $size solid $color
+  top:              -$size
+  left:             $offset
+  border-left:      $size solid transparent
+  border-right:     $size solid transparent
+  border-bottom:    $size solid $color
 
 @mixin arrow($size: 10px, $shadow: 1px, $position: 85px)
   $shadow-size:     $size + ($shadow * 2)
@@ -126,8 +126,8 @@ First we put in the structure to accommodate a fourth argument, $position:
     z-index:        -1
     @include triangle($greyc, $size + ($shadow * 2), $offset, $position)
 
-  .hidden_dialog.video
-    @include arrow(10px, 1px, 116px, top)
+.bubble.arrow
+  @include arrow(10px, 1px, 116px, top)
 ```
 
 Then we can add another conditional for the left arrow, and voila a module arrow giving our dialog boxes a speech bubble playfulness.
@@ -160,16 +160,16 @@ Then we can add another conditional for the left arrow, and voila a module arrow
     @include triangle($greyc, $size + ($shadow * 2), $offset, $position)
 
 .bubble
-  background:   $white
-  border:       1px solid $greya
-  padding:      10px
-  font-weight:  bold
-  position:     relative
+  background:       $white
+  border:           1px solid $greya
+  padding:          10px
+  font-weight:      bold
+  position:         relative
 
-.bubble.top
+.bubble.top_arrow
   @include arrow(10px, 1px, 116px, top)
 
-.bubble.left
+.bubble.left_arrow
   @include arrow(10px, 1px, 12px, left)
 ```
-This technique can easily extend to the right and bottom sides of the box, and shows how the flexibility of Sass speeds up development, especially if you can <span class="bubble left" style="align: right;">break down your styles into small, reusable parts.</span>
+This technique can easily extend to the right and bottom sides of the box, and shows how the flexibility of Sass speeds up development, especially if you can <span class="bubble left_arrow" style="float: right;">break down your styles into small, reusable parts.</span>

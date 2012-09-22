@@ -87,7 +87,7 @@
     <div class="entry">
         <p>Yesterday I was working on building out some arrows to bring attention to content. The request was to have a box with some content with an arrow from the top that makes it look like a speech bubble.</p>
 
-<p><span class="bubble top">I came up with this:</span></p>
+<p><span class="bubble top_arrow">I came up with this:</span></p>
 
 <figure class='code'><figcaption><span>speech bubble arrow </span><a href='http://www.yuiblog.com/blog/2010/11/22/css-quick-tip-css-arrows-and-shapes-without-markup'>Based on CSS Arrows and Shapes Without Markup</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -120,15 +120,15 @@
 <span class='line-number'>29</span>
 <span class='line-number'>30</span>
 </pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="c1">// Colors</span>
-</span><span class='line'><span class="nv">$white</span><span class="o">:</span>            <span class="mh">#ffffff</span>
-</span><span class='line'><span class="nv">$greya</span><span class="o">:</span>            <span class="mh">#aaaaaa</span>
+</span><span class='line'><span class="nv">$white</span><span class="o">:</span>             <span class="mh">#ffffff</span>
+</span><span class='line'><span class="nv">$greya</span><span class="o">:</span>             <span class="mh">#aaaaaa</span>
 </span><span class='line'>
 </span><span class='line'><span class="nc">.bubble</span>
-</span><span class='line'>  <span class="na">background</span><span class="o">:</span>   <span class="nv">$white</span>
-</span><span class='line'>  <span class="na">border</span><span class="o">:</span>       <span class="mi">1</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$greya</span>
-</span><span class='line'>  <span class="na">padding</span><span class="o">:</span>      <span class="mi">10</span><span class="kt">px</span>
-</span><span class='line'>  <span class="na">font-weight</span><span class="o">:</span>  <span class="no">bold</span>
-</span><span class='line'>  <span class="na">position</span><span class="o">:</span>     <span class="no">relative</span>
+</span><span class='line'>  <span class="na">background</span><span class="o">:</span>       <span class="nv">$white</span>
+</span><span class='line'>  <span class="na">border</span><span class="o">:</span>           <span class="mi">1</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$greya</span>
+</span><span class='line'>  <span class="na">padding</span><span class="o">:</span>          <span class="mi">10</span><span class="kt">px</span>
+</span><span class='line'>  <span class="na">font-weight</span><span class="o">:</span>      <span class="no">bold</span>
+</span><span class='line'>  <span class="na">position</span><span class="o">:</span>         <span class="no">relative</span>
 </span><span class='line'>
 </span><span class='line'><span class="nc">.bubble.arrow</span>
 </span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span><span class="o">,</span> <span class="k">&amp;</span><span class="nd">:after</span>
@@ -203,7 +203,7 @@
 </span><span class='line'>    <span class="na">border-left</span><span class="o">:</span>    <span class="nv">$shadow-size</span> <span class="no">solid</span> <span class="no">transparent</span>
 </span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$shadow-size</span> <span class="no">solid</span> <span class="no">transparent</span>
 </span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$shadow-size</span> <span class="no">solid</span> <span class="nv">$greyc</span>
-</span><span class='line'>
+</span><span class='line'><span class="nc">...</span>
 </span><span class='line'><span class="nc">.bubble.arrow</span>
 </span><span class='line'>  <span class="k">@include</span><span class="nd"> arrow</span>
 </span></code></pre></td></tr></table></div></figure>
@@ -236,11 +236,11 @@
 <span class='line-number'>21</span>
 </pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">...</span>
 </span><span class='line'><span class="k">@mixin</span><span class="nf"> triangle</span><span class="p">(</span><span class="nv">$color</span><span class="o">,</span> <span class="nv">$size</span><span class="o">,</span> <span class="nv">$offset</span><span class="p">)</span>
-</span><span class='line'>  <span class="na">top</span><span class="o">:</span>            <span class="o">-</span><span class="nv">$size</span>
-</span><span class='line'>  <span class="na">left</span><span class="o">:</span>           <span class="nv">$offset</span>
-</span><span class='line'>  <span class="na">border-left</span><span class="o">:</span>    <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
-</span><span class='line'>  <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
-</span><span class='line'>  <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$size</span> <span class="no">solid</span> <span class="nv">$color</span>
+</span><span class='line'>  <span class="na">top</span><span class="o">:</span>              <span class="o">-</span><span class="nv">$size</span>
+</span><span class='line'>  <span class="na">left</span><span class="o">:</span>             <span class="nv">$offset</span>
+</span><span class='line'>  <span class="na">border-left</span><span class="o">:</span>      <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>  <span class="na">border-right</span><span class="o">:</span>     <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>  <span class="na">border-bottom</span><span class="o">:</span>    <span class="nv">$size</span> <span class="no">solid</span> <span class="nv">$color</span>
 </span><span class='line'>
 </span><span class='line'><span class="k">@mixin</span><span class="nf"> arrow</span><span class="p">(</span><span class="nv">$size</span><span class="o">:</span> <span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="nv">$shadow</span><span class="o">:</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="nv">$position</span><span class="o">:</span> <span class="mi">85</span><span class="kt">px</span><span class="p">)</span>
 </span><span class='line'>  <span class="na">$shadow-size</span><span class="o">:</span>     <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
@@ -306,8 +306,8 @@
 </span><span class='line'>    <span class="na">z-index</span><span class="o">:</span>        <span class="mi">-1</span>
 </span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$greyc</span><span class="o">,</span> <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
 </span><span class='line'>
-</span><span class='line'>  <span class="nc">.hidden_dialog.video</span>
-</span><span class='line'>    <span class="k">@include</span><span class="nd"> arrow</span><span class="p">(</span><span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="mi">116</span><span class="kt">px</span><span class="o">,</span> <span class="no">top</span><span class="p">)</span>
+</span><span class='line'><span class="nc">.bubble.arrow</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> arrow</span><span class="p">(</span><span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="mi">116</span><span class="kt">px</span><span class="o">,</span> <span class="no">top</span><span class="p">)</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
@@ -378,21 +378,21 @@
 </span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$greyc</span><span class="o">,</span> <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
 </span><span class='line'>
 </span><span class='line'><span class="nc">.bubble</span>
-</span><span class='line'>  <span class="na">background</span><span class="o">:</span>   <span class="nv">$white</span>
-</span><span class='line'>  <span class="na">border</span><span class="o">:</span>       <span class="mi">1</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$greya</span>
-</span><span class='line'>  <span class="na">padding</span><span class="o">:</span>      <span class="mi">10</span><span class="kt">px</span>
-</span><span class='line'>  <span class="na">font-weight</span><span class="o">:</span>  <span class="no">bold</span>
-</span><span class='line'>  <span class="na">position</span><span class="o">:</span>     <span class="no">relative</span>
+</span><span class='line'>  <span class="na">background</span><span class="o">:</span>       <span class="nv">$white</span>
+</span><span class='line'>  <span class="na">border</span><span class="o">:</span>           <span class="mi">1</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$greya</span>
+</span><span class='line'>  <span class="na">padding</span><span class="o">:</span>          <span class="mi">10</span><span class="kt">px</span>
+</span><span class='line'>  <span class="na">font-weight</span><span class="o">:</span>      <span class="no">bold</span>
+</span><span class='line'>  <span class="na">position</span><span class="o">:</span>         <span class="no">relative</span>
 </span><span class='line'>
-</span><span class='line'><span class="nc">.bubble.top</span>
+</span><span class='line'><span class="nc">.bubble.top_arrow</span>
 </span><span class='line'>  <span class="k">@include</span><span class="nd"> arrow</span><span class="p">(</span><span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="mi">116</span><span class="kt">px</span><span class="o">,</span> <span class="no">top</span><span class="p">)</span>
 </span><span class='line'>
-</span><span class='line'><span class="nc">.bubble.left</span>
+</span><span class='line'><span class="nc">.bubble.left_arrow</span>
 </span><span class='line'>  <span class="k">@include</span><span class="nd"> arrow</span><span class="p">(</span><span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="mi">12</span><span class="kt">px</span><span class="o">,</span> <span class="no">left</span><span class="p">)</span>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>This technique can easily extend to the right and bottom sides of the box, and shows how the flexibility of Sass speeds up development, especially if you can <span class="bubble left" style="align: right;">break down your styles into small, reusable parts.</span></p>
+<p>This technique can easily extend to the right and bottom sides of the box, and shows how the flexibility of Sass speeds up development, especially if you can <span class="bubble left_arrow" style="float: right;">break down your styles into small, reusable parts.</span></p>
 
         
         
