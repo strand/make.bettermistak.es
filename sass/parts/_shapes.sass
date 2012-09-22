@@ -1,0 +1,42 @@
+// Colors
+$white:            #ffffff
+$greya:            #aaaaaa
+
+@mixin triangle($color, $size, $offset, $position)
+  @if $position == top
+    top:            -$size
+    left:           $offset
+    border-left:    $size solid transparent
+    border-right:   $size solid transparent
+    border-bottom:  $size solid $color
+  @if $position == left
+    left:           -$size
+    top:            $offset
+    border-top:     $size solid transparent
+    border-bottom:  $size solid transparent
+    border-right:   $size solid $color
+
+@mixin arrow($size, $shadow, $offset, $position)
+  &:before, &:after
+    content:        ' '
+    height:         0
+    width:          0
+    position:       absolute
+  &:before
+    @include triangle($white, $size, $offset + ($shadow * 2), $position)
+  &:after
+    z-index:        -1
+    @include triangle($greya, $size + ($shadow * 2), $offset, $position)
+
+.bubble
+  background:   $white
+  border:       1px solid $greya
+  padding:      10px
+  font-weight:  bold
+  position:     relative
+
+.bubble.top
+  @include arrow(10px, 1px, 85px, top)
+
+.bubble.left
+  @include arrow(10px, 1px, 12px, left)

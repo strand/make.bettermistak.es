@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-09-21T10:02:23-07:00</updated>
+  <updated>2012-09-22T12:24:26-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,322 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Triangles, Man]]></title>
+    <link href="http://make.bettermistak.es/2012/09/21/triangles/"/>
+    <updated>2012-09-21T21:40:00-07:00</updated>
+    <id>http://make.bettermistak.es/2012/09/21/triangles</id>
+    <content type="html"><![CDATA[<p>Yesterday I was working on building out some arrows to bring attention to content. The request was to have a box with some content with an arrow from the top that makes it look like a speech bubble.</p>
+
+<p><span class="bubble top">I came up with this:</span></p>
+
+<figure class='code'><figcaption><span>speech bubble arrow </span><a href='http://www.yuiblog.com/blog/2010/11/22/css-quick-tip-css-arrows-and-shapes-without-markup'>Based on CSS Arrows and Shapes Without Markup</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="c1">// Colors</span>
+</span><span class='line'><span class="nv">$white</span><span class="o">:</span>            <span class="mh">#ffffff</span>
+</span><span class='line'><span class="nv">$greya</span><span class="o">:</span>            <span class="mh">#aaaaaa</span>
+</span><span class='line'>
+</span><span class='line'><span class="nc">.bubble</span>
+</span><span class='line'>  <span class="na">background</span><span class="o">:</span>   <span class="nv">$white</span>
+</span><span class='line'>  <span class="na">border</span><span class="o">:</span>       <span class="mi">1</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$greya</span>
+</span><span class='line'>  <span class="na">padding</span><span class="o">:</span>      <span class="mi">10</span><span class="kt">px</span>
+</span><span class='line'>  <span class="na">font-weight</span><span class="o">:</span>  <span class="no">bold</span>
+</span><span class='line'>  <span class="na">position</span><span class="o">:</span>     <span class="no">relative</span>
+</span><span class='line'>
+</span><span class='line'><span class="nc">.bubble.arrow</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span><span class="o">,</span> <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">content</span><span class="o">:</span>        <span class="s1">&#39;</span><span class="s2"> &#39;</span>
+</span><span class='line'>    <span class="na">height</span><span class="o">:</span>         <span class="mi">0</span>
+</span><span class='line'>    <span class="na">width</span><span class="o">:</span>          <span class="mi">0</span>
+</span><span class='line'>    <span class="na">position</span><span class="o">:</span>       <span class="no">absolute</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span>
+</span><span class='line'>    <span class="na">top</span><span class="o">:</span>            <span class="mi">-10</span><span class="kt">px</span>
+</span><span class='line'>    <span class="na">left</span><span class="o">:</span>           <span class="mi">87</span><span class="kt">px</span>
+</span><span class='line'>    <span class="na">border-left</span><span class="o">:</span>    <span class="mi">10</span><span class="kt">px</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="mi">10</span><span class="kt">px</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="mi">10</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$white</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">z-index</span><span class="o">:</span>        <span class="mi">-1</span>
+</span><span class='line'>    <span class="na">top</span><span class="o">:</span>            <span class="mi">-12</span><span class="kt">px</span>
+</span><span class='line'>    <span class="na">left</span><span class="o">:</span>           <span class="mi">85</span><span class="kt">px</span>
+</span><span class='line'>    <span class="na">border-left</span><span class="o">:</span>    <span class="mi">12</span><span class="kt">px</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="mi">12</span><span class="kt">px</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="mi">12</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$greya</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The effect has a diagonal border that follows the arrow as it juts out, and this is done by faking a border, a triangle with a z-index of -1 is placed below the initial triangle. The :before pseudo-element generates a 10px white triangle, while the :after pseudo element generates a background 12px grey triangle.</p>
+
+<p>Not bad, but it&#8217;s pretty repetitive. Moreover, it&#8217;s hard to tell from the code that the video bubble&#8217;s arrow is on the top.</p>
+
+<p>We can express this more clearly and succinctly. First we abstract out the arrow:</p>
+
+<figure class='code'><figcaption><span>Rewrite step one - note that the values of the existing arrow are used as defaults while structure is set in place.</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">...</span>
+</span><span class='line'><span class="k">@mixin</span><span class="nf"> arrow</span><span class="p">(</span><span class="nv">$size</span><span class="o">:</span> <span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="nv">$shadow</span><span class="o">:</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="nv">$position</span><span class="o">:</span> <span class="mi">85</span><span class="kt">px</span><span class="p">)</span>
+</span><span class='line'>  <span class="na">$shadow-size</span><span class="o">:</span>     <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span><span class="o">,</span> <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">content</span><span class="o">:</span>        <span class="s1">&#39;</span><span class="s2"> &#39;</span>
+</span><span class='line'>    <span class="na">height</span><span class="o">:</span>         <span class="mi">0</span>
+</span><span class='line'>    <span class="na">width</span><span class="o">:</span>          <span class="mi">0</span>
+</span><span class='line'>    <span class="na">position</span><span class="o">:</span>       <span class="no">absolute</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span>
+</span><span class='line'>    <span class="na">top</span><span class="o">:</span>            <span class="o">-</span><span class="nv">$size</span>
+</span><span class='line'>    <span class="na">left</span><span class="o">:</span>           <span class="nv">$position</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+</span><span class='line'>    <span class="na">border-left</span><span class="o">:</span>    <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$size</span> <span class="no">solid</span> <span class="nv">$white</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">z-index</span><span class="o">:</span>        <span class="mi">-1</span>
+</span><span class='line'>    <span class="na">top</span><span class="o">:</span>            <span class="o">-</span><span class="nv">$shadow-size</span>
+</span><span class='line'>    <span class="na">left</span><span class="o">:</span>           <span class="nv">$position</span>
+</span><span class='line'>    <span class="na">border-left</span><span class="o">:</span>    <span class="nv">$shadow-size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$shadow-size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$shadow-size</span> <span class="no">solid</span> <span class="nv">$greyc</span>
+</span><span class='line'>
+</span><span class='line'><span class="nc">.bubble.arrow</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> arrow</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Nothing fancy is going on here, but taking a moment to get the structure in place and check that our math is clear make the next step easier.</p>
+
+<p>It becomes a bit apparent at this point that we&#8217;re re-using a triangle pattern for both the arrow and it&#8217;s border. We can shake that out too:</p>
+
+<figure class='code'><figcaption><span>Bring triangles out of the arrow</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">...</span>
+</span><span class='line'><span class="k">@mixin</span><span class="nf"> triangle</span><span class="p">(</span><span class="nv">$color</span><span class="o">,</span> <span class="nv">$size</span><span class="o">,</span> <span class="nv">$offset</span><span class="p">)</span>
+</span><span class='line'>  <span class="na">top</span><span class="o">:</span>            <span class="o">-</span><span class="nv">$size</span>
+</span><span class='line'>  <span class="na">left</span><span class="o">:</span>           <span class="nv">$offset</span>
+</span><span class='line'>  <span class="na">border-left</span><span class="o">:</span>    <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>  <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>  <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$size</span> <span class="no">solid</span> <span class="nv">$color</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">@mixin</span><span class="nf"> arrow</span><span class="p">(</span><span class="nv">$size</span><span class="o">:</span> <span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="nv">$shadow</span><span class="o">:</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="nv">$position</span><span class="o">:</span> <span class="mi">85</span><span class="kt">px</span><span class="p">)</span>
+</span><span class='line'>  <span class="na">$shadow-size</span><span class="o">:</span>     <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span><span class="o">,</span> <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">content</span><span class="o">:</span>        <span class="s1">&#39;</span><span class="s2"> &#39;</span>
+</span><span class='line'>    <span class="na">height</span><span class="o">:</span>         <span class="mi">0</span>
+</span><span class='line'>    <span class="na">width</span><span class="o">:</span>          <span class="mi">0</span>
+</span><span class='line'>    <span class="na">position</span><span class="o">:</span>       <span class="no">absolute</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span>
+</span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$white</span><span class="o">,</span> <span class="nv">$size</span><span class="o">,</span> <span class="nv">$offset</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">))</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">z-index</span><span class="o">:</span>        <span class="mi">-1</span>
+</span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$greyc</span><span class="o">,</span> <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">,</span> <span class="nv">$offset</span><span class="p">)</span>
+</span><span class='line'><span class="nc">...</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It looks pretty good, and then we get another request… Can we make it so the the arrow comes out of the left side in some contexts, too.</p>
+
+<p>First we put in the structure to accommodate a fourth argument, $position:</p>
+
+<figure class='code'><figcaption><span>Bring triangles out of the arrow</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">...</span>
+</span><span class='line'><span class="k">@mixin</span><span class="nf"> triangle</span><span class="p">(</span><span class="nv">$color</span><span class="o">,</span> <span class="nv">$size</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="o">:</span> <span class="no">top</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">@if</span> <span class="nv">$position</span> <span class="o">==</span> <span class="no">top</span>
+</span><span class='line'>    <span class="na">top</span><span class="o">:</span>            <span class="o">-</span><span class="nv">$size</span>
+</span><span class='line'>    <span class="na">left</span><span class="o">:</span>           <span class="nv">$offset</span>
+</span><span class='line'>    <span class="na">border-left</span><span class="o">:</span>    <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$size</span> <span class="no">solid</span> <span class="nv">$color</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">@mixin</span><span class="nf"> arrow</span><span class="p">(</span><span class="nv">$size</span><span class="o">,</span> <span class="nv">$shadow</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span><span class="o">,</span> <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">content</span><span class="o">:</span>        <span class="s1">&#39;</span><span class="s2"> &#39;</span>
+</span><span class='line'>    <span class="na">height</span><span class="o">:</span>         <span class="mi">0</span>
+</span><span class='line'>    <span class="na">width</span><span class="o">:</span>          <span class="mi">0</span>
+</span><span class='line'>    <span class="na">position</span><span class="o">:</span>       <span class="no">absolute</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span>
+</span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$white</span><span class="o">,</span> <span class="nv">$size</span><span class="o">,</span> <span class="nv">$offset</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">z-index</span><span class="o">:</span>        <span class="mi">-1</span>
+</span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$greyc</span><span class="o">,</span> <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="nc">.hidden_dialog.video</span>
+</span><span class='line'>    <span class="k">@include</span><span class="nd"> arrow</span><span class="p">(</span><span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="mi">116</span><span class="kt">px</span><span class="o">,</span> <span class="no">top</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then we can add another conditional for the left arrow, and voila a module arrow giving our dialog boxes a speech bubble playfulness.</p>
+
+<figure class='code'><figcaption><span>The finished product</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="k">@mixin</span><span class="nf"> triangle</span><span class="p">(</span><span class="nv">$color</span><span class="o">,</span> <span class="nv">$size</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">@if</span> <span class="nv">$position</span> <span class="o">==</span> <span class="no">top</span>
+</span><span class='line'>    <span class="na">top</span><span class="o">:</span>            <span class="o">-</span><span class="nv">$size</span>
+</span><span class='line'>    <span class="na">left</span><span class="o">:</span>           <span class="nv">$offset</span>
+</span><span class='line'>    <span class="na">border-left</span><span class="o">:</span>    <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$size</span> <span class="no">solid</span> <span class="nv">$color</span>
+</span><span class='line'>  <span class="k">@if</span> <span class="nv">$position</span> <span class="o">==</span> <span class="no">left</span>
+</span><span class='line'>    <span class="na">left</span><span class="o">:</span>           <span class="o">-</span><span class="nv">$size</span>
+</span><span class='line'>    <span class="na">top</span><span class="o">:</span>            <span class="nv">$offset</span>
+</span><span class='line'>    <span class="na">border-top</span><span class="o">:</span>     <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-bottom</span><span class="o">:</span>  <span class="nv">$size</span> <span class="no">solid</span> <span class="no">transparent</span>
+</span><span class='line'>    <span class="na">border-right</span><span class="o">:</span>   <span class="nv">$size</span> <span class="no">solid</span> <span class="nv">$color</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">@mixin</span><span class="nf"> arrow</span><span class="p">(</span><span class="nv">$size</span><span class="o">,</span> <span class="nv">$shadow</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span><span class="o">,</span> <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">content</span><span class="o">:</span>        <span class="s1">&#39;</span><span class="s2"> &#39;</span>
+</span><span class='line'>    <span class="na">height</span><span class="o">:</span>         <span class="mi">0</span>
+</span><span class='line'>    <span class="na">width</span><span class="o">:</span>          <span class="mi">0</span>
+</span><span class='line'>    <span class="na">position</span><span class="o">:</span>       <span class="no">absolute</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:before</span>
+</span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$white</span><span class="o">,</span> <span class="nv">$size</span><span class="o">,</span> <span class="nv">$offset</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:after</span>
+</span><span class='line'>    <span class="na">z-index</span><span class="o">:</span>        <span class="mi">-1</span>
+</span><span class='line'>    <span class="k">@include</span><span class="nd"> triangle</span><span class="p">(</span><span class="nv">$greyc</span><span class="o">,</span> <span class="nv">$size</span> <span class="o">+</span> <span class="p">(</span><span class="nv">$shadow</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span><span class="o">,</span> <span class="nv">$offset</span><span class="o">,</span> <span class="nv">$position</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nc">.bubble</span>
+</span><span class='line'>  <span class="na">background</span><span class="o">:</span>   <span class="nv">$white</span>
+</span><span class='line'>  <span class="na">border</span><span class="o">:</span>       <span class="mi">1</span><span class="kt">px</span> <span class="no">solid</span> <span class="nv">$greya</span>
+</span><span class='line'>  <span class="na">padding</span><span class="o">:</span>      <span class="mi">10</span><span class="kt">px</span>
+</span><span class='line'>  <span class="na">font-weight</span><span class="o">:</span>  <span class="no">bold</span>
+</span><span class='line'>  <span class="na">position</span><span class="o">:</span>     <span class="no">relative</span>
+</span><span class='line'>
+</span><span class='line'><span class="nc">.bubble.top</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> arrow</span><span class="p">(</span><span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="mi">116</span><span class="kt">px</span><span class="o">,</span> <span class="no">top</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nc">.bubble.left</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> arrow</span><span class="p">(</span><span class="mi">10</span><span class="kt">px</span><span class="o">,</span> <span class="mi">1</span><span class="kt">px</span><span class="o">,</span> <span class="mi">12</span><span class="kt">px</span><span class="o">,</span> <span class="no">left</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This technique can easily extend to the right and bottom sides of the box, and shows how the flexibility of Sass speeds up development, especially if you can <span class="bubble left" style="align: right;">break down your styles into small, reusable parts.</span></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apprenticeships as a Competitive Advantage]]></title>
@@ -491,31 +807,6 @@ end</code></pre></noscript></div>
 
 
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[EZ Bake French Toast]]></title>
-    <link href="http://make.bettermistak.es/2011/11/06/ez-bake-french-toast/"/>
-    <updated>2011-11-06T16:35:00-08:00</updated>
-    <id>http://make.bettermistak.es/2011/11/06/ez-bake-french-toast</id>
-    <content type="html"><![CDATA[<p>Today I made some yummy French Toast, and it was way easier then I had expected. My recipe is as follows:</p>
-
-<blockquote><p>Preheat oven to 400 with a cast iron skillet inside. Whip the following with a fork:</p>
-
-<ul>
-<li>a splash of honey whiskey</li>
-<li>an egg</li>
-<li>a pinch of salt</li>
-<li>a large pinch of sugar</li>
-</ul>
-
-
-<p>Dunk two slices of white bread in the mixture, taking care to get as much bread as possible to suck up the egg. Let set for ten or more minutes.</p>
-
-<p>Place bread in the preheated skillet, and reduce the heat in the oven to 350. Cook ten minutes, flip, and then cook an additional ten minutes.</p>
-
-<p>Serve with jam or Nutella. If you need syrup, avoid anything doctored with high fructose corn syrup like <em>yersinia pestis</em>.</p></blockquote>
 ]]></content>
   </entry>
   
