@@ -127,7 +127,7 @@ First we put in the structure to accommodate a fourth argument, $position:
     @include triangle($greyc, $size + ($shadow * 2), $offset, $position)
 
 .bubble.arrow
-  @include arrow(10px, 1px, 116px, top)
+  @include arrow(10px, 1px, 85px, top)
 ```
 
 Then we can add another conditional for the left arrow, and voila a module arrow giving our dialog boxes a speech bubble playfulness.
@@ -167,7 +167,7 @@ Then we can add another conditional for the left arrow, and voila a module arrow
   position:         relative
 
 .bubble.top_arrow
-  @include arrow(10px, 1px, 116px, top)
+  @include arrow(10px, 1px, 85px, top)
 
 .bubble.left_arrow
   @include arrow(10px, 1px, 12px, left)
