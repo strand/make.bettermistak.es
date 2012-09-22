@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-09-22T12:49:04-07:00</updated>
+  <updated>2012-09-22T13:13:24-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -244,7 +244,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Then we can add another conditional for the left arrow, and voila a module arrow giving our dialog boxes a speech bubble playfulness.</p>
+<p>Then we can add another conditional for the left arrow, and voila a modular arrow giving our dialog boxes a speech bubble playfulness.</p>
 
 <figure class='code'><figcaption><span>The finished product</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>

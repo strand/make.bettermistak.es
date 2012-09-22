@@ -130,7 +130,7 @@ First we put in the structure to accommodate a fourth argument, $position:
   @include arrow(10px, 1px, 85px, top)
 ```
 
-Then we can add another conditional for the left arrow, and voila a module arrow giving our dialog boxes a speech bubble playfulness.
+Then we can add another conditional for the left arrow, and voila a modular arrow giving our dialog boxes a speech bubble playfulness.
 
 ``` sass The finished product
 @mixin triangle($color, $size, $offset, $position)
