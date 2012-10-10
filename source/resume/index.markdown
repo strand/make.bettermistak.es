@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resume - B Strand"
+title: "Resume - Strand McCutchen"
 date: 2012-09-02 15:13
 tags: resume
 comments: false
