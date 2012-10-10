@@ -75,6 +75,8 @@ API integration, bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, 
 
 ### Education ###
 
-Bachelor of Arts in English: emphasis in Creative Writing  
+Certificate in Ruby Programming, October 2012 - Present  
+**The University of Washington**
 
-**The University of Puget Sound,** Graduated August 2004  
+Bachelor of Arts in English: emphasis in Creative Writing  
+**The University of Puget Sound,** Graduated August 2004
