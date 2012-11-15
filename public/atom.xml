@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-11-15T09:41:24-08:00</updated>
+  <updated>2012-11-15T09:46:34-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hold ⌘Q to Quit]]></title>
-    <link href="http://make.bettermistak.es/2012/11/15/hold-cmd%2Bq-to-quit/"/>
+    <link href="http://make.bettermistak.es/2012/11/15/hold-cmd-q-to-quit/"/>
     <updated>2012-11-15T09:25:00-08:00</updated>
-    <id>http://make.bettermistak.es/2012/11/15/hold-cmd+q-to-quit</id>
+    <id>http://make.bettermistak.es/2012/11/15/hold-cmd-q-to-quit</id>
     <content type="html"><![CDATA[<p>One of Chrome&#8217;s features that I really love is the &#8220;Warn Before Quitting&#8221; option under the Chrome menu, which prevents the program from quitting with a message saying &#8220;Hold ⌘Q to quit.&#8221; displaying for a second or two before the browser closes.</p>
 
 <p>Unfortunately, that feature only exists in chrome, and I have fat fingers everywhere. So last night I asked on Twitter, &#8220;Lazyweb: Any way to make Google Chrome&#8217;s &#8220;Hold ⌘Q to quit&#8221; (<a href="http://googlemac.blogspot.com/2011/06/q-i-didnt-mean-to-do-that.html">Google blog post explaining the feature</a>) the default across OSX?&#8221;</p>
