@@ -7,7 +7,7 @@ comments: false
 sharing: false
 ---
 # Strand McCutchen #
-<p align="right">4826 12th Ave. S, Seattle, WA 98108<br/>
+<p align="right">1404 E Yesler Way, Apt. 401, Seattle, WA 98122<br/>
 strand@bettermistak.es · (206) 569-4363</p>
 
 ### Skills ###

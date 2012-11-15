@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2012-10-09T21:05:02-07:00</updated>
+  <updated>2012-11-15T09:41:24-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hold ⌘Q to Quit]]></title>
+    <link href="http://make.bettermistak.es/2012/11/15/hold-cmd%2Bq-to-quit/"/>
+    <updated>2012-11-15T09:25:00-08:00</updated>
+    <id>http://make.bettermistak.es/2012/11/15/hold-cmd+q-to-quit</id>
+    <content type="html"><![CDATA[<p>One of Chrome&#8217;s features that I really love is the &#8220;Warn Before Quitting&#8221; option under the Chrome menu, which prevents the program from quitting with a message saying &#8220;Hold ⌘Q to quit.&#8221; displaying for a second or two before the browser closes.</p>
+
+<p>Unfortunately, that feature only exists in chrome, and I have fat fingers everywhere. So last night I asked on Twitter, &#8220;Lazyweb: Any way to make Google Chrome&#8217;s &#8220;Hold ⌘Q to quit&#8221; (<a href="http://googlemac.blogspot.com/2011/06/q-i-didnt-mean-to-do-that.html">Google blog post explaining the feature</a>) the default across OSX?&#8221;</p>
+
+<p>My friend <a href="https://twitter.com/perisaccadic">@perisaccadic</a> responded that KeyRemap4MacBook has that feature. I looked at the documentation last night, and KeyRemap4MacBook has a lot of key remapping features. Setting it to prevent quitting on accidental keypresses isn&#8217;t hard, but it isn&#8217;t obvious either. Here&#8217;s how you do it.</p>
+
+<ol>
+<li>Install <a href="http://pqrs.org/macosx/keyremap4macbook/index.html.en">KeyRemap4MacBook</a> and restart your computer.</li>
+<li>Go to &#8220;System Preferences…&#8221; under the Apple menu, and select KeyRemap4MacBook.</li>
+<li>Under &#8220;Custom Shortcuts&#8221; select &#8220;Hold Command+Q to Quit Application.&#8221; There are a lot of menus under the &#8220;Change Key&#8221; tab, and I recommend using search box at top and just searching for &#8220;quit.&#8221;</li>
+<li>Select the Key Repeat tab and adjust the &#8220;[Holding Key to Key] Holding Threshold&#8221;, which has a default of 200ms. I set this to 2000ms, as I want to have half a breath before I close my programs, your mileage may vary. This option is the third from the bottom.</li>
+</ol>
+
+
+<p>Then system-wide you&#8217;ll have to hold down ⌘Q, rather than bumping it by accident and losing whatever you were working on.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Triangles, Man]]></title>
@@ -778,35 +801,6 @@ end</code></pre></noscript></div>
 <p>When bad things happen, like if our programming environment is near impossible to setup, an optimist explains it as being impersonal, specific, and temporary. &#8220;It isn&#8217;t my fault Foo++ 0.9 isn&#8217;t easy to install, but the next version should be easier.&#8221; When good things happen, like creating an app in a new environment, the optimist takes it as personal, general, and permanent. &#8220;I&#8217;m really smart, which is what made putting together my Foo++-based webserver so quick and easy. I&#8217;m going to try building a bigger app next.&#8221;</p>
 
 <p>Optimism is the attitude we need to foster to better encourage persistent improvement, especially when (inevitably) things don&#8217;t go as planned.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rails for Zombies Is Fun]]></title>
-    <link href="http://make.bettermistak.es/2011/11/08/rails-for-zombies-is-fun/"/>
-    <updated>2011-11-08T12:44:00-08:00</updated>
-    <id>http://make.bettermistak.es/2011/11/08/rails-for-zombies-is-fun</id>
-    <content type="html"><![CDATA[<p><em>Note: <a href="http://zfer.us/eyf1n">Code School</a> provides me a referral fee if folks sign up through some links in this post. Even without this fee, I would recommend their service.</em></p>
-
-<p>I don&#8217;t like webinars on the face of it, though perhaps I am judging a book by its cover. My experience with them is that a webinar will be a series of videos where someone captures their screen and drones narration while they perform some sort of boring task in whatever technology they are trying to demonstrate. Which, for me at least, isn&#8217;t a great way to learn something.</p>
-
-<p>Recently, I tried <a href="http://railsforzombies.org/">Rails for Zombies</a> recently and I  enjoyed it. At first glance, Rails for Zombies appears to be a webinar, but it is really a well produced course. The course is led by Gregg Pollack, and all of the slides used are available as a PDF. After each video there is a level—a short quiz with a series of challenges which tests your knowledge of the material. <span class='pullquote-left' data-pullquote='I know I am making progress with these small, well-defined challenges.'>I know I am making progress with these small, well-defined challenges.</span> The mix of questions is pretty good, with some being pretty easy to grok, while others require a few minutes of reviewing the material.</p>
-
-<p>This course is thrown together for free by <a href="http://zfer.us/eyf1n">Code School</a>, which has several courses on Ruby, JQuery, HTML5 and CSS3, as well as the Rails course. Once you&#8217;ve completed the Rails for Zombies course they give you a five dollar credit to &#8220;enroll&#8221; in the school, at a cost of 25$ per month. Which is a bargain if you consider the courses individually are priced at 55$ apiece.<sup id="refBody1"><a href="#refAnchor1">1</a></sup></p>
-
-<p>I had such a good time using the free version of Rails for Zombies that I have signed up for Code School and I am working on the second attack Rails for Zombies 2. These courses are a fun and engaging way to learn (or review) the basics of creating webapps in a Rails environment, and I&#8217;m going to see how much I can get done in the next month, then likely freeze my subscription. I like Code School a lot, but they&#8217;re currently only putting out a course a month, and I&#8217;m currently trying to keep my bills at a minimum.</p>
-
-<div class="footnotes">
-<hr />
-<ol>
-<li id="refAnchor1">
-<p>I recognize this cost comparison is actually good marketing. Anyone who considers the monthly charge or the single-time fee will sign on for the subscription, and subscription services left uncanceled are more profitable than the purchase of products from time to time. <a href="#refBody1"  class='footnoteBackLink'  title="Jump back to footnote 1 in the text.">&#8617;</a></p>
-</li>
-</ol>
-</div>
-
-
-
 ]]></content>
   </entry>
   
