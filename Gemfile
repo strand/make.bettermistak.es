@@ -21,7 +21,7 @@ group :development do
   gem 'haml', '>= 3.1'
   gem 'compass', '>= 0.11'
   gem 'rubypants'
-  gem 'rb-fsevent'
+  gem 'rb-fsevent', '~> 0.9.3'
   gem 'stringex'
 end
 

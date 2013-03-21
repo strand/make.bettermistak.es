@@ -11,9 +11,9 @@
 
 
     
-    Rails for Zombies Is Fun
+    How Do I Keep Secrets While Sharing Code?
     
-        Note: Code School provides me a referral fee if folks sign up through some links in this post. Ev...">
+        This week I&#8217;ve been working on a pretty simple Sinatra-based website which...">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -67,6 +67,117 @@
 </header>
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/2011/11/20/how-do-i-keep-secrets-while-sharing-code/">How Do I Keep Secrets While Sharing Code?</a></h1>
+    <div class="entry">
+        <p>This week I&#8217;ve been working on a pretty simple Sinatra-based website which uses the <a href="http://twitter.rubyforge.org/">twitter gem</a>. I&#8217;m almost ready to post what I&#8217;ve got so far on github and heroku and see if anyone likes what I&#8217;ve made so far. But before I commit my code publicly, I want to ensure that my secrets are properly obfuscated. Below is a codeblock used to load secrets and keys into the application:</p>
+
+<div><script src='https://gist.github.com/1381160.js?file=authenticate.rb'></script>
+<noscript><pre><code>require 'twitter'
+require 'yaml'
+
+def authenticate
+  
+  Twitter.configure do |c|
+    config = YAML.load(File.read(&quot;config.yml&quot;))[:twitter]
+    c.consumer_key       = config[:consumer_key]
+    c.consumer_secret    = config[:consumer_secret]
+    c.oauth_token        = config[:oauth_token]
+    c.oauth_token_secret = config[:oauth_token_secret]
+  end
+
+  @client = Twitter::Client.new
+
+end</code></pre></noscript></div>
+
+
+<p>Correspondingly, below is the YAML which has the secrets, with my secrets stripped out:</p>
+
+<div><script src='https://gist.github.com/1381160.js?file=config.yml'></script>
+<noscript><pre><code>:twitter:
+    :consumer_key:       CONSUMER_KEY
+    :consumer_secret:    CONSUMER_SECRET
+    :oauth_token:        OAUTH_TOKEN
+    :oauth_token_secret: OAUTH_TOKEN_SECRET</code></pre></noscript></div>
+
+
+<p>This is a fine way to obfuscate my secrets, but only if I never include the secret in my repository, which I can do easily enough with .gitignore. But, I only want to exclude this from my viewable source, not from my deployed application, otherwise my app won&#8217;t run. <a href="http://help.github.com/ignore-files/">Github&#8217;s help</a> indicates that &#8220;Local per-repo rules can be added to the <code>.git/info/exclude</code> file in your repo,&#8221; but doesn&#8217;t indicate how this info needs to be formatted. The guides to .gitignore I have found have all directed me to a broken man page for more information, I think I need the help of a professional.</p>
+
+<p>So the question is: <strong>how do I make committing this YAML file conditional?</strong> So I never accidentally upload it to github, but it always shows up on Heroku?</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-20T15:46:00-08:00" pubdate data-updated="true"></time></div>
+        <div class="tags">
+
+</div>
+        
+        <span class="comments"><a href="/2011/11/20/how-do-i-keep-secrets-while-sharing-code/#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
+
+
+    <article class="post">
+    <h1 class="title"><a href="/2011/11/13/on-optimism/">On Optimism</a></h1>
+    <div class="entry">
+        <p>What traits make us better able to learn new skills? I think there&#8217;s a handful of qualities we can foster to make skill acquisition easier, but optimism may be the most important one.</p>
+
+<p>Recently I began reading <a href="http://www.amazon.com/gp/product/1400078393/ref=as_li_tf_tl?ie=UTF8&amp;tag=sibrar-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399369&amp;creativeASIN=1400078393">Learned Optimism</a>, which claims that pessimists are significantly likelier to stay depressed than optimists are. I heard about the book after stumbling on a talk by <a href="http://twitter.com/#!/raganwald">@raganwald</a> on <a href="https://github.com/raganwald/homoiconic/blob/master/2009-05-01/optimism.md">optimism</a>.</p>
+
+<p>The book is good. I&#8217;m about halfway through it, and have taken tests which determine wether you are an optimist or a pessimist, and wether you are depressed or not, I can tell you that I am a pessimist, but I am not depressed.</p>
+
+<p>I am especially glad to hear the second half of that. I have had depressions come and go since my teens, and this year has had it&#8217;s ups and downs. If I didn&#8217;t do a good job of maintaining myself, I could find myself in a depressive funk which can feel like it will go on forever.</p>
+
+<p>The pessimist part of the quizzes is accurate, too. I am inclined to look at what can go wrong, and prepare well for when it eventually does. I am anxious. I tend to overthink my problems when I have them. Right now I am worrying if I am taking the right tact in this blog post.</p>
+
+<p>When we&#8217;re learning something new, it is good to have an optimistic frame of mind. Because, eventually, there will be a setback. My partner is less tech-inclined then I am, and when she runs into a problem that she cannot solve on the computer, she throws her hands up and says &#8220;I&#8217;m no good at tech.&#8221; It pains me to see her pessimistic approach to technology.</p>
+
+<p>When bad things happen, like if our programming environment is near impossible to setup, an optimist explains it as being impersonal, specific, and temporary. &#8220;It isn&#8217;t my fault Foo++ 0.9 isn&#8217;t easy to install, but the next version should be easier.&#8221; When good things happen, like creating an app in a new environment, the optimist takes it as personal, general, and permanent. &#8220;I&#8217;m really smart, which is what made putting together my Foo++-based webserver so quick and easy. I&#8217;m going to try building a bigger app next.&#8221;</p>
+
+<p>Optimism is the attitude we need to foster to better encourage persistent improvement, especially when (inevitably) things don&#8217;t go as planned.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-13T20:00:00-08:00" pubdate data-updated="true"></time></div>
+        <div class="tags">
+
+</div>
+        
+        <span class="comments"><a href="/2011/11/13/on-optimism/#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
 
 
     <article class="post">
