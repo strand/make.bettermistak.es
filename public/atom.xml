@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2013-03-21T11:34:44-07:00</updated>
+  <updated>2013-05-13T13:22:12-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blogging Is Hard]]></title>
+    <link href="http://make.bettermistak.es/2013/05/13/blogging-is-hard/"/>
+    <updated>2013-05-13T12:37:00-07:00</updated>
+    <id>http://make.bettermistak.es/2013/05/13/blogging-is-hard</id>
+    <content type="html"><![CDATA[<p>Hello Internet,</p>
+
+<p>I started this blog about a year and a half ago, when I was just starting to pursue a career in development. I&#8217;ve done an alright job with it, but let&#8217;s be honest, I haven&#8217;t posted much lately and this thing is getting a little moss growing on the North side from a lack of forward movement.</p>
+
+<p>I&#8217;m no stranger from sharing my writing on the Internet, after all, I had a livejournal back in the day. However, blogging hasn&#8217;t been holding my attention, because for a small blog like mine it&#8217;s not holding anyone else&#8217;s attention. When I write, I want to write for an audience, and even though people read this, it doesn&#8217;t feel like enough.</p>
+
+<p>On Saturday, as my technical book club was wrapping up, I said something funny, and <a href="http://zeespencer.com/">Zee</a> indicating interest in subscribing to my newsletter. &#8220;Hrmm,&#8221; I thought, &#8220;maybe a newsletter is what I need to write again.&#8221;</p>
+
+<p>And but so, I am starting a newsletter called <strong>Open Source and Feelings</strong>. I expect it to be more conversational and scattershot than my blog posts, and I&#8217;ll be putting out the first one near the end of May. Expect excerpts and responses to online articles and a bit of editorial on my part. It&#8217;s a letter from me to you, a place to start conversations.</p>
+
+<p><strong>Make Better Mistakes</strong> isn&#8217;t going away, but posts will continue to be infrequent, and I will post to the blog when I have a one thing to say on a topic.</p>
+
+<p>Cheers!</p>
+
+<p>Your Pal from the Internet,</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/strabd">Strand</a></p>
+
+<p><em>postscript</em> Sign up below! (I am excited.)</p>
+
+<p><form style="border:1px solid #ccc;padding:3px;text-align:center;width: 250px;" action="https://tinyletter.com/open_source_and_feelings" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/open_source_and_feelings', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><strong>Open Source and Feelings</strong></p><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The work is never done]]></title>
@@ -705,64 +734,6 @@ foreman start                                    <em># Start Foreman.</em></p></
     <updated>2011-12-16T00:00:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/12/16/ira-glass-on-creative-work</id>
     <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Slack]]></title>
-    <link href="http://make.bettermistak.es/2011/12/15/slack/"/>
-    <updated>2011-12-15T18:23:00-08:00</updated>
-    <id>http://make.bettermistak.es/2011/12/15/slack</id>
-    <content type="html"><![CDATA[<p><em>I&#8217;ve been busy prepping to leave town</em> is the lie I tell myself to excuse being unproductive in the last month. Our cultural obsession with productivity makes many into tools, but there are days I wouldn&#8217;t mind getting a few things off of my metaphorical to do list.</p>
-
-<p>Reality is: I get stuck in dumb loops. I check twitter. I play civ5. I marathon DS9 on Netflix way past midnight. I check twitter, reddit, reader, facebook, and twitter. I look for dopamine fixes, and avoid sitting still without my wifi on for distraction. Why? as Tony Schwartz puts it in his excellent talk <a href="http://the99percent.com/videos/7110/Tony-Schwartz-The-Myths-of-the-Overworked-Creative">The Myths of the Overworked Creative</a></p>
-
-<blockquote><p>&#8220;Let&#8217;s imagine you are looking at your computer and you are working on a very difficult problem and you know <em>anything that you can do to get away from that problem will be extremely attractive</em>, because human beings have two core impulses in life: number one, escape pain; number two, move towards pleasure. That&#8217;s where we live. So now, along comes the ping of that email, and that email is saying freedom, I&#8217;m free at last. And you go to that email because it takes you away from the pain of doing something more difficult and more complex, and it promises you a potential pleasure. It rarely delivers.&#8221;</p></blockquote>
-
-<!--more-->
-
-
-<p>In the short term, slack is very attractive. Seems obvious on the face of it, almost as obvious as &#8220;cake is delicious.&#8221;</p>
-
-<p>Still, beating myself up for past mistakes won&#8217;t magically elicit good behavior, and I think part of the problem is a lack of SMART goals. SMART goals are those which are Specific, Measurable, Action-oriented, Reasonable, and Timely.<sup id="refBody1"><a href="#refAnchor1">1</a></sup></p>
-
-<p>So yeah, I need to define better, more actionable goals, I&#8217;ll acknowledge that.</p>
-
-<p>But I also need to get past a fear that is occupying some space in my head, the fear of incompetence. I am avoiding finding some real challenges because it&#8217;s so much easier to play a game of Civilization, cycle through social networks, watch old television on Netflix, but, as <a href="http://twitter.com/raganwald">@raganwald</a> writes in his blog post &#8221;<a href="https://github.com/raganwald/homoiconic/blob/master/2009-10-20/high_anxiety.md">High Anxiety</a>&#8221;, &#8220;The irony is, competence is not a cure for the fear of incompetence. The courage to play incompetently is a cure for the fear of incompetence.&#8221;</p>
-
-<p>If it makes you feel any better, I&#8217;m not the only one who wastes time so phenomenally well. I read an article a few days ago—skimmed really—which said that most young people waste their time online. I&#8217;d dig it up and link to it, but I think it is a waste of our time and attention.</p>
-
-<p>I guess I should start doing something about this huge surplus of slack. Tomorrow. Well, how about in the new year after I&#8217;ve settled down in Guangzhou. Or, you could attack any of the following potential problems, Strand:</p>
-
-<p><strong>Work through any of the technical books you own.</strong></p>
-
-<p><strong>Hack at any Ruby project you can find on github.</strong></p>
-
-<p><strong><a href="http://rubykoans.com/">rubykoans.com</a></strong> — Learn how to develop test driven applications by working through these koans, a series of programs which fail every test built into them.</p>
-
-<p><strong>Unemployedrubyist.com</strong> — I&#8217;ve heard that the employment rate in the Ruby community is 100 percent from three seperate rubyists. Well, there is an exception to prove every rule, and this domain wasn&#8217;t taken the last time I checked. Develop a Rails-based site for rubyists who want to let potential employers know that they are available for hire.</p>
-
-<p><strong>euler.heroku.com</strong> - Create a Sinatra-based site for rubyists to contribute solutions to Euler problems. Maintain a github repo that mirrors to heroku.</p>
-
-<div class="footnotes">
-<hr />
-<small>
-<ol>
-<li id="refAnchor1">
-<p>My Aunt Jan defined SMART goals in an email to my family&#8217;s listserv:
-<blockquote>If goal setting is new to you or something you have not done for a while—go easy at first… seek one or two that REALLY matter to you… and set SMART GOALS: <br/><br/>
-<b>S is for Specific.</b> If you set a goal to exercise 3 days a week that is somewhat specific. If you can be more specific you are more likely to achieve the goal… for example you might write I will exercise on Tuesday at the Club; I will walk more than three miles on Thursday; and on Friday I will life weights—three days of exercise—but with a much more defined road map. <br/><br/>
-<b>M is for Measurable.</b> Set your own yard stick but make sure you are measuring—with exercise it can be miles, or minutes, or maintaining heart rate. With writing it can be number of words per day. With knitting it can be number of rows; or inches of a scarf—when you write a goal, include the measurement you will use—so you can evaluate success. <br/><br/>
-<b>A is Action-oriented.</b> Make sure your goal statement has a visible action in it. &#8216;I will look for work&#8217; has an action that is pretty fuzzy—like wandering around the house looking for your keys when you have forgotten where you put them. &#8220;I will research to find 3 places within 5 miles of the house who are accepting applications.&#8221; This is an ACTION item—you can see yourself doing the work.  <br/><br/>
-<b>R is Reasonable.</b> Set Goals you can REASONABLY reach. If you haven&#8217;t been writing for a while, writing for 20 minutes five times this week might be possible—but if you are setting a writing goal, maybe writing three times a week is more like what you can accomplish. If you know how fast you knit—so you can think that knitting 9 rows each day is reasonable but knit a six foot scarf might not be something you can reasonably accomplish in one week.  <br/><br/>
-<b>T is Timely—</b>ALL of the goals that you set for this week are things you think you can accomplish this week—and that you will evaluate next Wednesday. Each week you get to decide if you want to continue with a goal; modify a goal; or not continue. </blockquote><a href="#refBody1"  class='footnoteBackLink'  title="Jump back to footnote 1 in the text.">&#8617;</a></p>
-</li>
-</ol>
-</small>
-</div>
-
-
-
 ]]></content>
   </entry>
   
