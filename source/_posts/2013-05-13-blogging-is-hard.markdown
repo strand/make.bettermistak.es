@@ -10,9 +10,9 @@ Hello Internet,
 
 I started this blog about a year and a half ago, when I was just starting to pursue a career in development. I've done an alright job with it, but let's be honest, I haven't posted much lately and this thing is getting a little moss growing on the North side from a lack of forward movement.
 
-I'm no stranger from sharing my writing on the Internet, after all, I had a livejournal back in the day. However, blogging hasn't been holding my attention, because for a small blog like mine it's not holding anyone else's attention. When I write, I want to write for an audience, and even though people read this, it doesn't feel like enough.
+I'm no stranger to sharing my writing on the Internet, after all, I had a livejournal back in the day. However, blogging hasn't been holding my attention, because for a small blog like mine it's not holding anyone else's attention. When I write, I want to write for an audience, and even though people read this, it doesn't feel like enough.
 
-On Saturday, as my technical book club was wrapping up, I said something funny, and [Zee](http://zeespencer.com/) indicating interest in subscribing to my newsletter. "Hrmm," I thought, "maybe a newsletter is what I need to write again."
+On Saturday, as my technical book club was wrapping up, I said something funny, and [Zee](http://zeespencer.com/) indicated interest in subscribing to my newsletter. "Hrmm," I thought, "maybe a newsletter is what I need to write to write again."
 
 And but so, I am starting a newsletter called **Open Source and Feelings**. I expect it to be more conversational and scattershot than my blog posts, and I'll be putting out the first one near the end of May. Expect excerpts and responses to online articles and a bit of editorial on my part. It's a letter from me to you, a place to start conversations.
 
