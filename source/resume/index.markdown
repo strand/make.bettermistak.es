@@ -18,8 +18,8 @@ I develop and teach with a focus on Ruby and Rails.
 
 **Consultant**, Northwest Independent Ruby Development, January 2013 - Present
 
-* Develop Rails and Sinatra sites for multiple clients.
-* Write and refactor readable and maintainable code.
+* Develop Rails and Sinatra sites for clients.
+* Write and refactor readable and maintainable code in Ruby and coffeescript.
 * Administer remote Linux systems using Capistrano and ssh.
 * Teach programming, problem solving, and troubleshooting skills.
 
@@ -28,13 +28,12 @@ I develop and teach with a focus on Ruby and Rails.
 * Wrote and refactored readable and maintainable code for a Ruby/Rails site.
 * Improved the style and behavior of Contour.com.
 * Developed features which interact with social networks and internal APIs.
-* Deployed hotfixes and scheduled updates to our Heroku-based site.
+* Deployed updates and hotfixes to our Heroku-based site.
 
 **Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011
 
 * Edited XML content and queried databases using internal tools.
-* Ran shell commands and scripts to prepare content for localization handoffs.
-* Investigated details and troubleshot problems to resolve tickets.
+* Ran PowerShell commands and scripts to prepare content.
 
 **Consultant,** _Content Migration Project,_ Aquent Studios, March 2011 – May 2011
 
@@ -45,38 +44,19 @@ I develop and teach with a focus on Ruby and Rails.
 
 > **Web Content Producer,** _HRWeb Content Management Project,_ January 2009 – October 2009
 >
-> *	Created content on a SharePoint site and edited HTML to maintain style and formatting.
-> * Revised HTML to fix formatting issues.	   
->
 > **Technical Writer,** _Live Ops Documentation Project,_ November 2008 – January 2009
->
-> * Edited and created articles using an internal Content Management System.
 >
 > **Web Content Migrator,** _HRWeb Content Migration Project,_ August – October 2008
 >
-> * Transferred content to a SharePoint site and edited HTML.
->
 > **Search Optimization Project,** January – August 2008
->
-> * Exceeded expectations while using internal tools to improve relevance of web search results.
-
-**Web Development Assistant,** World Vision through Volt, October – November 2007
-
-* Implemented an XML schema which made data simple to consume for web applications.
-* Developed a simple mapping tool to confirm data quality.
 
 ### Projects ###
 
 **Blogger**, _make.bettermistak.es_, September 2011 - Present
 
-* Document my progress with Rails development on a personal blog using an Octopress framework on a Heroku deploy.
-
 ### Volunteer Experience ###
 
 **Board Member,** Jigsaw Renaissance, February 2010 – February 2011
-
-* Wrote and edited a weekly events email newsletter and regular blog content.
-* Managed finances for a growing non-profit maker space. Maintained accurate financial records.
 
 **DJ,** Boise Community Radio Project, August 2006 – July 2007
 
