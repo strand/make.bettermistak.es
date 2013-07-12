@@ -10,20 +10,27 @@ sharing: false
 <p align="right">1404 E Yesler Way, Apt. 401, Seattle, WA 98122<br/>
 strand@bettermistak.es · (206) 569-4363</p>
 
-### Skills ###
+### Profile ###
 
-API integration, bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
+I develop and teach with a focus on Ruby and Rails.
 
 ### Work Experience ###
 
-**Web Developer**, Contour, April 2012 - Present
+**Consultant**, Northwest Independent Ruby Development, January 2013 - Present
 
-* Write and refactor readable and maintainable code for a Ruby/Rails site.
-* Improve the style and behavior of Contour.com.
-* Develop features which interact with social networks and internal APIs.
-* Deploy hotfixes and scheduled updates to our Heroku-based site.
+* Develop Rails and Sinatra sites for multiple clients.
+* Write and refactor readable and maintainable code.
+* Administer remote Linux systems using Capistrano and ssh.
+* Teach programming, problem solving, and troubleshooting skills.
 
-**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011  
+**Web Developer**, Contour, April 2012 - December 2012
+
+* Wrote and refactored readable and maintainable code for a Ruby/Rails site.
+* Improved the style and behavior of Contour.com.
+* Developed features which interact with social networks and internal APIs.
+* Deployed hotfixes and scheduled updates to our Heroku-based site.
+
+**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011
 
 * Edited XML content and queried databases using internal tools.
 * Ran shell commands and scripts to prepare content for localization handoffs.
@@ -31,24 +38,24 @@ API integration, bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, 
 
 **Consultant,** _Content Migration Project,_ Aquent Studios, March 2011 – May 2011
 
-* Developed PowerShell scripts to automate file transfers. 
-* Improved the file transfer process and increased efficiency by an order of magnitude.  
-  
+* Developed PowerShell scripts to automate file transfers.
+* Improved the file transfer process and increased efficiency by an order of magnitude.
+
 **Consultant,** Aquent Studios, January 2008 – October 2009
-      
+
 > **Web Content Producer,** _HRWeb Content Management Project,_ January 2009 – October 2009
 >
 > *	Created content on a SharePoint site and edited HTML to maintain style and formatting.
 > * Revised HTML to fix formatting issues.	   
-> 
+>
 > **Technical Writer,** _Live Ops Documentation Project,_ November 2008 – January 2009
-> 
+>
 > * Edited and created articles using an internal Content Management System.
-> 
+>
 > **Web Content Migrator,** _HRWeb Content Migration Project,_ August – October 2008
-> 
+>
 > * Transferred content to a SharePoint site and edited HTML.
-> 
+>
 > **Search Optimization Project,** January – August 2008
 >
 > * Exceeded expectations while using internal tools to improve relevance of web search results.
@@ -68,15 +75,19 @@ API integration, bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, 
 
 **Board Member,** Jigsaw Renaissance, February 2010 – February 2011
 
-* Wrote and edited a weekly events email newsletter and regular blog content.   
+* Wrote and edited a weekly events email newsletter and regular blog content.
 * Managed finances for a growing non-profit maker space. Maintained accurate financial records.
 
 **DJ,** Boise Community Radio Project, August 2006 – July 2007
 
+### Skills ###
+
+API integration, bash, HTML, JavaScript/CoffeeScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
+
 ### Education ###
 
-Certificate in Ruby Programming, October 2012 - Present  
+Certificate in Ruby Programming, October 2012 - June 2013
 **The University of Washington**
 
-Bachelor of Arts in English: emphasis in Creative Writing  
+Bachelor of Arts in English: emphasis in Creative Writing
 **The University of Puget Sound,** Graduated August 2004
