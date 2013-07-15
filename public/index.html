@@ -11,11 +11,9 @@
 
 
     
-    Blogging Is Hard
+    Can You Develop With an iPad and a VPS?
     
-        Hello Internet,
-
-I started this blog about a year and a half ago, when I was just starting to pursue a ca...">
+        I&#8217;ve been playing around with connecting to a remote server using my iPad in...">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -69,6 +67,58 @@ I started this blog about a year and a half ago, when I was just starting to pur
 </header>
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/2013/07/14/can-you-develop-with-an-ipad-and-a-vps/">Can You Develop With an iPad and a VPS?</a></h1>
+    <div class="entry">
+        <p>I&#8217;ve been playing around with connecting to a remote server using my iPad in the last few days. I&#8217;m curious if I can develop without a laptop. It&#8217;s an interesting constraint to work within. Other accounts of using an iPad and a remote server to develop, like <a href="yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad">I swapped my laptop for an iPad+Linode</a>, sold me on the possibility of developing on the iPad ages ago. This weekend I thought I&#8217;d try it out.</p>
+
+<p>My friend <a href="http://twitter.com/zspencer">@zspencer</a> recommended Digital Ocean* as a quick to setup VPS, and Prompt and iSSH as iPad apps that give me an ssh terminal. Yesterday I set up a Droplet, Digital Ocean&#8217;s name for a remote server. Basically, I gave them a credit card number, clicked a button, and a minute later I had a remote Ubuntu box reserved for me, an IP address, and a root password.</p>
+
+<p>Since then I&#8217;ve played around with working on that machine just through the iPad. I cheated once, last night when I wanted to add my remote box&#8217;s SSH key to github and I couldn&#8217;t figure out how to copy the key from the command line into my iPad&#8217;s clipboard.</p>
+
+<p>My web development toolkit on a computer requires me to use a shell, a browser, and a text editor. From the iPad I&#8217;ve got the shell. I can use vi for text editing, but it&#8217;s not something I&#8217;ve got practice with, yet. The trickiest thing is getting a browser going while I&#8217;m in the development environ. One route would be to treat the remote server as a staging server. I could write code in vi, administer in the shell, then load the site up in a browser on the iPad. Unfortunately, I don&#8217;t want mid-commit work to be staged, I just want to be able to view it.</p>
+
+<p>What I want is to be able to go from the Ubuntu terminal to a GUI environ and look at the site in a browser running on the server. iSSH has a VPN option, but I couldn&#8217;t figure out how to get it working this afternoon. In fact I remembered something about X, the linux GUI, and thought I needed to start up xterm. Looking at it now I realize I need to start <strong>X</strong> not <strong>xterm</strong> which is a terminal program.</p>
+
+<p>The experience reminds me a bit of the first time I worked with Linux. I ended up installing Red Hat on a Compaq box my family had stopped using. I got the terminal running, but I couldn&#8217;t ever figure out how to get a GUI running, despite skimming over a thousand page how to use Linux tome I&#8217;d ordered from Powell&#8217;s. I don&#8217;t think I touched Linux again for another six or eight years.</p>
+
+<p>Anyhow, getting a GUI running in iSSH is clearly my next step, but I also need to figure out if this is the time to level up my vim-fu or figure out how to use Sublime Text in a remote version of Ubuntu. Neither is a particularly terrible option.</p>
+
+<p>One other thing I need to figure out sooner rather than later is how to create a non-root user with the correct permissions to create files, install programs, and make things go. I&#8217;ve done a little remote server administration, but most of it has been following recipes written by other developers, and I can&#8217;t remember what needs a chmod.</p>
+
+<p>Have you used a remote system to develop? How did you level up? What resources were useful for you? (And how do I get my GUI running? Work with an account other than root?)</p>
+
+<hr />
+
+<p><small>* Digital Ocean is just one of many VPS providers. Others include Linode, Amazon VPS, and Slicehost. I don&#8217;t have any strong opinions about any of these providers, they all give you access to a server you can administer remotely for about the same price as a cup or two of fancy coffee a month.</small></p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-14T20:06:00-07:00" pubdate data-updated="true"></time></div>
+        <div class="tags">
+
+</div>
+        
+        <span class="comments"><a href="/2013/07/14/can-you-develop-with-an-ipad-and-a-vps/#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
 
 
     <article class="post">
@@ -819,44 +869,6 @@ foreman start                                    <em># Start Foreman.</em></p></
 </div>
         
         <span class="comments"><a href="/2012/03/24/fizzbuzz-in-ruby/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/2012/03/20/fizzbuzz-in-coffeescript/">FizzBuzz in CoffeeScript</a></h1>
-    <div class="entry">
-        <p>This afternoon I had an interview which I arrived twenty minutes early for. I wondered if they might have me do a demonstration of coding skills, and remembered that <a href="http://www.twitter.com/kerrizor">@kerrizor</a> is sometimes asked to use <a href="https://github.com/kerrizor/fizz-buzz">FizzBuzz to demonstrate competency</a> in interviews.</p>
-
-<p>So while I was waiting in the lobby, I decided to generate FizzBuzz in CoffeeScript. This is what I came up with:</p>
-
-<div><script src='https://gist.github.com/2141870.js?file='></script>
-<noscript><pre><code></code></pre></noscript></div>
-
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-20T15:20:00-07:00" pubdate data-updated="true"></time></div>
-        <div class="tags">
-
-</div>
-        
-        <span class="comments"><a href="/2012/03/20/fizzbuzz-in-coffeescript/#disqus_thread">Comments</a></span>
         
     </div>
 </article>

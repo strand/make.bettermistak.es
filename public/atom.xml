@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2013-07-12T08:29:43-07:00</updated>
+  <updated>2013-07-14T20:11:15-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Can You Develop With an iPad and a VPS?]]></title>
+    <link href="http://make.bettermistak.es/2013/07/14/can-you-develop-with-an-ipad-and-a-vps/"/>
+    <updated>2013-07-14T20:06:00-07:00</updated>
+    <id>http://make.bettermistak.es/2013/07/14/can-you-develop-with-an-ipad-and-a-vps</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been playing around with connecting to a remote server using my iPad in the last few days. I&#8217;m curious if I can develop without a laptop. It&#8217;s an interesting constraint to work within. Other accounts of using an iPad and a remote server to develop, like <a href="yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad">I swapped my laptop for an iPad+Linode</a>, sold me on the possibility of developing on the iPad ages ago. This weekend I thought I&#8217;d try it out.</p>
+
+<p>My friend <a href="http://twitter.com/zspencer">@zspencer</a> recommended Digital Ocean* as a quick to setup VPS, and Prompt and iSSH as iPad apps that give me an ssh terminal. Yesterday I set up a Droplet, Digital Ocean&#8217;s name for a remote server. Basically, I gave them a credit card number, clicked a button, and a minute later I had a remote Ubuntu box reserved for me, an IP address, and a root password.</p>
+
+<p>Since then I&#8217;ve played around with working on that machine just through the iPad. I cheated once, last night when I wanted to add my remote box&#8217;s SSH key to github and I couldn&#8217;t figure out how to copy the key from the command line into my iPad&#8217;s clipboard.</p>
+
+<p>My web development toolkit on a computer requires me to use a shell, a browser, and a text editor. From the iPad I&#8217;ve got the shell. I can use vi for text editing, but it&#8217;s not something I&#8217;ve got practice with, yet. The trickiest thing is getting a browser going while I&#8217;m in the development environ. One route would be to treat the remote server as a staging server. I could write code in vi, administer in the shell, then load the site up in a browser on the iPad. Unfortunately, I don&#8217;t want mid-commit work to be staged, I just want to be able to view it.</p>
+
+<p>What I want is to be able to go from the Ubuntu terminal to a GUI environ and look at the site in a browser running on the server. iSSH has a VPN option, but I couldn&#8217;t figure out how to get it working this afternoon. In fact I remembered something about X, the linux GUI, and thought I needed to start up xterm. Looking at it now I realize I need to start <strong>X</strong> not <strong>xterm</strong> which is a terminal program.</p>
+
+<p>The experience reminds me a bit of the first time I worked with Linux. I ended up installing Red Hat on a Compaq box my family had stopped using. I got the terminal running, but I couldn&#8217;t ever figure out how to get a GUI running, despite skimming over a thousand page how to use Linux tome I&#8217;d ordered from Powell&#8217;s. I don&#8217;t think I touched Linux again for another six or eight years.</p>
+
+<p>Anyhow, getting a GUI running in iSSH is clearly my next step, but I also need to figure out if this is the time to level up my vim-fu or figure out how to use Sublime Text in a remote version of Ubuntu. Neither is a particularly terrible option.</p>
+
+<p>One other thing I need to figure out sooner rather than later is how to create a non-root user with the correct permissions to create files, install programs, and make things go. I&#8217;ve done a little remote server administration, but most of it has been following recipes written by other developers, and I can&#8217;t remember what needs a chmod.</p>
+
+<p>Have you used a remote system to develop? How did you level up? What resources were useful for you? (And how do I get my GUI running? Work with an account other than root?)</p>
+
+<hr />
+
+<p><small>* Digital Ocean is just one of many VPS providers. Others include Linode, Amazon VPS, and Slicehost. I don&#8217;t have any strong opinions about any of these providers, they all give you access to a server you can administer remotely for about the same price as a cup or two of fancy coffee a month.</small></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blogging Is Hard]]></title>
@@ -742,15 +771,6 @@ foreman start                                    <em># Start Foreman.</em></p></
 <p>Today I made it through the first chapter of Rails in Action, which was an overview of using rails with the scaffolding generator. Nothing too surprising, and near the end of the chapter my eyes started glazing over. Tomorrow&#8217;s chapter is about Unit::Test, RSpec, and Cucumber, Test Driven Development, all that. The writing is pretty good, Technical books have to strike a difficult balance in that their information to page count ratio must be high, but their tone shouldn&#8217;t be too dry, and if Rails in Action were a sandwich, it would have just the right amount of mustard.</p>
 
 <p>Other things going on this week include packing and Christmas. My partner has sorted through all of her clothes and is giving away three quarters of them. Our rolling duffels will arrive in the mail tomorrow. We&#8217;re eleven days from flying out, and the limitations of international travel make me examine what I really <em>need</em>. Not a lot, it turns out.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ira Glass On Creative Work]]></title>
-    <link href="http://make.bettermistak.es/2011/12/16/ira-glass-on-creative-work/"/>
-    <updated>2011-12-16T00:00:00-08:00</updated>
-    <id>http://make.bettermistak.es/2011/12/16/ira-glass-on-creative-work</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
