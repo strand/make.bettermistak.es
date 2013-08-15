@@ -14,9 +14,15 @@ strand@bettermistak.es · (206) 569-4363</p>
 
 I develop and teach with a focus on Ruby and Rails.
 
+### Availability ###
+
+_I have projected availability after November 2013._
+
+I will be a teaching assistant with **Dev Bootcamp** from mid-September till the end of October.
+
 ### Work Experience ###
 
-**Consultant**, Northwest Independent Ruby Development, January 2013 - Present
+**Consultant**, Northwest Independent Ruby Development, January 2013 - July 2013
 
 * Develop Rails and Sinatra sites for clients.
 * Write and refactor readable and maintainable code in Ruby and coffeescript.
