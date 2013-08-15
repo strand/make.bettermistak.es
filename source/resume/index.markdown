@@ -24,10 +24,10 @@ I will be a teaching assistant with **Dev Bootcamp** from mid-September till the
 
 **Consultant**, Northwest Independent Ruby Development, January 2013 - July 2013
 
-* Develop Rails and Sinatra sites for clients.
-* Write and refactor readable and maintainable code in Ruby and coffeescript.
-* Administer remote Linux systems using Capistrano and ssh.
-* Teach programming, problem solving, and troubleshooting skills.
+* Developed Rails and Sinatra sites for clients.
+* Wrote and refactored readable and maintainable code in Ruby and coffeescript.
+* Administered remote Linux systems using Capistrano and ssh.
+* Taught programming, problem solving, and troubleshooting skills.
 
 **Web Developer**, Contour, April 2012 - December 2012
 
