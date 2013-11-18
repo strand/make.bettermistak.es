@@ -15,10 +15,10 @@ footer: true
 ### JavaScript Resources
 
 * Pairing with Zee Spencer on personal projects.
-* [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+* [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) by Addy Osmani
 * [JavaScript Learning Resources](http://theotherzach.com/writes/2013/9/26/javascript-learning-resources)–blog post by Zach Briggs, who recommends these books:
   * [Effective JavaScript](http://effectivejs.com/)–18$ [Kindle edition](http://www.amazon.com/Effective-JavaScript-Specific-Software-Development-ebook/dp/B00AC1RP14/ref=tmm_kin_title_0) & [Podcast](http://javascriptjabber.com/044-jsj-book-club-effective-javascript-with-david-herman/)
-  * [Eloquent JavaScript](http://eloquentjavascript.net/)–10$ [Kindle edition](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming-ebook/dp/B004OEJNQ0/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1384797257&sr=1-1&keywords=eloquent+javascript)
+  * [Functional JavaScript](http://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js-ebook/dp/B00D624AQO/ref=sr_1_1?ie=UTF8&qid=1384803166&sr=8-1&keywords=functional+javascript)
   * [Secrets of the JavaScript Ninja](http://jsninja.com/)–32$ [Manning eBook](http://www.manning.com/resig/)
 * Myles' notes on [OOJS](https://gist.github.com/quackingduck/34b29e41e15171070d5f)
 
