@@ -12,6 +12,7 @@ footer: true
 * Visible Learning **unstarted**
 * Effective JavaScript 3/68 items
 * Functional JavaScript **unstarted**
+* Master Space and Time with JavaScript **unstarted**
 
 ### Teaching Resources
 
@@ -28,6 +29,7 @@ footer: true
   * [Functional JavaScript](http://www.amazon.com/Functional-JavaScript-Introducing-Programming-Underscore-js-ebook/dp/B00D624AQO/ref=sr_1_1?ie=UTF8&qid=1384803166&sr=8-1&keywords=functional+javascript)
   * [Secrets of the JavaScript Ninja](http://jsninja.com/)–32$ [Manning eBook](http://www.manning.com/resig/)
 * [Functional JavaScript](http://www.functionaljavascript.com/)
+* [Master Space and Time with JavaScript](http://www.noelrappin.com/)
 * Myles' notes on [OOJS](https://gist.github.com/quackingduck/34b29e41e15171070d5f)
 
 ### Algorithms
