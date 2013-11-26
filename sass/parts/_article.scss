@@ -36,7 +36,7 @@ article{
 			}
 		}
 		p{
-			margin-top: 10px;	
+			margin-top: 10px;
 		}
 		h2{
 			font-weight: 300;
@@ -93,20 +93,20 @@ article{
 			@include border-radius(5px);
 		}
 		table{
-			background: $gray04;
-			border: 1px solid $gray03;
+			background: $gray05;
 			border-spacing: 0;
 			margin-top: 10px;
 			th{
-				background: $gray03;
+				background: $gray04;
 				padding: 0 15px;
 			}
 			td{
-				text-align: center;
+				text-align: left;
+				padding: 0 15px;
 			}
 			tr{
 				&:nth-of-type(2n){
-					background: #d5d5d5;
+					background: $gray04;
 				}
 			}
 		}

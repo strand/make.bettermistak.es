@@ -8,11 +8,13 @@ footer: true
 ---
 ### Currently reading or watching (As of Nov 25)
 
-* Art of Teaching                       4/24  lectures
-* Visible Learning                      1/9   chapters
-* Effective JavaScript                  3/68  items
-* Functional JavaScript                 0/9   chapters
-* Master Space and Time with JavaScript 0/4   books
+Resource              | Progress      |  Notes                | Topic
+--------------------- | ------------- | --------------------- | ----------
+Art of Teaching       | 4/24 lectures |                       | Teaching
+Visible Learning      | 1/9 chapters  |                       | Teaching
+Effective JavaScript  | 3/68 items    |                       | JavaScript
+Functional JavaScript | 1/9 chapters  | Ch 1 needs code-thru  | JavaScript
+Master Space and Time w/ JS | 0/4 books |                     | JavaScript
 
 ### Teaching Resources
 
