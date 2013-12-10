@@ -1,19 +1,19 @@
 ---
 layout: page
-title: "Resources"
+title: "Learning Resources"
 date: 2013-11-18 11:37
-comments: true
+comments: false
 sharing: true
 footer: true
 ---
-### Currently reading or watching (As of Nov 25)
+### Currently reading or watching (As of Dec 10)
 
 Resource              | Progress      |  Notes                | Topic
 --------------------- | ------------- | --------------------- | ----------
+Visible Learning      | 2/9 chapters  | Primary resource.     | Teaching
+Functional JavaScript | 1/9 chapters  | Primary resource. Ch 1 needs code-thru.  | JavaScript
 Art of Teaching       | 4/24 lectures |                       | Teaching
-Visible Learning      | 1/9 chapters  |                       | Teaching
 Effective JavaScript  | 3/68 items    |                       | JavaScript
-Functional JavaScript | 1/9 chapters  | Ch 1 needs code-thru  | JavaScript
 Master Space and Time w/ JS | 0/4 books |                     | JavaScript
 
 ### Teaching Resources
@@ -24,7 +24,7 @@ Master Space and Time w/ JS | 0/4 books |                     | JavaScript
 
 ### JavaScript Resources
 
-* Pairing with Zee Spencer on personal projects.
+* Pairing with Jeremy Flores or Zee Spencer on personal projects.
 * [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/) by Addy Osmani
 * [JavaScript Learning Resources](http://theotherzach.com/writes/2013/9/26/javascript-learning-resources)–blog post by Zach Briggs, who recommends these books:
   * [Effective JavaScript](http://effectivejs.com/)–18$ [Kindle edition](http://www.amazon.com/Effective-JavaScript-Specific-Software-Development-ebook/dp/B00AC1RP14/ref=tmm_kin_title_0) & [Podcast](http://javascriptjabber.com/044-jsj-book-club-effective-javascript-with-david-herman/)
