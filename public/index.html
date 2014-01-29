@@ -11,9 +11,9 @@
 
 
     
-    Can You Develop With an iPad and a VPS?
+    When Have You Tested Enough?
     
-        I&#8217;ve been playing around with connecting to a remote server using my iPad in...">
+        Not sure I really answered your original question tho. In TDD the idea of &#8216;enough&#8217...">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -67,6 +67,48 @@
 </header>
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/2014/01/29/when-have-you-tested-enough/">When Have You Tested Enough?</a></h1>
+    <div class="entry">
+        <p>Not sure I really answered your original question tho. In TDD the idea of &#8216;enough&#8217; tests may be missing the point. I don&#8217;t claim to TDD all the time, or to do it perfectly when I do, but one of the things that has been an apparent focus of TDD to me is the focus on tests driving design.</p>
+
+<p>More to the point, the purpose of TDD as I understand it is to express expectations as test code, which unlike documentation needs to stay in sync with the changing codebase. By driving out our object from tests we create simpler and more focused methods.</p>
+
+<p>In example, last year I was working on calculator code for a client which had some wonky business logic. I drove out the code using tests, and came up with what I thought was an elegant design (a bunch of single-line methods) in a pretty quick cycle. However, I had misunderstood the requirements when I wrote the tests, and the client wasn&#8217;t happy.</p>
+
+<p>I quickly found out how the requirements I had written down in tests differed from reality, changed the tests, then made each failing example go green. If I had designed this without tests behind it, I would have likely written some dense conditional logic, and when it failed to meet expectations it would have been faster to throw it away and try again than to refactor it. The design that tests encourage was better for dealing with change.</p>
+
+<p>I have when writing tests for unfamiliar languages written tests for things like setting variables. It was the simplest thing that I could think to test and writing that test gave me the confidence and familiarity to be able to soldier bravely onward. However, I wouldn&#8217;t keep a test of that sort in the codebase. There is nothing too small to write a test for at least once, so that you can prove to yourself that your expectations match the reality of the execution of code. There are, however, tests too trivial to commit to version control. The tests that I want in my test suite are ones which prove that the business logic of my application works, not that the language or libraries work.</p>
+
+<p>Or more to the point, I only test the code I want to work. I want code which I trust the least to work the most, and I trust new code less than old code, changed code less than old code, my code less than my team&#8217;s code, and my team&#8217;s code less than library or framework code.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-29T10:07:00-08:00" pubdate data-updated="true"></time></div>
+        <div class="tags">
+
+</div>
+        
+        <span class="comments"><a href="/2014/01/29/when-have-you-tested-enough/#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
 
 
     <article class="post">
@@ -827,48 +869,6 @@ foreman start                                    <em># Start Foreman.</em></p></
 </div>
         
         <span class="comments"><a href="/2012/05/03/how-to-create-a-local-sandbox-facebook-app/#disqus_thread">Comments</a></span>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/2012/03/24/fizzbuzz-in-ruby/">FizzBuzz in Ruby</a></h1>
-    <div class="entry">
-        <p>As a quick followup to this week&#8217;s earlier post demonstrating <a href="/2012/03/20/fizzbuzz-in-coffeescript/">FizzBuzz in CoffeeScript</a>, I give you FizzBuzz in Ruby.</p>
-
-<div><script src='https://gist.github.com/2164704.js?file='></script>
-<noscript><pre><code></code></pre></noscript></div>
-
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-24T23:29:00-07:00" pubdate data-updated="true"></time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/categories/walkthrough/'>walkthrough</a>
-  
-</div>
-
-</div>
-        
-        <span class="comments"><a href="/2012/03/24/fizzbuzz-in-ruby/#disqus_thread">Comments</a></span>
         
     </div>
 </article>

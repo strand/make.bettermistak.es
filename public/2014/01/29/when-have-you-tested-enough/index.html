@@ -1,0 +1,130 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>When Have You Tested Enough? - make better_mistakes</title>
+    <meta name="author" content="Strand">
+
+    
+    <meta name="description" content="
+    When Have You Tested Enough?
+    Not sure I really answered your original question tho. In TDD the idea of &#8216;enough&#8217; tests may be m...">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+    <link href="/atom.xml" rel="alternate" title="make better_mistakes" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="/javascripts/html5.js"></script><![endif]-->
+    <script src="/javascripts/jquery.min.js"></script>
+    
+    
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26264884-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body>
+	<header class="inner"><h1 class="left"><a href="/">make better_mistakes</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:make.bettermistak.es">
+	</form>
+	<div class="social right">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/strabd" title="Twitter">Twitter</a>
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</div>
+</header>
+	
+	<div id="content" class="inner"><article class="post">
+    <h1 class="title">When Have You Tested Enough?</h1>
+    <div class="entry"><p>Not sure I really answered your original question tho. In TDD the idea of &#8216;enough&#8217; tests may be missing the point. I don&#8217;t claim to TDD all the time, or to do it perfectly when I do, but one of the things that has been an apparent focus of TDD to me is the focus on tests driving design.</p>
+
+<p>More to the point, the purpose of TDD as I understand it is to express expectations as test code, which unlike documentation needs to stay in sync with the changing codebase. By driving out our object from tests we create simpler and more focused methods.</p>
+
+<p>In example, last year I was working on calculator code for a client which had some wonky business logic. I drove out the code using tests, and came up with what I thought was an elegant design (a bunch of single-line methods) in a pretty quick cycle. However, I had misunderstood the requirements when I wrote the tests, and the client wasn&#8217;t happy.</p>
+
+<p>I quickly found out how the requirements I had written down in tests differed from reality, changed the tests, then made each failing example go green. If I had designed this without tests behind it, I would have likely written some dense conditional logic, and when it failed to meet expectations it would have been faster to throw it away and try again than to refactor it. The design that tests encourage was better for dealing with change.</p>
+
+<p>I have when writing tests for unfamiliar languages written tests for things like setting variables. It was the simplest thing that I could think to test and writing that test gave me the confidence and familiarity to be able to soldier bravely onward. However, I wouldn&#8217;t keep a test of that sort in the codebase. There is nothing too small to write a test for at least once, so that you can prove to yourself that your expectations match the reality of the execution of code. There are, however, tests too trivial to commit to version control. The tests that I want in my test suite are ones which prove that the business logic of my application works, not that the language or libraries work.</p>
+
+<p>Or more to the point, I only test the code I want to work. I want code which I trust the least to work the most, and I trust new code less than old code, changed code less than old code, my code less than my team&#8217;s code, and my team&#8217;s code less than library or framework code.</p>
+</div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-29T10:07:00-08:00" pubdate data-updated="true"></time></div>
+        
+        <span class="comments"><a href="#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer class="inner"></footer>
+	<script src="/javascripts/jquery.easing.1.3.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'makebettermistakes';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough/';
+        var disqus_url = 'http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+</html>

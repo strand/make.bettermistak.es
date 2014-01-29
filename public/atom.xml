@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2013-12-10T13:18:27-08:00</updated>
+  <updated>2014-01-29T10:09:34-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[When Have You Tested Enough?]]></title>
+    <link href="http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough/"/>
+    <updated>2014-01-29T10:07:00-08:00</updated>
+    <id>http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough</id>
+    <content type="html"><![CDATA[<p>Not sure I really answered your original question tho. In TDD the idea of &#8216;enough&#8217; tests may be missing the point. I don&#8217;t claim to TDD all the time, or to do it perfectly when I do, but one of the things that has been an apparent focus of TDD to me is the focus on tests driving design.</p>
+
+<p>More to the point, the purpose of TDD as I understand it is to express expectations as test code, which unlike documentation needs to stay in sync with the changing codebase. By driving out our object from tests we create simpler and more focused methods.</p>
+
+<p>In example, last year I was working on calculator code for a client which had some wonky business logic. I drove out the code using tests, and came up with what I thought was an elegant design (a bunch of single-line methods) in a pretty quick cycle. However, I had misunderstood the requirements when I wrote the tests, and the client wasn&#8217;t happy.</p>
+
+<p>I quickly found out how the requirements I had written down in tests differed from reality, changed the tests, then made each failing example go green. If I had designed this without tests behind it, I would have likely written some dense conditional logic, and when it failed to meet expectations it would have been faster to throw it away and try again than to refactor it. The design that tests encourage was better for dealing with change.</p>
+
+<p>I have when writing tests for unfamiliar languages written tests for things like setting variables. It was the simplest thing that I could think to test and writing that test gave me the confidence and familiarity to be able to soldier bravely onward. However, I wouldn&#8217;t keep a test of that sort in the codebase. There is nothing too small to write a test for at least once, so that you can prove to yourself that your expectations match the reality of the execution of code. There are, however, tests too trivial to commit to version control. The tests that I want in my test suite are ones which prove that the business logic of my application works, not that the language or libraries work.</p>
+
+<p>Or more to the point, I only test the code I want to work. I want code which I trust the least to work the most, and I trust new code less than old code, changed code less than old code, my code less than my team&#8217;s code, and my team&#8217;s code less than library or framework code.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Can You Develop With an iPad and a VPS?]]></title>
@@ -758,19 +777,6 @@ foreman start                                    <em># Start Foreman.</em></p></
 <p>I believe that troubleshooting problems is an important skill to have. Mistakes in tech books encourage the reader to learn how to troubleshoot. But they also encourage frustration. I wish that there were a good, simple solution to ironing out errors from tech books, even those errors that are introduced by changing technology. From my understanding, Pragmatic Programmers has much better errata reporting system then Manning Books. Reducing the errors by using print-on-demand and continuous development helps a lot, but it will never be a silver bullet.</p>
 
 <p>Those hours you take to troubleshoot something that should work, but doesn&#8217;t, are the missing chapter in most tech books. Try to look at them as value-added content. And publishers, please try to keep the missing chapters in the second half of your books.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[New Habits]]></title>
-    <link href="http://make.bettermistak.es/2011/12/19/new-habits/"/>
-    <updated>2011-12-19T19:52:00-08:00</updated>
-    <id>http://make.bettermistak.es/2011/12/19/new-habits</id>
-    <content type="html"><![CDATA[<p>This week I am going to set the goal of establishing two new habits, first I will post to the blog on Monday and Friday of every week. The Monday post will be about whatever my goals for the week are. The Friday post will be a review of how well I achieved my goals. The second goal is to read at least five chapters of my current development book, <a href="http://www.manning.com/katz/">Rails 3 In Action</a>.</p>
-
-<p>Today I made it through the first chapter of Rails in Action, which was an overview of using rails with the scaffolding generator. Nothing too surprising, and near the end of the chapter my eyes started glazing over. Tomorrow&#8217;s chapter is about Unit::Test, RSpec, and Cucumber, Test Driven Development, all that. The writing is pretty good, Technical books have to strike a difficult balance in that their information to page count ratio must be high, but their tone shouldn&#8217;t be too dry, and if Rails in Action were a sandwich, it would have just the right amount of mustard.</p>
-
-<p>Other things going on this week include packing and Christmas. My partner has sorted through all of her clothes and is giving away three quarters of them. Our rolling duffels will arrive in the mail tomorrow. We&#8217;re eleven days from flying out, and the limitations of international travel make me examine what I really <em>need</em>. Not a lot, it turns out.</p>
 ]]></content>
   </entry>
   
