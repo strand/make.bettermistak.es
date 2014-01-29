@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2014-01-29T10:09:34-08:00</updated>
+  <updated>2014-01-29T10:14:58-08:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -18,7 +18,13 @@
     <link href="http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough/"/>
     <updated>2014-01-29T10:07:00-08:00</updated>
     <id>http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough</id>
-    <content type="html"><![CDATA[<p>Not sure I really answered your original question tho. In TDD the idea of &#8216;enough&#8217; tests may be missing the point. I don&#8217;t claim to TDD all the time, or to do it perfectly when I do, but one of the things that has been an apparent focus of TDD to me is the focus on tests driving design.</p>
+    <content type="html"><![CDATA[<p><a href="https://twitter.com/cwgem/">@cwgem</a> recently <a href="https://twitter.com/cwgem/status/428236585671208960">asked</a>: &#8216;Curiously throwing this out there. For test driven development, what do you consider to be &#8220;enough testing&#8221;?&#8217;</p>
+
+<p>To which I respond:</p>
+
+<p>Yesterday I tweeted, &#8220;I only test the code I want to work. I trust my code the least, then my team&#8217;s, then libraries.&#8221;</p>
+
+<p>Not sure I really answered your original question tho. In TDD the idea of &#8216;enough&#8217; tests may be missing the point. I don&#8217;t claim to TDD all the time, or to do it perfectly when I do, but one of the things that has been an apparent focus of TDD to me is the focus on tests driving design.</p>
 
 <p>More to the point, the purpose of TDD as I understand it is to express expectations as test code, which unlike documentation needs to stay in sync with the changing codebase. By driving out our object from tests we create simpler and more focused methods.</p>
 

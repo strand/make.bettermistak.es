@@ -5,6 +5,13 @@ date: 2014-01-29 10:07
 comments: true
 categories:
 ---
+
+[@cwgem](https://twitter.com/cwgem/) recently [asked](https://twitter.com/cwgem/status/428236585671208960): 'Curiously throwing this out there. For test driven development, what do you consider to be "enough testing"?'
+
+To which I respond:
+
+Yesterday I tweeted, "I only test the code I want to work. I trust my code the least, then my team's, then libraries."
+
 Not sure I really answered your original question tho. In TDD the idea of 'enough' tests may be missing the point. I don't claim to TDD all the time, or to do it perfectly when I do, but one of the things that has been an apparent focus of TDD to me is the focus on tests driving design.
 
 More to the point, the purpose of TDD as I understand it is to express expectations as test code, which unlike documentation needs to stay in sync with the changing codebase. By driving out our object from tests we create simpler and more focused methods.
