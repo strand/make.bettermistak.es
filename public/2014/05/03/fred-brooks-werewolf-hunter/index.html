@@ -1,0 +1,181 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fred Brooks: Werewolf Hunter - make better_mistakes</title>
+    <meta name="author" content="Strand">
+
+    
+    <meta name="description" content="
+    Fred Brooks: Werewolf Hunter
+    Programming culture is a pop culture. The inevitable Hollywoodization of &#8220;No Silver Bullet&#8221; is ap...">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+    <link href="/atom.xml" rel="alternate" title="make better_mistakes" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="/javascripts/html5.js"></script><![endif]-->
+    <script src="/javascripts/jquery.min.js"></script>
+    
+    
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26264884-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body>
+	<header class="inner"><h1 class="left"><a href="/">make better_mistakes</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:make.bettermistak.es">
+	</form>
+	<div class="social right">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/strabd" title="Twitter">Twitter</a>
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</div>
+</header>
+	
+	<div id="content" class="inner"><article class="post">
+    <h1 class="title">Fred Brooks: Werewolf Hunter</h1>
+    <div class="entry"><p>Programming culture is a pop culture. The inevitable Hollywoodization of &#8220;No Silver Bullet&#8221; is apparent enough to me that I can see the movie trailer in my mind.</p>
+
+<p>Our protagonist is hunkered in a dirty underground bunker, reviewing his weapons carefully. As a voiceover he curmudgeonly complains &#8220;Of all the monsters who fill the nightmares of our folklore—&#8221;</p>
+
+<p><em>a heavy bass thud as we flash cut to him wandering a graveyard at midnight</em></p>
+
+<p>&#8220;—none terrify more than werewolves—&#8221;</p>
+
+<p><em>out of the corner of his eye he sees something and turns</em></p>
+
+<p>&#8220;—because they transform unexpectedly from the familiar—&#8221;</p>
+
+<p><em>he is attacked by a fast-moving wolfman, and fires a crossbow at it</em></p>
+
+<p>&#8220;—into horrors.&#8221;</p>
+
+<p><em>Cut back to the bunker as he opens a box of shells…</em> &#8220;For these, we seek bullets of silver that can magically lay them to rest. I have bad news, there are no silver bullets.&#8221; Then a title card comes up declaring &#8220;Fred Brooks: Werewolf Hunter. Coming Summer 2016.&#8221;</p>
+
+<hr />
+
+<p>I reread <a href="http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf">&#8220;No Silver Bullet&#8221;</a> today, and while I agree with its thesis I don&#8217;t no if its conclusions hold up. The thesis of &#8220;NSB&#8221; is that software will never have order of magnitude improvements occur within the timeframes that these sorts of improvements happen with hardware because the essence of the work of software development is not conducive to these sorts of improvements.</p>
+
+<p>Brooks writes, &#8220;I believe the hard part of building software to be the <strong>specification, design, and testing</strong> of this conceptual construct [that is the essence of software], not the labor of representing it and testing the fidelity of the representation. We still make syntax errors, to be sure; but they are fuzz compared to the conceptual errors in most systems.&#8221; [emphasis mine]</p>
+
+<p>No doubt, the specification, design, and testing of the conceptual framework of the software is where most of the labor lies. Most of the problems of software development lie in figuring out what you actually need the software to do, often from a loose set of requirements from folks whose expertise lies outside the domain software.</p>
+
+<p>To create incremental improvements in how software is constructed Brooks makes four suggestions, each of which I agree with except the last:</p>
+
+<ul>
+<li>Buy software instead of building it.</li>
+<li>Use rapid prototyping to refine requirements.</li>
+<li>Grow your software instead of building it using incremental development.</li>
+<li>Foster great designers by rewarding them with status.</li>
+</ul>
+
+
+<p>This last point is the one I quibble with, and feel it could use its own essay in defense, but Brooks complains that &#8220;space does not permit a lengthy discussion&#8221; on growing great designers, though the difference between average and great is like that of Salieri and Mozart. By way of example he says that Unix is great while MS-DOS is only average, which sounds about right. He claims that, &#8220;The differences between the great and the average approach an order of magnitude.&#8221;</p>
+
+<p>He then goes on to outline:</p>
+
+<blockquote><p>How to grow great designers? Space does not permit a lengthy discussion, but some steps are obvious:</p>
+
+<ul>
+<li>Systematically identify top designers as early as possible. The best are often not the most experienced.</li>
+<li>Assign a career mentor to be responsible for the development of the prospect, and keep a careful career file.</li>
+<li>Devise and maintain a career development plan for each prospect, including carefully selected apprenticeships with top designers, episodes of advanced formal education, and short courses, all interspersed with solo design and technical leadership assignments.</li>
+<li>Provide opportunities for growing designers to interact with and stimulate each other.</li>
+</ul>
+</blockquote>
+
+<p>To me this outline is akin to recognizing that there are no silver bullets, and thus resigning to giving the werewolves the corner office.</p>
+
+<p>I do believe there are significant improvements that can be made which will make software&#8217;s design improve from average to great, but I don&#8217;t believe that improvement needs to happen primarily at the level of the individual, but instead at the level of the team. If this sort of cultural shift can be fostered then the quality of software the team produces will be great, and so will the quality of life for the developers who are working on it.</p>
+
+<p>How to grow great teams? Space does not permit a lengthy discussion, but some steps are obvious:</p>
+
+<ul>
+<li>Systematically identify developers who will collaborate well with others. The best are often not the most experienced, and the best collaborations are often across experience levels.</li>
+<li>Mentorship is the responsibility of everyone on the team. Formal mentors may be assigned and career files kept, but instead of trying to formalize the entire process, instead grow a culture of respect and make it a priority that developers recognize that their work requires both that the continually learn and that they support others in their learning.</li>
+<li>Devise and maintain a career development plan for every person in your organization. Build apprenticeship into the DNA of your team. Episodes of informal education, and opportunities for all to teach each other, all interspersed with collaborative design and technical leadership assignments.</li>
+</ul>
+
+</div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-03T18:50:00-07:00" pubdate data-updated="true"></time></div>
+        
+        <span class="comments"><a href="#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer class="inner"></footer>
+	<script src="/javascripts/jquery.easing.1.3.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'makebettermistakes';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://make.bettermistak.es/2014/05/03/fred-brooks-werewolf-hunter/';
+        var disqus_url = 'http://make.bettermistak.es/2014/05/03/fred-brooks-werewolf-hunter/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+</html>

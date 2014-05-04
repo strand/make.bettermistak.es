@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2014-01-29T10:14:58-08:00</updated>
+  <updated>2014-05-03T18:54:49-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fred Brooks: Werewolf Hunter]]></title>
+    <link href="http://make.bettermistak.es/2014/05/03/fred-brooks-werewolf-hunter/"/>
+    <updated>2014-05-03T18:50:00-07:00</updated>
+    <id>http://make.bettermistak.es/2014/05/03/fred-brooks-werewolf-hunter</id>
+    <content type="html"><![CDATA[<p>Programming culture is a pop culture. The inevitable Hollywoodization of &#8220;No Silver Bullet&#8221; is apparent enough to me that I can see the movie trailer in my mind.</p>
+
+<p>Our protagonist is hunkered in a dirty underground bunker, reviewing his weapons carefully. As a voiceover he curmudgeonly complains &#8220;Of all the monsters who fill the nightmares of our folklore—&#8221;</p>
+
+<p><em>a heavy bass thud as we flash cut to him wandering a graveyard at midnight</em></p>
+
+<p>&#8220;—none terrify more than werewolves—&#8221;</p>
+
+<p><em>out of the corner of his eye he sees something and turns</em></p>
+
+<p>&#8220;—because they transform unexpectedly from the familiar—&#8221;</p>
+
+<p><em>he is attacked by a fast-moving wolfman, and fires a crossbow at it</em></p>
+
+<p>&#8220;—into horrors.&#8221;</p>
+
+<p><em>Cut back to the bunker as he opens a box of shells…</em> &#8220;For these, we seek bullets of silver that can magically lay them to rest. I have bad news, there are no silver bullets.&#8221; Then a title card comes up declaring &#8220;Fred Brooks: Werewolf Hunter. Coming Summer 2016.&#8221;</p>
+
+<hr />
+
+<p>I reread <a href="http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf">&#8220;No Silver Bullet&#8221;</a> today, and while I agree with its thesis I don&#8217;t no if its conclusions hold up. The thesis of &#8220;NSB&#8221; is that software will never have order of magnitude improvements occur within the timeframes that these sorts of improvements happen with hardware because the essence of the work of software development is not conducive to these sorts of improvements.</p>
+
+<p>Brooks writes, &#8220;I believe the hard part of building software to be the <strong>specification, design, and testing</strong> of this conceptual construct [that is the essence of software], not the labor of representing it and testing the fidelity of the representation. We still make syntax errors, to be sure; but they are fuzz compared to the conceptual errors in most systems.&#8221; [emphasis mine]</p>
+
+<p>No doubt, the specification, design, and testing of the conceptual framework of the software is where most of the labor lies. Most of the problems of software development lie in figuring out what you actually need the software to do, often from a loose set of requirements from folks whose expertise lies outside the domain software.</p>
+
+<p>To create incremental improvements in how software is constructed Brooks makes four suggestions, each of which I agree with except the last:</p>
+
+<ul>
+<li>Buy software instead of building it.</li>
+<li>Use rapid prototyping to refine requirements.</li>
+<li>Grow your software instead of building it using incremental development.</li>
+<li>Foster great designers by rewarding them with status.</li>
+</ul>
+
+
+<p>This last point is the one I quibble with, and feel it could use its own essay in defense, but Brooks complains that &#8220;space does not permit a lengthy discussion&#8221; on growing great designers, though the difference between average and great is like that of Salieri and Mozart. By way of example he says that Unix is great while MS-DOS is only average, which sounds about right. He claims that, &#8220;The differences between the great and the average approach an order of magnitude.&#8221;</p>
+
+<p>He then goes on to outline:</p>
+
+<blockquote><p>How to grow great designers? Space does not permit a lengthy discussion, but some steps are obvious:</p>
+
+<ul>
+<li>Systematically identify top designers as early as possible. The best are often not the most experienced.</li>
+<li>Assign a career mentor to be responsible for the development of the prospect, and keep a careful career file.</li>
+<li>Devise and maintain a career development plan for each prospect, including carefully selected apprenticeships with top designers, episodes of advanced formal education, and short courses, all interspersed with solo design and technical leadership assignments.</li>
+<li>Provide opportunities for growing designers to interact with and stimulate each other.</li>
+</ul>
+</blockquote>
+
+<p>To me this outline is akin to recognizing that there are no silver bullets, and thus resigning to giving the werewolves the corner office.</p>
+
+<p>I do believe there are significant improvements that can be made which will make software&#8217;s design improve from average to great, but I don&#8217;t believe that improvement needs to happen primarily at the level of the individual, but instead at the level of the team. If this sort of cultural shift can be fostered then the quality of software the team produces will be great, and so will the quality of life for the developers who are working on it.</p>
+
+<p>How to grow great teams? Space does not permit a lengthy discussion, but some steps are obvious:</p>
+
+<ul>
+<li>Systematically identify developers who will collaborate well with others. The best are often not the most experienced, and the best collaborations are often across experience levels.</li>
+<li>Mentorship is the responsibility of everyone on the team. Formal mentors may be assigned and career files kept, but instead of trying to formalize the entire process, instead grow a culture of respect and make it a priority that developers recognize that their work requires both that the continually learn and that they support others in their learning.</li>
+<li>Devise and maintain a career development plan for every person in your organization. Build apprenticeship into the DNA of your team. Episodes of informal education, and opportunities for all to teach each other, all interspersed with collaborative design and technical leadership assignments.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[When Have You Tested Enough?]]></title>
@@ -756,33 +826,6 @@ foreman start                                    <em># Start Foreman.</em></p></
     <updated>2011-12-26T23:48:00-08:00</updated>
     <id>http://make.bettermistak.es/2011/12/26/monday-check-in</id>
     <content type="html"><![CDATA[<p>This week I will move my stuff out of my apartment and fly to Guangzhou. This obviously leaves me with a lack of time to work on projects. My project this week is to apply to <a href="http://hungryacademy.com/">Hungry Academy</a>. I&#8217;ll write a post before Friday to report how that went.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Hidden Chapter]]></title>
-    <link href="http://make.bettermistak.es/2011/12/23/the-hidden-chapter/"/>
-    <updated>2011-12-23T20:32:00-08:00</updated>
-    <id>http://make.bettermistak.es/2011/12/23/the-hidden-chapter</id>
-    <content type="html"><![CDATA[<p>I didn&#8217;t read five chapters this week, and that&#8217;s partially because of the hidden chapter in all tech books. I believe the hidden chapter is a bug, but in documenting it I hope to make it in to a feature.</p>
-
-<p>Tech publishing firms deals with different issues than other publishers. Tech books have small audiences which leads to higher prices per book as the economy of scale is the only thing that makes a paperback a possibly profitable prospect. (Though most books make very little. The secret of publishing is making small bets on unknowns and then creating and maintaining audiences for authors who find an audience with their first book.)</p>
-
-<p>Tech authors aren&#8217;t paid much relative to the compensation they can receive if they work as consultants. I don&#8217;t have any info to compare their wage to authors in other sections of the bookstore, but anyone who has enough expertise to write a good tech book also has enough expertise to find better paying work elsewhere.</p>
-
-<p>They also have to strike a difficult balance, being entertaining without being overly verbose, being informative without dulling the reader into a coma. I have been routinely surprised at how well written the prose is in tech books, and it comes from a high attention to detail on the authors part, as well as the early readers of the book, who are generally uncompensated.</p>
-
-<p>To prepare a book for printing the publisher must work in rigid formats which preserve layouts and encourage migraines. There may be some editing staff that review the prose, but the publishing industry has scaled down heavily on copy-editors and other related quality assurance staff as the industry has digitized.</p>
-
-<p>This is all to say, <strong>mistakes are made in tech books</strong>. They are to be expected.</p>
-
-<p>However, a small mistake can have large ramifications for a coder just learning a new technology. I&#8217;ve been working through Rails 3 In Action written by Ryan Bigg and published by Manning Books. This morning at six, after a night of insomnia, I began working through the third chapter. My PDF was generated earlier this week, or it was delivered to me at the least, and I assumed that any known errata would already be incorporated. It turns out this is not the case.</p>
-
-<p>Instead, I had an issue with using a version of Cucumber that had come out since the book was released and breaks the functionality of the code I was working through. The error got me confused, and I decided to take a rest. After a two hour nap and some veggie huevos rancheros, I tried my hand at it again. I figured out that my issue was related to using the wrong version of Cucumber. I tried a few things to fix the version issue on my current commit, but ended up having to revert to an earlier checkin with git. And that troubleshooting process took me a couple of hours where I would have actually worked through the material.</p>
-
-<p>I believe that troubleshooting problems is an important skill to have. Mistakes in tech books encourage the reader to learn how to troubleshoot. But they also encourage frustration. I wish that there were a good, simple solution to ironing out errors from tech books, even those errors that are introduced by changing technology. From my understanding, Pragmatic Programmers has much better errata reporting system then Manning Books. Reducing the errors by using print-on-demand and continuous development helps a lot, but it will never be a silver bullet.</p>
-
-<p>Those hours you take to troubleshoot something that should work, but doesn&#8217;t, are the missing chapter in most tech books. Try to look at them as value-added content. And publishers, please try to keep the missing chapters in the second half of your books.</p>
 ]]></content>
   </entry>
   
