@@ -25,13 +25,13 @@ _Cut back to the bunker as he opens a box of shells…_ "For these, we seek bull
 
 --------------------------------------------------------------------------------
 
-I reread ["No Silver Bullet"](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf) today, and while I agree with its thesis I don't no if its conclusions hold up. The thesis of "NSB" is that software will never have order of magnitude improvements occur within the timeframes that these sorts of improvements happen with hardware because the essence of the work of software development is not conducive to these sorts of improvements.
+I reread ["No Silver Bullet"](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf) today, and while I agree with its thesis I don't know if its conclusions hold up. The thesis of "NSB" is that software will never have order of magnitude improvements occur within the timeframes that these sorts of improvements happen with hardware because the essence of the work of software development is not conducive to these sorts of improvements.
 
 Brooks writes, "I believe the hard part of building software to be the **specification, design, and testing** of this conceptual construct [that is the essence of software], not the labor of representing it and testing the fidelity of the representation. We still make syntax errors, to be sure; but they are fuzz compared to the conceptual errors in most systems." [emphasis mine]
 
-No doubt, the specification, design, and testing of the conceptual framework of the software is where most of the labor lies. Most of the problems of software development lie in figuring out what you actually need the software to do, often from a loose set of requirements from folks whose expertise lies outside the domain software.
+No doubt, the specification, design, and testing of the conceptual framework of the software is where most of the labor lies. Most of the problems of software development lie in figuring out what you actually need the software to do, often from a loose set of requirements from folks whose expertise lies outside the domain of software.
 
-To create incremental improvements in how software is constructed Brooks makes four suggestions, each of which I agree with except the last:
+To create incremental improvements in how software is constructed Brooks makes four suggestions:
 
 - Buy software instead of building it.
 - Use rapid prototyping to refine requirements.
