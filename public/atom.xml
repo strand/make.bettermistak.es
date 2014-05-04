@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2014-05-03T20:20:54-07:00</updated>
+  <updated>2014-05-03T21:50:00-07:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -44,7 +44,7 @@
 
 <p>No doubt, the specification, design, and testing of the conceptual framework of the software is where most of the labor lies. Most of the problems of software development lie in figuring out what you actually need the software to do, often from a loose set of requirements from folks whose expertise lies outside the domain of software.</p>
 
-<p>To create incremental improvements in how software is constructed Brooks makes four suggestions:</p>
+<p>To improve how software is constructed Brooks makes four suggestions:</p>
 
 <ul>
 <li>Buy software instead of building it.</li>
@@ -54,7 +54,7 @@
 </ul>
 
 
-<p>This last point is the one I quibble with, and feel it could use its own essay in defense, but Brooks complains that &#8220;space does not permit a lengthy discussion&#8221; on growing great designers, though the difference between average and great is like that of Salieri and Mozart. By way of example he says that Unix is great while MS-DOS is only average, which sounds about right. He claims that, &#8220;The differences between the great and the average approach an order of magnitude.&#8221;</p>
+<p>This last point is the one I quibble with. I feel it could use its own essay in defense. Though the difference between an average designer and a great one is like that of Salieri and Mozart Brooks does not spend much time explaining how to foster great designers. By way of example he says that Unix is great while MS-DOS is only average, which sounds about right. He claims that, &#8220;The differences between the great and the average approach an order of magnitude.&#8221;</p>
 
 <p>He then goes on to outline:</p>
 

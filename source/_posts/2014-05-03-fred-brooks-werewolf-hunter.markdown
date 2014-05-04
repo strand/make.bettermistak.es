@@ -31,14 +31,14 @@ Brooks writes, "I believe the hard part of building software to be the **specifi
 
 No doubt, the specification, design, and testing of the conceptual framework of the software is where most of the labor lies. Most of the problems of software development lie in figuring out what you actually need the software to do, often from a loose set of requirements from folks whose expertise lies outside the domain of software.
 
-To create incremental improvements in how software is constructed Brooks makes four suggestions:
+To improve how software is constructed Brooks makes four suggestions:
 
 - Buy software instead of building it.
 - Use rapid prototyping to refine requirements.
 - Grow your software instead of building it using incremental development.
 - Foster great designers by rewarding them with status.
 
-This last point is the one I quibble with, and feel it could use its own essay in defense, but Brooks complains that "space does not permit a lengthy discussion" on growing great designers, though the difference between average and great is like that of Salieri and Mozart. By way of example he says that Unix is great while MS-DOS is only average, which sounds about right. He claims that, "The differences between the great and the average approach an order of magnitude."
+This last point is the one I quibble with. I feel it could use its own essay in defense. Though the difference between an average designer and a great one is like that of Salieri and Mozart Brooks does not spend much time explaining how to foster great designers. By way of example he says that Unix is great while MS-DOS is only average, which sounds about right. He claims that, "The differences between the great and the average approach an order of magnitude."
 
 He then goes on to outline:
 
