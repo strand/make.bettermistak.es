@@ -7,55 +7,50 @@ comments: false
 sharing: false
 ---
 # Strand McCutchen
-<p align="right">425 E 11th St, Apt. 5, Oakland, CA 94606<br/>
+<p align="right">109 12th Ave. E, Apt. 202, Seattle, WA 98102<br/>
 strand@bettermistak.es · (206) 569-4363</p>
 
 ### Profile
 
-I develop and teach with a focus on Ruby and Rails.
+I develop and teach with a focus on writing maintainable, flexible, and reusable code.
 
 ### Work Experience
 
-**Teacher**, Dev Bootcamp, September 2013 - Present
+**Senior Software Engineer**, _Instructure_, November 2014 - Present
 
-- Teach problem solving and critical thinking skills directly related to software development.
-- Facilitate exercises which provide experience building software as a team.
-- Write curriculum for students to practice specific technologies, problem solving skills, and building web applications.
-- Advise students with issues related to team dynamics and technical decisions.
-- Provide feedback on code written by students.
+- Improve developer productivity and code quality with a focus on cross-team and cross-functional work.
+- Mentor and advise team members on ways to improve the maintainability, flexibility, and reusability of code and specs through pairing and code review.
+- Investigate ongoing issues in our legacy codebase by tracing the behavior through the stack, reading code and specs, and interviewing other engineers.
+- Write well-tested, comprehensible, and maintainable code to resolve issues and build features. Reuse other's code and write code for reuse.
 
-**Consultant**, Northwest Independent Ruby Development, January 2013 - July 2013
+**Teacher**, _Dev Bootcamp_, December 2013 - November 2014<br />
+**Teaching Assistant**, September 2013 - December 2013
+
+- Taught problem solving and critical thinking skills directly related to software development.
+- Facilitated exercises which provide students experience with building software as a team.
+- Wrote curriculum for students to practice specific technologies, problem solving skills, and building web applications.
+- Advised students with issues related to team dynamics and technical decisions.
+- Provided feedback on code written by students.
+
+**Consultant**, _Northwest Independent Ruby Development_, January 2013 - July 2013
 
 - Developed Rails and Sinatra sites for clients.
 - Wrote and refactored readable and maintainable code in Ruby and JavaScript.
 - Administered remote Linux systems using Capistrano and ssh.
 - Taught programming, problem solving, and troubleshooting skills.
 
-**Web Developer**, Contour, April 2012 - December 2012
+**Web Developer**, _Contour_, April 2012 - December 2012
 
 - Wrote and refactored readable and maintainable code for a Ruby on Rails site.
 - Improved the style and behavior of Contour.com.
 - Developed features which interact with social networks and internal APIs.
 - Deployed updates and hotfixes to our Heroku-based site.
 
-**Production Specialist,** Microsoft contracting through Aquent, July 2011 – October 2011
+### Activities
 
-- Edited XML content and queried databases using internal tools.
-- Ran PowerShell commands and scripts to prepare content.
+**Organizer,** _Open Source & Feelings_, October 2014 - Present
 
-**Consultant,** _Content Migration Project,_ Aquent Studios, March 2011 – May 2011
-
-- Developed PowerShell scripts to automate file transfers.
-- Improved the file transfer process and increased efficiency by an order of magnitude.
-
-**Consultant,** Aquent Studios, January 2008 – October 2009
-
-- Produced and migrated web content.
-- Wrote technical documentation.
-
-### Skills
-
-API integration, bash, HTML, JavaScript/jQuery, PostgreSQL, Rails, RSpec, Ruby, Sass/CSS, and Sinatra.
+- Created a two-day conference focused on creating sustainable, inclusive, and diverse open source communities where folks can feel emotionally safe.
 
 ### Education
 

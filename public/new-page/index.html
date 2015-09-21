@@ -71,32 +71,13 @@
     <div class="entry"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta erat sit amet mauris facilisis eleifend. In a purus ullamcorper justo faucibus mattis ac id lacus. Ut non erat ac nisl venenatis condimentum. Duis fringilla blandit cursus. Morbi erat urna, rhoncus a dapibus blandit, pellentesque non arcu. Donec adipiscing, arcu quis aliquet porta, ligula elit placerat tortor, non scelerisque massa dui sed nisi. Quisque hendrerit ipsum sagittis sapien posuere vel tempor libero iaculis. Mauris quis eros quis odio scelerisque commodo et a est. Fusce condimentum nunc quis nibh tempor a eleifend urna vulputate. Mauris at neque nibh, sollicitudin adipiscing nisl. Donec id velit nibh, in placerat mauris. Fusce id urna diam.</p>
 
 <div><script src='https://gist.github.com/1381160.js?file=authenticate.rb'></script>
-<noscript><pre><code>require 'twitter'
-require 'yaml'
-
-def authenticate
-  
-  Twitter.configure do |c|
-    config = YAML.load(File.read(&quot;config.yml&quot;))[:twitter]
-    c.consumer_key       = config[:consumer_key]
-    c.consumer_secret    = config[:consumer_secret]
-    c.oauth_token        = config[:oauth_token]
-    c.oauth_token_secret = config[:oauth_token_secret]
-  end
-
-  @client = Twitter::Client.new
-
-end</code></pre></noscript></div>
+<noscript><pre><code></code></pre></noscript></div>
 
 
 
 
 <div><script src='https://gist.github.com/1381160.js?file=config.yml'></script>
-<noscript><pre><code>:twitter:
-    :consumer_key:       CONSUMER_KEY
-    :consumer_secret:    CONSUMER_SECRET
-    :oauth_token:        OAUTH_TOKEN
-    :oauth_token_secret: OAUTH_TOKEN_SECRET</code></pre></noscript></div>
+<noscript><pre><code></code></pre></noscript></div>
 
 
 <p><span class='pullquote-right' data-pullquote='Mauris varius malesuada nisi nec tincidunt. Duis eu magna id velit laoreet euismod. '>
