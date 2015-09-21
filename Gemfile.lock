@@ -130,3 +130,6 @@ DEPENDENCIES
   sinatra (= 1.2.6)
   spork
   stringex
+
+BUNDLED WITH
+   1.10.4
