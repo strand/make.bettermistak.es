@@ -27,7 +27,7 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 **Teaching Assistant**, September 2013 - December 2013
 
 - Taught problem solving and critical thinking skills related to software development.
-- Facilitated exercises which provide students experience with building software as a team.
+- Facilitated exercises which provided students experience with building software as a team.
 - Wrote curriculum for students to practice specific technologies, problem solving skills, and building web applications.
 - Advised students with issues related to team dynamics and technical decisions.
 - Provided feedback on code written by students.
@@ -49,19 +49,17 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 
 ### Activities
 
-**Organizer,** _Open Source & Feelings_, October 2014 - Present
+**Organizer,** _Open Source & Feelings_, October 2014 - October 2015
 
-- Develop the concept for a conference focused on the emotional labor of open source contributors, and wrote guiding policies.
+- Developed the concept for a conference focused on the emotional labor of open source contributors, and wrote guiding policies.
 - Identified sponsors and recruited a diverse lineup of speakers from the open source community.
-- Build and maintain a website to promote the conference.
+- Built and maintained a website to promote the conference.
 
 ### Education
 
 **Certificate in Ruby Programming**<br />
-_The University of Washington_<br />
-completed June 2013
+_The University of Washington_, completed June 2013
 
 **Bachelor of Arts in English: emphasis in Creative Writing**<br />
-_The University of Puget Sound_<br />
-graduated August 2004
+_The University of Puget Sound_, graduated August 2004
 
