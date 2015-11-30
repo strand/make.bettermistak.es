@@ -51,9 +51,9 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 
 **Organizer,** _Open Source & Feelings_, October 2014 - October 2015
 
-- Developed the concept for a conference focused on the emotional labor of open source contributors, and wrote guiding policies.
+- Created a two-day conference focused on nurturing emotionally safe, sustainable, inclusive, and diverse open source communities.
+- Wrote guiding policies.
 - Identified sponsors and recruited a diverse lineup of speakers from the open source community.
-- Built and maintained a website to promote the conference.
 
 ### Education
 
