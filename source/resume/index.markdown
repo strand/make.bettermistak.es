@@ -12,7 +12,7 @@ strand@bettermistak.es · (206) 569-4363</p>
 
 ### Profile
 
-I develop and teach with a focus on writing maintainable, flexible, and reusable code.
+I develop and teach with a focus on writing maintainable, flexible, and reusable code for web applications.
 
 ### Work Experience
 
@@ -21,16 +21,17 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 - Improve developer productivity and code quality with a focus on cross-team and cross-functional work.
 - Mentor and advise team members on ways to improve the maintainability, flexibility, and reusability of code and specs through pairing and code review.
 - Investigate ongoing issues in our legacy codebase by tracing the behavior through the stack, reading code and specs, and interviewing other engineers.
-- Write well-tested, comprehensible, and maintainable code to resolve issues and build features. Reuse other's code and write code for reuse.
+- Write well-tested, comprehensible, and maintainable code to resolve issues and build features. Reuse others' code and write code for reuse.
 
 **Teacher**, _Dev Bootcamp_, December 2013 - November 2014<br />
 **Teaching Assistant**, September 2013 - December 2013
 
-- Taught problem solving and critical thinking skills directly related to software development.
+- Taught problem solving and critical thinking skills related to software development.
 - Facilitated exercises which provide students experience with building software as a team.
 - Wrote curriculum for students to practice specific technologies, problem solving skills, and building web applications.
 - Advised students with issues related to team dynamics and technical decisions.
 - Provided feedback on code written by students.
+- Promoted from TA to Teacher after an initial 3-month contract lead to a full time role.
 
 **Consultant**, _Northwest Independent Ruby Development_, January 2013 - July 2013
 
@@ -50,12 +51,17 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 
 **Organizer,** _Open Source & Feelings_, October 2014 - Present
 
-- Created a two-day conference focused on creating sustainable, inclusive, and diverse open source communities where folks can feel emotionally safe.
+- Develop the concept for a conference focused on the emotional labor of open source contributors, and wrote guiding policies.
+- Identified sponsors and recruited a diverse lineup of speakers from the open source community.
+- Build and maintain a website to promote the conference.
 
 ### Education
 
-Certificate in Ruby Programming, October 2012 - June 2013
-**The University of Washington**
+**Certificate in Ruby Programming**<br />
+_The University of Washington_<br />
+completed June 2013
 
-Bachelor of Arts in English: emphasis in Creative Writing
-**The University of Puget Sound,** Graduated August 2004
+**Bachelor of Arts in English: emphasis in Creative Writing**<br />
+_The University of Puget Sound_<br />
+graduated August 2004
+
