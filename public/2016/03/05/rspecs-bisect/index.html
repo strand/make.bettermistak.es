@@ -1,0 +1,173 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Finding intermittently failing specs with RSpec's bisect - make better_mistakes</title>
+    <meta name="author" content="Strand">
+
+    
+    <meta name="description" content="
+    Finding intermittently failing specs with RSpec's bisect
+    High level takeaways: As of RSpec 3.4 we have a --bisect flag which is used to fi...">
+    
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+    <link href="/atom.xml" rel="alternate" title="make better_mistakes" type="application/atom+xml">
+    <link rel="canonical" href="">
+    <link href="/favicon.png" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="/javascripts/html5.js"></script><![endif]-->
+    <script src="/javascripts/jquery.min.js"></script>
+    
+    
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-26264884-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body>
+	<header class="inner"><h1 class="left"><a href="/">make better_mistakes</a></h1>
+<nav class="menu left"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<div class="right">
+	<form class="search right" action="http://google.com/search" method="get">
+		<input class="left" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:make.bettermistak.es">
+	</form>
+	<div class="social right">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/strabd" title="Twitter">Twitter</a>
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</div>
+</header>
+	
+	<div id="content" class="inner"><article class="post">
+    <h1 class="title">Finding intermittently failing specs with RSpec's bisect</h1>
+    <div class="entry"><p><em>High level takeaways:</em> <em>As of RSpec 3.4 we have a <code>--bisect</code> flag which is used to find order-dependent spec failures. Using bash, we can run an inconsistent spec until it fails, and using its seed number use an RSpec command of the form <code>rspec spec/some_spec.rb --seed 12345 --bisect</code> find the minimum number of specs to run in order to recreate the failure. This drastically reduces the amount of code which needs to be reviewed to find the cause of spec failure, which is likely a side effect in the passing spec. This passing spec that causes later failures can be isolated using the documentation formatter.</em></p>
+
+<p>I work on a large app with thousands of specs of varying quality.</p>
+
+<p>Unfortunately, running our spec suite locally is impractical, and running all the specs in continuous integration can take more than a half an hour. Our specs fail intermittently, and spec failures delay builds from passing while reducing developer trust in the specs.</p>
+
+<p>I recently came across a file which had an intermittently failing spec in my local environment. At the time I didn&#8217;t have the attention or the tooling to address the issue. I noted the seed number, which RSpec uses to run the same specs in the same order, and moved on.</p>
+
+<p>A while later a friend <a href="https://twitter.com/seanlinsley/status/704144587703451649">tweeted about git bisect</a>. I had a little free time at the end of my work week, so I decided to try out this technique to isolate the minimum reproduction to cause failing specs.</p>
+
+<p>I ran the spec with the seed number I&#8217;d recorded a few weeks earlier to confirm the test was still failing in this order, and got the failure I expected. I then tried running the spec with the bisect command, but RSpec failed because it didn&#8217;t recognize the <code>--bisect</code> command flag. Bisect was introduced in RSpec 3.4, and I was using an older version in this project.</p>
+
+<p>I updated RSpec and ran the seeded spec again, and this time it passed. I&#8217;m not sure why, but I had a hunch that the spec failure still existed, and perhaps RSpec had changed its seeding algorithm between versions. So I decided to run the spec until it failed. <em>If you don&#8217;t know the seed number to reproduce a failing spec, you can run the script below to find it.</em> I ran this script and went to lunch.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">until</span> <span class="o">[</span> <span class="nv">$?</span> <span class="o">==</span> 1 <span class="o">]</span> <span class="c"># $? is last exit code, and 1 is the failure exit code.</span>
+</span><span class='line'><span class="k">do</span>
+</span><span class='line'><span class="k">  </span>bundle <span class="nb">exec </span>rspec spec/some_spec.rb
+</span><span class='line'><span class="k">done</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># (I use zsh in my terminal, and some of this syntax doesn&#39;t work in that shell.</span>
+</span><span class='line'><span class="c"># To fix this I dropped into a bash shell with `bash`, which I closed when I</span>
+</span><span class='line'><span class="c"># finished up with `exit`.)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># There are some obvious improvements I would make if this weren&#39;t throwaway</span>
+</span><span class='line'><span class="c"># code. First, I would put it in a script file, maybe titled</span>
+</span><span class='line'><span class="c"># `run-until-failure`. Second, it could use a command flag which indicates how</span>
+</span><span class='line'><span class="c"># many times a script should be run until it&#39;s considered a consistently</span>
+</span><span class='line'><span class="c"># passing spec. Third, I&#39;d extract the spec command itself, and pass it into</span>
+</span><span class='line'><span class="c"># the script. Since inconsistent spec are such a drag on fast development, I</span>
+</span><span class='line'><span class="c"># am considering making these improvements and running our entire spec suite</span>
+</span><span class='line'><span class="c"># through this to find our flakiest specs.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When I came back from lunch I had a new seed number, which then used to bisect my spec with a command resembling <code>bundle exec rspec spec/some_spec.rb --seed 12345 --bisect</code>. In a few minutes RSpec returned command that looked like <code>rspec './spec/some_spec.rb[1:16:1:2:1,1:31:2:1,1:31:2:2,1:32:4:1,1:35:2]' --seed 12345</code>. I ran this command, but added the documentation formatter by appending <code>--format documentation</code> to it. This printed out the expectation message from describe and it blocks associated with the handful of specs this command runs.</p>
+
+<p>In this case, I got one passing spec, and four failing specs. The passing spec was executed before the failures, so I suspected it was causing a side effect in its sibling specs. I used the strings printed out from the documentation to search the spec file for line numbers, and then I ran the specs in pairs, matching the passing spec with each of the failing specs. I usually had to run these a few times to get the passing spec to run before the failing spec, and recorded the seed number to recreate this failure in each case. Then I looked at the code and found there was one line I could comment out which would cause my failing specs to pass. Of course, the previously passing spec now failed, but now I could isolate or remove this side effect, and increase our spec suite&#8217;s stability.</p>
+</div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-03-05T09:02:00-08:00" pubdate data-updated="true"></time></div>
+        
+        <span class="comments"><a href="#disqus_thread">Comments</a></span>
+        
+    </div>
+</article>
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer class="inner"></footer>
+	<script src="/javascripts/jquery.easing.1.3.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script src="/javascripts/slash.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'makebettermistakes';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://make.bettermistak.es/2016/03/05/rspecs-bisect/';
+        var disqus_url = 'http://make.bettermistak.es/2016/03/05/rspecs-bisect/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+</html>
