@@ -16,12 +16,12 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 
 ### Work Experience
 
-**Senior Software Engineer**, _Instructure_, November 2014 - Present
+**Senior Software Engineer**, _Instructure_, November 2014 - March 2016
 
-- Improve developer productivity and code quality with a focus on cross-team and cross-functional work.
-- Mentor and advise team members on ways to improve the maintainability, flexibility, and reusability of code and specs through pairing and code review.
-- Investigate ongoing issues in our legacy codebase by tracing the behavior through the stack, reading code and specs, and interviewing other engineers.
-- Write well-tested, comprehensible, and maintainable code to resolve issues and build features. Reuse others' code and write code for reuse.
+- Improved developer productivity and code quality with a focus on cross-team and cross-functional work.
+- Mentored and advised team members on ways to improve the maintainability, flexibility, and reusability of code and specs through pairing and code review.
+- Investigated ongoing issues in our legacy codebase by tracing the behavior through the stack, reading code and specs, and interviewing other engineers.
+- Wrote well-tested, comprehensible, and maintainable code to resolve issues and build features. Reused others' code and wrote code for reuse.
 
 **Teacher**, _Dev Bootcamp_, December 2013 - November 2014<br />
 **Teaching Assistant**, September 2013 - December 2013
@@ -52,8 +52,8 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 **Organizer,** _Open Source & Feelings_, October 2014 - October 2015
 
 - Created a two-day conference focused on nurturing emotionally safe, sustainable, inclusive, and diverse open source communities.
-- Wrote guiding policies.
 - Identified sponsors and recruited a diverse lineup of speakers from the open source community.
+- Wrote guiding policies.
 
 ### Education
 
@@ -62,4 +62,3 @@ _The University of Washington_, completed June 2013
 
 **Bachelor of Arts in English: emphasis in Creative Writing**<br />
 _The University of Puget Sound_, graduated August 2004
-

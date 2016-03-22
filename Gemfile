@@ -1,28 +1,29 @@
 source "http://rubygems.org"
 
 group :test do
-  gem 'capybara'
-  gem 'database_cleaner'
-  gem 'cucumber-sinatra'
-  gem 'cucumber'
-  gem 'rspec'
-  gem 'spork'
-  gem 'launchy'    # So you can do Then show me the page
-  gem "activesupport"
+  gem 'capybara', '~> 1.1.2'
+  gem 'database_cleaner', '~> 0.7.1'
+  gem 'cucumber-sinatra', '~> 0.4.0'
+  gem 'cucumber', '~> 1.1.4'
+  gem 'rspec', '~> 2.8.0'
+  gem 'spork', '~> 0.9.0'
+  gem 'launchy', '~> 2.0.5'
+  gem "activesupport", '~> 3.2.1'
 end
 
 group :development do
   gem 'rake'
-  gem 'rack'
-  gem 'jekyll'
-  gem 'rdiscount'
-  gem 'pygments.rb'
-  gem 'RedCloth'
+  gem 'rack', '~> 1.3.2'
+  gem 'jekyll', '0.11.0'
+  gem 'liquid', '~> 2.2.2'
+  gem 'rdiscount', '~> 1.6.8'
+  gem 'pygments.rb', '~> 0.1.3'
+  gem 'RedCloth', '~> 4.2.8'
   gem 'haml', '>= 3.1'
   gem 'compass', '>= 0.11'
-  gem 'rubypants'
+  gem 'rubypants', '~> 0.2.0'
   gem 'rb-fsevent', '~> 0.9.3'
-  gem 'stringex'
+  gem 'stringex', '~> 1.3.0'
 end
 
 gem 'sinatra', '1.2.6'
