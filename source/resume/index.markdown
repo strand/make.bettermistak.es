@@ -12,9 +12,24 @@ strand@bettermistak.es · (206) 569-4363</p>
 
 ### Profile
 
-I develop and teach with a focus on writing maintainable, flexible, and reusable code for web applications.
+
+### Profile
+
+I develop and design with a focus on writing maintainable, flexible, and reusable code for web applications.
 
 ### Work Experience
+
+**Senior Software Engineer**, _Roostify_, May 2016 - Present
+
+- Incrementally expand and refine our API, with an eye for designing consistent interfaces throughout the API.
+- Improve the consistency and quality of our API and its documentation. Identify inaccuracies and style issues within our API documentation.
+- Consult and collaborate with customer service to diagnose and resolve client issues.
+- Manage releases to Heroku or AWS for our core application and services, ensuring that all requirements for release are met and that code is released on a regular cadence.
+- Projects I have owned at Roostify:
+
+	- Translated all of our API documentation into Blueprint API from Markdown. Reviewed our documentation for accuracy and identified issues within it.
+	- Independently developed a service to automate SFTP transfers from our core application to our client's SFTP servers.
+	- Lead a team through implementing and deploying a web service using Sinatra, node/npm, and Casper/Phantom.js in my first three months. This service replaced a sunsetted API and uses a custom web scraper to login to a website and download PDFs on the customers behalf.
 
 **Senior Software Engineer**, _Instructure_, November 2014 - March 2016
 
