@@ -28,7 +28,7 @@ module Jekyll
 
     def render(context)
       output = super
-      if output.join =~ /\{"\s*(.+)\s*"\}/
+      if false #output.join =~ /\{"\s*(.+)\s*"\}/
         @quote = $1
          "<span class='pullquote-#{@align}' data-pullquote='#{@quote}'>#{output.join.gsub(/\{"\s*|\s*"\}/, '')}</span>" # TODO Determine how to makethis span have a left or right flag.
       else

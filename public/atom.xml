@@ -4,7 +4,7 @@
   <title><![CDATA[make better_mistakes]]></title>
   <link href="http://make.bettermistak.es/atom.xml" rel="self"/>
   <link href="http://make.bettermistak.es/"/>
-  <updated>2016-04-04T09:40:02-07:00</updated>
+  <updated>2017-06-13T10:04:13-04:00</updated>
   <id>http://make.bettermistak.es/</id>
   <author>
     <name><![CDATA[Strand]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Finding intermittently failing specs with RSpec's bisect]]></title>
     <link href="http://make.bettermistak.es/2016/03/05/rspecs-bisect/"/>
-    <updated>2016-03-05T09:02:00-08:00</updated>
+    <updated>2016-03-05T09:02:00-05:00</updated>
     <id>http://make.bettermistak.es/2016/03/05/rspecs-bisect</id>
     <content type="html"><![CDATA[<p><em>High level takeaways:</em> <em>As of RSpec 3.4 we have a <code>--bisect</code> flag which is used to find order-dependent spec failures. Using bash, we can run an inconsistent spec until it fails, and using its seed number use an RSpec command of the form <code>rspec spec/some_spec.rb --seed 12345 --bisect</code> find the minimum number of specs to run in order to recreate the failure. This drastically reduces the amount of code which needs to be reviewed to find the cause of spec failure, which is likely a side effect in the passing spec. This passing spec that causes later failures can be isolated using the documentation formatter.</em></p>
 
@@ -49,9 +49,9 @@
 <span class='line-number'>15</span>
 <span class='line-number'>16</span>
 <span class='line-number'>17</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">until</span> <span class="o">[</span> <span class="nv">$?</span> <span class="o">==</span> <span class="m">1</span> <span class="o">]</span> <span class="c"># $? is last exit code, and 1 is the failure exit code.</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">until</span> <span class="o">[</span> <span class="nv">$?</span> <span class="o">==</span> 1 <span class="o">]</span> <span class="c"># $? is last exit code, and 1 is the failure exit code.</span>
 </span><span class='line'><span class="k">do</span>
-</span><span class='line'>  bundle <span class="nb">exec </span>rspec spec/some_spec.rb
+</span><span class='line'><span class="k">  </span>bundle <span class="nb">exec </span>rspec spec/some_spec.rb
 </span><span class='line'><span class="k">done</span>
 </span><span class='line'>
 </span><span class='line'><span class="c"># (I use zsh in my terminal, and some of this syntax doesn&#39;t work in that shell.</span>
@@ -78,7 +78,7 @@
   <entry>
     <title type="html"><![CDATA[Fred Brooks: Werewolf Hunter]]></title>
     <link href="http://make.bettermistak.es/2014/05/03/fred-brooks-werewolf-hunter/"/>
-    <updated>2014-05-03T18:50:00-07:00</updated>
+    <updated>2014-05-03T18:50:00-04:00</updated>
     <id>http://make.bettermistak.es/2014/05/03/fred-brooks-werewolf-hunter</id>
     <content type="html"><![CDATA[<p>Programming culture is a pop culture. The inevitable Hollywoodization of &#8220;No Silver Bullet&#8221; is apparent enough to me that I can see the movie trailer in my mind.</p>
 
@@ -148,7 +148,7 @@
   <entry>
     <title type="html"><![CDATA[When Have You Tested Enough?]]></title>
     <link href="http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough/"/>
-    <updated>2014-01-29T10:07:00-08:00</updated>
+    <updated>2014-01-29T10:07:00-05:00</updated>
     <id>http://make.bettermistak.es/2014/01/29/when-have-you-tested-enough</id>
     <content type="html"><![CDATA[<p><a href="https://twitter.com/cwgem/">@cwgem</a> recently <a href="https://twitter.com/cwgem/status/428236585671208960">asked</a>: &#8216;Curiously throwing this out there. For test driven development, what do you consider to be &#8220;enough testing&#8221;?&#8217;</p>
 
@@ -173,7 +173,7 @@
   <entry>
     <title type="html"><![CDATA[Can You Develop With an iPad and a VPS?]]></title>
     <link href="http://make.bettermistak.es/2013/07/14/can-you-develop-with-an-ipad-and-a-vps/"/>
-    <updated>2013-07-14T20:06:00-07:00</updated>
+    <updated>2013-07-14T20:06:00-04:00</updated>
     <id>http://make.bettermistak.es/2013/07/14/can-you-develop-with-an-ipad-and-a-vps</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been playing around with connecting to a remote server using my iPad in the last few days. I&#8217;m curious if I can develop without a laptop. It&#8217;s an interesting constraint to work within. Other accounts of using an iPad and a remote server to develop, like <a href="yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad">I swapped my laptop for an iPad+Linode</a>, sold me on the possibility of developing on the iPad ages ago. This weekend I thought I&#8217;d try it out.</p>
 
@@ -202,7 +202,7 @@
   <entry>
     <title type="html"><![CDATA[Blogging Is Hard]]></title>
     <link href="http://make.bettermistak.es/2013/05/13/blogging-is-hard/"/>
-    <updated>2013-05-13T12:37:00-07:00</updated>
+    <updated>2013-05-13T12:37:00-04:00</updated>
     <id>http://make.bettermistak.es/2013/05/13/blogging-is-hard</id>
     <content type="html"><![CDATA[<p>Hello Internet,</p>
 
@@ -248,7 +248,7 @@
   <entry>
     <title type="html"><![CDATA[The work is never done]]></title>
     <link href="http://make.bettermistak.es/2013/03/21/the-work-is-never-done/"/>
-    <updated>2013-03-21T11:33:00-07:00</updated>
+    <updated>2013-03-21T11:33:00-04:00</updated>
     <id>http://make.bettermistak.es/2013/03/21/the-work-is-never-done</id>
     <content type="html"><![CDATA[<p>As I left Ruby on Ales a few weeks ago I was sad, sad that I didn&#8217;t hug a few colleagues, sad that we only got a few words in with each other. I was sad that our time together was so short.</p>
 
@@ -267,7 +267,7 @@
   <entry>
     <title type="html"><![CDATA[Hold ⌘Q to Quit]]></title>
     <link href="http://make.bettermistak.es/2012/11/15/hold-cmd-q-to-quit/"/>
-    <updated>2012-11-15T09:25:00-08:00</updated>
+    <updated>2012-11-15T09:25:00-05:00</updated>
     <id>http://make.bettermistak.es/2012/11/15/hold-cmd-q-to-quit</id>
     <content type="html"><![CDATA[<p>One of Chrome&#8217;s features that I really love is the &#8220;Warn Before Quitting&#8221; option under the Chrome menu, which prevents the program from quitting with a message saying &#8220;Hold ⌘Q to quit.&#8221; displaying for a second or two before the browser closes.</p>
 
@@ -290,7 +290,7 @@
   <entry>
     <title type="html"><![CDATA[Hold ⌘Q to Quit]]></title>
     <link href="http://make.bettermistak.es/2012/11/15/hold-cmd%2Bq-to-quit/"/>
-    <updated>2012-11-15T09:25:00-08:00</updated>
+    <updated>2012-11-15T09:25:00-05:00</updated>
     <id>http://make.bettermistak.es/2012/11/15/hold-cmd+q-to-quit</id>
     <content type="html"><![CDATA[<p>One of Chrome&#8217;s features that I really love is the &#8220;Warn Before Quitting&#8221; option under the Chrome menu, which prevents the program from quitting with a message saying &#8220;Hold ⌘Q to quit.&#8221; displaying for a second or two before the browser closes.</p>
 
@@ -313,7 +313,7 @@
   <entry>
     <title type="html"><![CDATA[Triangles, Man]]></title>
     <link href="http://make.bettermistak.es/2012/09/21/triangles/"/>
-    <updated>2012-09-21T21:40:00-07:00</updated>
+    <updated>2012-09-21T21:40:00-04:00</updated>
     <id>http://make.bettermistak.es/2012/09/21/triangles</id>
     <content type="html"><![CDATA[<p>Yesterday I was working on building out some arrows to bring attention to content. The request was to have a box with some content with an arrow from the top that makes it look like a speech bubble.</p>
 
@@ -629,7 +629,7 @@
   <entry>
     <title type="html"><![CDATA[Apprenticeships as a Competitive Advantage]]></title>
     <link href="http://make.bettermistak.es/2012/06/26/apprenticeships-as-a-competitive-advantage/"/>
-    <updated>2012-06-26T20:08:00-07:00</updated>
+    <updated>2012-06-26T20:08:00-04:00</updated>
     <id>http://make.bettermistak.es/2012/06/26/apprenticeships-as-a-competitive-advantage</id>
     <content type="html"><![CDATA[<p>A business that chooses to train knowledge workers in whatever domain is in demand is likely to find that at the end of the day they have a competitive advantage. I think that you could start a small business today based solely on this principle and be a leader in your field within five years.</p>
 
@@ -656,7 +656,7 @@
   <entry>
     <title type="html"><![CDATA[Birthday]]></title>
     <link href="http://make.bettermistak.es/2012/05/20/birthday/"/>
-    <updated>2012-05-20T22:39:00-07:00</updated>
+    <updated>2012-05-20T22:39:00-04:00</updated>
     <id>http://make.bettermistak.es/2012/05/20/birthday</id>
     <content type="html"><![CDATA[<p>On my twenty-ninth birthday I got let go from the job I had been on for less than two months. I was hired on at a low rate to move files between servers, and I decided to write a PowerShell script to speed up the process. I improved productivity by an order of magnitude. As in, my project manager told me &#8220;the guy who was doing this before you would do in a day what you&#8217;re doing in an hour!&#8221; They were really excited to have me working so efficiently that they gave me a raise, and I was glad to be tweaking a shell script to do this. (Incidentally, if you&#8217;re in a Windows environment, don&#8217;t use your own shell script to do this, run robocopy.)</p>
 
@@ -682,7 +682,7 @@
   <entry>
     <title type="html"><![CDATA[How to Create a Local Sandbox Facebook App]]></title>
     <link href="http://make.bettermistak.es/2012/05/03/how-to-create-a-local-sandbox-facebook-app/"/>
-    <updated>2012-05-03T12:41:00-07:00</updated>
+    <updated>2012-05-03T12:41:00-04:00</updated>
     <id>http://make.bettermistak.es/2012/05/03/how-to-create-a-local-sandbox-facebook-app</id>
     <content type="html"><![CDATA[<p><strong>Note:</strong> this walkthrough only handles UNIX-y environments, like Linux and MacOS.</p>
 
@@ -712,7 +712,7 @@ foreman start                                    <em># Start Foreman.</em></p></
 
 <p>Navigate to localhost:5000 in your browser and click &#8220;Log In.&#8221; Oh no! you get OAuthException 191! This had me stuck for a few hours, and all I found were a few confusing Stack Overflow posts about it.</p>
 
-<p>Facebook verifies that all requests for your app are coming from the right domain–they don&#8217;t allow requests from localhost or 127.0.0.1–and this info can be updated in your <a href="https://developers.facebook.com/apps">apps settings</a> under Hosting URL. <span class='pullquote-right' data-pullquote='Add "local.herokuapp.com" to your Hosting URLs and save this setting. Then edit your `/etc/hosts` file so that local content is under the domain local.herokuapp.com. '>Add &#8220;local.herokuapp.com&#8221; to your Hosting URLs and save this setting. Then edit your <code>/etc/hosts</code> file so that local content is under the domain local.herokuapp.com.</span> This file is hidden, so from the command line enter <code>sudo vi /etc/hosts</code>. (Substitute your favorite editor for vi.) We need to use sudo, because this file is locked. Add the line &#8220;127.0.0.1  local.herokuapp.com&#8221; below &#8220;127.0.0.1  localhost&#8221; and save and quit your text editor.</p>
+<p>Facebook verifies that all requests for your app are coming from the right domain–they don&#8217;t allow requests from localhost or 127.0.0.1–and this info can be updated in your <a href="https://developers.facebook.com/apps">apps settings</a> under Hosting URL. Surround your pullquote like this {&#8221; text to be quoted &#8220;} This file is hidden, so from the command line enter <code>sudo vi /etc/hosts</code>. (Substitute your favorite editor for vi.) We need to use sudo, because this file is locked. Add the line &#8220;127.0.0.1  local.herokuapp.com&#8221; below &#8220;127.0.0.1  localhost&#8221; and save and quit your text editor.</p>
 
 <p>Hit control-c and run <code>foreman start</code> again. Now test your app at http://local.herokuapp.com:5000/.</p>
 
@@ -723,7 +723,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[FizzBuzz in Ruby]]></title>
     <link href="http://make.bettermistak.es/2012/03/24/fizzbuzz-in-ruby/"/>
-    <updated>2012-03-24T23:29:00-07:00</updated>
+    <updated>2012-03-24T23:29:00-04:00</updated>
     <id>http://make.bettermistak.es/2012/03/24/fizzbuzz-in-ruby</id>
     <content type="html"><![CDATA[<p>As a quick followup to this week&#8217;s earlier post demonstrating <a href="http://make.bettermistak.es/2012/03/20/fizzbuzz-in-coffeescript/">FizzBuzz in CoffeeScript</a>, I give you FizzBuzz in Ruby.</p>
 
@@ -736,7 +736,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[FizzBuzz in CoffeeScript]]></title>
     <link href="http://make.bettermistak.es/2012/03/20/fizzbuzz-in-coffeescript/"/>
-    <updated>2012-03-20T15:20:00-07:00</updated>
+    <updated>2012-03-20T15:20:00-04:00</updated>
     <id>http://make.bettermistak.es/2012/03/20/fizzbuzz-in-coffeescript</id>
     <content type="html"><![CDATA[<p>This afternoon I had an interview which I arrived twenty minutes early for. I wondered if they might have me do a demonstration of coding skills, and remembered that <a href="http://www.twitter.com/kerrizor">@kerrizor</a> is sometimes asked to use <a href="https://github.com/kerrizor/fizz-buzz">FizzBuzz to demonstrate competency</a> in interviews.</p>
 
@@ -751,7 +751,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[The RSpec Book]]></title>
     <link href="http://make.bettermistak.es/2012/03/14/the-rspec-book/"/>
-    <updated>2012-03-14T15:57:00-07:00</updated>
+    <updated>2012-03-14T15:57:00-04:00</updated>
     <id>http://make.bettermistak.es/2012/03/14/the-rspec-book</id>
     <content type="html"><![CDATA[<p><em><a href="http://pragprog.com/book/achbd/the-rspec-book">The RSpec Book</a></em> teaches how to build and refactor code using RSpec and Cucumber. I started it a few weeks ago, and set it down in preparing for my return to the States. I started it again last night and I&#8217;m glad that I was able to hook back in to the book even though I&#8217;d not looked at it or its code in more than two weeks. It is well written and approachable, written at a granular enough level that it is easy to set down for a while and not get lost when you pick it back up.</p>
 
@@ -764,7 +764,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[Realistic Goals]]></title>
     <link href="http://make.bettermistak.es/2012/03/08/realistic-goals/"/>
-    <updated>2012-03-08T10:19:00-08:00</updated>
+    <updated>2012-03-08T10:19:00-05:00</updated>
     <id>http://make.bettermistak.es/2012/03/08/realistic-goals</id>
     <content type="html"><![CDATA[<p>I&#8217;m a little disappointed in myself for not posting anything in the last month.</p>
 
@@ -779,7 +779,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[What Are You Planning to Do?]]></title>
     <link href="http://make.bettermistak.es/2012/02/03/what-are-you-planning-to-do-since-you-didnt-get-into-hungry-academy-just-curious/"/>
-    <updated>2012-02-03T09:10:00-08:00</updated>
+    <updated>2012-02-03T09:10:00-05:00</updated>
     <id>http://make.bettermistak.es/2012/02/03/what-are-you-planning-to-do-since-you-didnt-get-into-hungry-academy-just-curious</id>
     <content type="html"><![CDATA[<p>Yesterday an efriend direct messaged me: <em>What are you planning to do since you didn&#8217;t get into Hungry Academy? Just curious.</em></p>
 
@@ -816,7 +816,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[Thesis]]></title>
     <link href="http://make.bettermistak.es/2012/02/02/thesis/"/>
-    <updated>2012-02-02T09:25:00-08:00</updated>
+    <updated>2012-02-02T09:25:00-05:00</updated>
     <id>http://make.bettermistak.es/2012/02/02/thesis</id>
     <content type="html"><![CDATA[<p><em>Make Better Mistakes</em> is the idea. We all make mistakes every day, even when our perfectionism has locked us into the paralysis of doing nothing. Doing nothing is often a big and repeating mistake. Aim to make your mistakes small and individual or iterating. Small mistakes give you faster feedback. Individual mistakes give you more unique experiences to draw upon. Iterating mistakes keep you on the path, but allow you to guide course corrections.</p>
 ]]></content>
@@ -825,7 +825,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[Reading List]]></title>
     <link href="http://make.bettermistak.es/2012/01/25/reading-list/"/>
-    <updated>2012-01-25T14:41:00-08:00</updated>
+    <updated>2012-01-25T14:41:00-05:00</updated>
     <id>http://make.bettermistak.es/2012/01/25/reading-list</id>
     <content type="html"><![CDATA[<p><em>This was a jumble written on a plane, please forgive the incoherency.</em></p>
 
@@ -856,7 +856,7 @@ foreman start                                    <em># Start Foreman.</em></p></
   <entry>
     <title type="html"><![CDATA[New Year in Guangzhou]]></title>
     <link href="http://make.bettermistak.es/2012/01/02/new-year-in-guangzhou/"/>
-    <updated>2012-01-02T18:53:00-08:00</updated>
+    <updated>2012-01-02T18:53:00-05:00</updated>
     <id>http://make.bettermistak.es/2012/01/02/new-year-in-guangzhou</id>
     <content type="html"><![CDATA[<h3>SEA -> BEI</h3>
 
