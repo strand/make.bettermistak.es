@@ -16,6 +16,14 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 
 ### Work Experience
 
+**Senior Software Engineer**, _Roostify_, May 2016 - Present
+
+- Improve the consistency and quality of our API and its documentation.
+- Work directly with customer service to diagnose and resolve client issues.
+- Independently developed a service to automate SFTP transfers from our core application to our client's SFTP servers.
+- Manage releases for our core application and services, ensuring that all requirements for release were met and that code was released on a regular cadence.
+- Lead a team through implementing and deploying a web service using Sinatra, node/npm, and Casper/Phantom.js in my first three months. This service automated document retrieval from a third-party website without an API for our customers.
+
 **Senior Software Engineer**, _Instructure_, November 2014 - March 2016
 
 - Improved developer productivity and code quality with a focus on cross-team and cross-functional work.
@@ -46,14 +54,6 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 - Improved the style and behavior of Contour.com.
 - Developed features which interact with social networks and internal APIs.
 - Deployed updates and hotfixes to our Heroku-based site.
-
-### Activities
-
-**Organizer,** _Open Source & Feelings_, October 2014 - October 2015
-
-- Created a two-day conference focused on nurturing emotionally safe, sustainable, inclusive, and diverse open source communities.
-- Identified sponsors and recruited a diverse lineup of speakers from the open source community.
-- Wrote guiding policies.
 
 ### Education
 
