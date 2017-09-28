@@ -16,12 +16,16 @@ I develop and teach with a focus on writing maintainable, flexible, and reusable
 
 ### Work Experience
 
-**Senior Software Engineer**, _Roostify_, May 2016 - Present
+**Software Engineer**, Microsoft, starting October 2017
 
-- Improve the consistency and quality of our API and its documentation.
-- Work directly with customer service to diagnose and resolve client issues.
+- Will build an open source tool to help teams more quickly mitigate outages by giving them intelligent guidance about what action they should take.
+
+**Senior Software Engineer**, _Roostify_, May 2016 - October 2017
+
+- Improved the consistency and quality of our API and its documentation.
+- Worked directly with customer service to diagnose and resolve client issues.
 - Independently developed a service to automate SFTP transfers from our core application to our client's SFTP servers.
-- Manage releases for our core application and services, ensuring that all requirements for release were met and that code was released on a regular cadence.
+- Managed releases for our core application and services, ensuring that all requirements for release were met and that code was released on a regular cadence.
 - Lead a team through implementing and deploying a web service using Sinatra, node/npm, and Casper/Phantom.js in my first three months. This service automated document retrieval from a third-party website without an API for our customers.
 
 **Senior Software Engineer**, _Instructure_, November 2014 - March 2016
